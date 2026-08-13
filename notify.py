@@ -166,12 +166,34 @@ def esc(text):
 
 
 def mailto(address, subject, body):
-    """A tap-to-open draft link.
+    """A mailto: draft link.
 
-    Opens her mail app with subject and body pre-filled so the only remaining
-    action is reading it and pressing send.
+    NOTE: Telegram's Bot API only permits http, https and tg:// in inline links,
+    so a mailto: href is silently rendered as plain text and does nothing. Use
+    gmail_compose() for anything sent to Telegram; this stays for local files and
+    for pasting into a browser by hand.
     """
     query = urllib.parse.urlencode(
         {"subject": subject or "", "body": body or ""}, quote_via=urllib.parse.quote
     )
     return f"mailto:{address}?{query}"
+
+
+def gmail_compose(address, subject, body):
+    """A tap-to-open Gmail draft, pre-filled.
+
+    An https URL, so Telegram renders it as a real link. On a phone it hands off
+    to the Gmail app; in a browser it opens Gmail's compose window with the
+    recipient, subject and body already filled in. She reads it and presses send.
+    """
+    query = urllib.parse.urlencode(
+        {
+            "view": "cm",
+            "fs": "1",
+            "to": address or "",
+            "su": subject or "",
+            "body": body or "",
+        },
+        quote_via=urllib.parse.quote,
+    )
+    return f"https://mail.google.com/mail/?{query}"

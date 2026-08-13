@@ -152,7 +152,7 @@ def main():
         "· the company, title, location and a fit score",
         "· why it scored that way",
         "· a drafted email you can read here",
-        "· a tap-to-open link that loads it into your mail app, pre-filled",
+        "· a tap-to-open Gmail link with the email already filled in",
         "· the tailored resume as a PDF",
         "",
         "<i>Nothing is ever sent automatically. You read it and press send.</i>",

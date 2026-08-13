@@ -11,7 +11,7 @@ Sequence:
   2. score      — regex prefilter, then the model on what survives
   3. prepare    — for each role worth applying to: tailored resume PDF, contact
                   search, drafted email, follow-up dates
-  4. notify     — one Telegram card per role with a tap-to-send mailto link,
+  4. notify     — one Telegram card per role with a tap-to-send Gmail compose link,
                   plus the resume attached
   5. follow up  — surface any application due a day-4 or day-11 nudge
 
@@ -33,7 +33,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from notify import Notifier, esc, mailto  # noqa: E402
+from notify import Notifier, esc, gmail_compose  # noqa: E402
 
 DB = ROOT / "db"
 OUT = ROOT / "out"
@@ -123,7 +123,9 @@ def card(job, prepared):
     if prepared.get("email"):
         to, subject, body = prepared["email"]
         if to and "TBD" not in to:
-            link = mailto(to, subject, body)
+            # Gmail compose over https — Telegram silently refuses to render a
+            # mailto: href, so that link looked like plain text and did nothing.
+            link = gmail_compose(to, subject, body)
             lines += [
                 "",
                 f"<b>Email:</b> {esc(to)}",
@@ -131,8 +133,8 @@ def card(job, prepared):
                 "",
                 esc(body),
                 "",
-                f'<a href="{esc(link)}">Open this as a draft in your mail app</a>',
-                "<i>It opens pre-filled. Read it, then press send.</i>",
+                f'➡️ <a href="{esc(link)}">TAP HERE — opens Gmail, already filled in</a>',
+                "<i>Check it still sounds like you, then press send.</i>",
             ]
     if prepared.get("contacts"):
         lines += ["", "<b>Other contacts:</b>"]

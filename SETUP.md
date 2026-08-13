@@ -104,7 +104,7 @@ One Telegram message per role, each carrying:
 - Company, title, location, fit score, and why it scored that way
 - A link to the posting
 - The full drafted email, readable in the message
-- **A tap-to-open link that loads the email into her mail app, pre-filled**
+- **A tap-to-open Gmail link with the email already filled in**
 - The tailored resume as a PDF attachment
 - Backup contacts if the first address bounces
 
