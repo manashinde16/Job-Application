@@ -18,6 +18,9 @@ __pycache__/
 db/jobs_new.jsonl
 db/digest.md
 db/needs_browser.txt
+db/local_cron.log
+db/launchd.daily.log
+db/launchd.approvals.log
 
 # Telegram poll cursor and the approval queue are state, and MUST be committed
 # or a 'send' command replays and mails twice. Listed here only as a reminder

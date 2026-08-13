@@ -157,7 +157,28 @@ people drop when they're tired, so the agent owns the remembering.
 
 ---
 
-## Running it locally instead
+## Running it autonomously on a Mac (no GitHub scope needed)
+
+Two launchd timers, already installed:
+
+| Timer | Schedule | Does |
+|---|---|---|
+| `com.jobagent.daily` | 10:30, Mon–Fri | full run: discover, score, tailor, draft, post cards |
+| `com.jobagent.approvals` | every 3 minutes | picks up any `/send` typed in Telegram |
+
+```bash
+launchctl list | grep jobagent          # are they loaded?
+tail -f db/local_cron.log               # watch a run happen
+launchctl kickstart -k gui/$(id -u)/com.jobagent.daily     # force a run now
+launchctl bootout gui/$(id -u)/com.jobagent.daily          # turn it off
+```
+
+Plists live in `~/Library/LaunchAgents/`. If the Mac is asleep at 10:30, launchd
+runs the job when it wakes rather than skipping the day. The Mac does have to be
+switched on at some point — for a run that happens whether any laptop is on, use
+the GitHub Actions workflows instead (they need `gh auth refresh -s workflow` once).
+
+## Running it manually
 
 ```bash
 export GEMINI_API_KEY=...          # or put it in ~/.job-agent.env
