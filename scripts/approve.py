@@ -305,7 +305,8 @@ def commit_state():
         print(f"  commit skipped: {type(e).__name__}")
 
 
-def process_once(note, long_poll=0):
+def process_once(note, long_poll=0, media=None):
+    media = {} if media is None else media
     pending = load_json(PENDING, {})
     applied = load_json(APPLIED, {})
     state = load_json(OFFSET, {})
@@ -327,26 +328,23 @@ def process_once(note, long_poll=0):
             continue
 
         # A photo is an instruction too: "read this job post and queue it".
+        #
+        # Telegram delivers an album as SEPARATE updates that share a
+        # media_group_id, so several screenshots of one long post arrive as
+        # several messages. Buffer them and read them together, or each half of
+        # the post becomes its own half-read card.
         photos = message.get("photo") or []
         document = message.get("document") or {}
         if photos or (document.get("mime_type") or "").startswith("image/"):
-            # Telegram sends several sizes; the last is the largest.
             file_id = photos[-1]["file_id"] if photos else document["file_id"]
-            print(f"  {(message.get('from') or {}).get('first_name', 'someone')}: "
-                  f"sent an image")
-            note.send("Reading that screenshot...")
-            mime, data = note.download(file_id)
-            if not data:
-                note.send("I could not download that image — try sending it again.")
-            else:
-                from from_image import handle_image  # noqa: PLC0415
-                note.send(handle_image(mime, data, note))
-                # handle_image writes the new card straight to pending.json.
-                # Without re-reading it here, the save at the end of this
-                # function would write back the copy loaded before the image
-                # arrived and silently delete the card that was just queued.
-                pending = load_json(PENDING, {})
-                commit_state()
+            group = message.get("media_group_id") or f"single-{message.get('message_id')}"
+            who = (message.get("from") or {}).get("first_name", "someone")
+            print(f"  {who}: sent an image"
+                  + (f" (album {group})" if message.get("media_group_id") else ""))
+            slot = media.setdefault(group, {"file_ids": [], "at": time.time(),
+                                            "announced": False})
+            slot["file_ids"].append(file_id)
+            slot["at"] = time.time()
             handled += 1
             continue
 
@@ -375,6 +373,40 @@ def process_once(note, long_poll=0):
     return handled
 
 
+# How long to wait for the rest of an album before reading what arrived. Telegram
+# usually delivers all parts within a second; this is generous without being slow.
+ALBUM_SETTLE = 3.0
+
+
+def flush_media(note, media):
+    """Read any image group that has stopped growing. Returns how many were read."""
+    from from_image import handle_images  # noqa: PLC0415
+
+    done = 0
+    for group, slot in list(media.items()):
+        if time.time() - slot["at"] < ALBUM_SETTLE:
+            if not slot["announced"]:
+                n = len(slot["file_ids"])
+                note.send(f"Reading {n} screenshot{'s' if n > 1 else ''}...")
+                slot["announced"] = True
+            continue
+
+        media.pop(group, None)
+        images = []
+        for file_id in slot["file_ids"]:
+            mime, data = note.download(file_id)
+            if data:
+                images.append((mime, data))
+        if not images:
+            note.send("I could not download those images — try sending them again.")
+            continue
+
+        note.send(handle_images(images, note))
+        commit_state()
+        done += 1
+    return done
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--watch", action="store_true", help="keep polling every 20s")
@@ -389,8 +421,13 @@ def main():
         "live" if mailer.configured() else "no SMTP credentials — sends will fail")
     print(f"approve.py — mail mode: {mode}")
 
+    media = {}
     if not args.watch:
-        n = process_once(note)
+        n = process_once(note, media=media)
+        # A one-shot run still has to finish any album it just collected.
+        while media:
+            time.sleep(ALBUM_SETTLE)
+            n += flush_media(note, media)
         print(f"{n} command(s) handled")
         return
 
@@ -400,7 +437,10 @@ def main():
     print("watching (long poll, ~1s response), ctrl-c to stop")
     while True:
         try:
-            process_once(note, long_poll=50)
+            # While an album is settling, poll briefly so its remaining parts are
+            # collected in about a second rather than after a 50s long poll.
+            process_once(note, long_poll=2 if media else 50, media=media)
+            flush_media(note, media)
         except KeyboardInterrupt:
             print("\nstopped")
             return

@@ -43,8 +43,7 @@ Only report what is visibly written in the image. If a field is not shown, retur
 guess a company from a logo you are unsure of. A wrong address means the
 application goes to a stranger."""
 
-READ_PROMPT = """This is a screenshot of a job post, probably from LinkedIn, Naukri
-or a similar feed.
+READ_PROMPT = """{preamble}
 
 Extract:
 {{
@@ -65,6 +64,17 @@ Extract:
 Read carefully. Email addresses in these posts are often written oddly ("mail
 your CV to hr [at] company [dot] com") — transcribe exactly what you see, do not
 normalise it. If no email is visible, return an empty list; do not invent one."""
+
+ONE_IMAGE = ("This is a screenshot of a job post, probably from LinkedIn, Naukri "
+             "or a similar feed.")
+
+MANY_IMAGES = """These {n} screenshots are parts of the SAME job post, captured by
+scrolling — image 1 is the top, then downward in order.
+
+Treat them as one continuous post. Consecutive shots usually overlap, so the same
+lines appear twice: merge them, do not report anything twice, and do not treat the
+overlap as two separate jobs. If the role or company appears only in the first
+image and the contact address only in the last, combine them into one answer."""
 
 DRAFT_SYSTEM = """You write short cold application emails for a junior designer, in
 her voice, first person, plain. A recruiter skims this in about eight seconds on a
@@ -171,14 +181,33 @@ def pick_resume():
 
 
 def handle_image(mime, data, note):
-    """Read a screenshot, draft the email, queue it. Returns the reply text."""
+    """Single-image convenience wrapper."""
+    return handle_images([(mime or "image/jpeg", data)], note)
+
+
+def handle_images(images, note):
+    """Read one or more screenshots of the SAME post, draft, and queue it.
+
+    A long post needs several shots to capture, so all of them are given to the
+    model in one call and merged there — stitching them locally would mean
+    guessing where the overlap is.
+    """
     from llm import LLMError, complete_json
 
+    if not images:
+        return "No image data arrived — try sending it again."
+
+    preamble = (ONE_IMAGE if len(images) == 1
+                else MANY_IMAGES.format(n=len(images)))
+    # More images means more to read, so give the reply room to be complete.
+    budget = 1500 + 400 * (len(images) - 1)
+
     try:
-        info = complete_json(READ_PROMPT, system=READ_SYSTEM, max_tokens=1500,
-                             images=[(mime or "image/jpeg", data)])
+        info = complete_json(READ_PROMPT.format(preamble=preamble),
+                             system=READ_SYSTEM, max_tokens=budget,
+                             images=images)
     except LLMError as e:
-        return f"Could not read that image.\n\n{esc(str(e)[:200])}"
+        return f"Could not read {'those images' if len(images) > 1 else 'that image'}.\n\n{esc(str(e)[:200])}"
 
     if not info.get("is_job_post"):
         return ("That does not look like a job post, so I have not queued "
@@ -270,6 +299,7 @@ def handle_image(mime, data, note):
         "body": f"{body}\n\n{signature}",
         "resume": pick_resume(),
         "from_screenshot": True,
+        "screenshot_count": len(images),
         "queued_on": date.today().isoformat(),
     }
     pending[number] = entry
@@ -279,7 +309,8 @@ def handle_image(mime, data, note):
         f"<b>#{number}</b>  <b>{esc(company)}</b> — {esc(role)}",
         f"{esc(info.get('location') or 'location not stated')}"
         + (f"  ·  {esc(info.get('experience_text'))}" if info.get("experience_text") else ""),
-        "<i>read from your screenshot</i>",
+        f"<i>read from {len(images)} screenshots, merged</i>" if len(images) > 1
+        else "<i>read from your screenshot</i>",
     ]
     if entry["to"]:
         lines += ["", f"<b>Email:</b> {esc(entry['to'])}",
@@ -301,14 +332,16 @@ def handle_image(mime, data, note):
 
 def main():
     if len(sys.argv) < 2:
-        sys.exit("usage: from_image.py <screenshot>")
-    path = Path(sys.argv[1])
-    if not path.exists():
-        sys.exit(f"no such file: {path}")
+        sys.exit("usage: from_image.py <screenshot> [more screenshots of the same post]")
     import mimetypes
     from notify import Notifier
-    mime = mimetypes.guess_type(path.name)[0] or "image/png"
-    reply = handle_image(mime, path.read_bytes(), Notifier())
+    images = []
+    for arg in sys.argv[1:]:
+        p = Path(arg)
+        if p.exists():
+            images.append((mimetypes.guess_type(p.name)[0] or "image/png",
+                           p.read_bytes()))
+    reply = handle_images(images, Notifier())
     print(re.sub(r"<[^>]+>", "", reply))
 
 
