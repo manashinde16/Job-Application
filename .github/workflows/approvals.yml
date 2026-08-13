@@ -37,10 +37,9 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
-          # Remove this line to go live. While it is set, "send" reports what it
-          # WOULD have sent and mails nothing — the right default until a real
-          # send has been watched end to end once.
-          MAIL_DRY_RUN: "1"
+          # Live. SMTP was verified end to end on 2026-08-13 with a real send
+          # from her account, resume attached. Set MAIL_DRY_RUN to "1" here to
+          # put it back into report-only mode without touching any code.
         run: python3 scripts/approve.py
 
       # The Telegram offset and the sent log both live in db/. Without committing

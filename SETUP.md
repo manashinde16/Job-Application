@@ -51,6 +51,28 @@ https://api.telegram.org/bot<TOKEN>/getUpdates
 8. Find `"chat":{"id":-1001234567890`. **That negative number is the chat ID** —
    group IDs are always negative. Copy it including the minus sign.
 
+## 2b. Let the bot send the email for you (optional)
+
+Each Telegram card is numbered. Reply <code>send 2</code> in the group and the
+agent mails that application itself, resume attached — no Gmail, no browser.
+
+It needs a Gmail **app password on the sending account**, which must be HER
+account, so replies reach her inbox and the From address matches the signature.
+
+1. Turn on 2-Step Verification for her Google account (app passwords are hidden
+   without it — this is the usual reason the option seems missing)
+2. https://myaccount.google.com/apppasswords while signed in as her → create one
+3. Store it:
+
+```bash
+gh secret set SMTP_USER --repo <your-repo>    # her.address@gmail.com
+gh secret set SMTP_PASS --repo <your-repo>    # the 16-character app password
+gh secret set SMTP_FROM_NAME --repo <your-repo>   # Ananya Saini
+```
+
+Set `MAIL_DRY_RUN: "1"` in `.github/workflows/approvals.yml` to make `send`
+report what it *would* mail without sending, which is worth doing on first setup.
+
 ## 3. Get a free model API key
 
 You already have a Gemini key. If it ever runs out, any one of these works and the
