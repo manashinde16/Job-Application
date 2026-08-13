@@ -24,6 +24,7 @@ import argparse
 import json
 import re
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -49,7 +50,7 @@ SYSTEM = """You extract job openings from careers page text. You are a parser, n
 an assistant. If the text contains no job openings, return an empty array. Never
 invent a posting, a title, or a location that is not present in the text."""
 
-PROMPT = """Below is the text of {company}'s careers page ({url}).
+PROMPT = """Below is the text of a jobs page from {company} ({url}).
 
 Extract every DESIGN opening: product design, UX, UI, visual, graphic, brand,
 communication, interaction, motion design, or any role with "designer" in the
@@ -58,6 +59,9 @@ title. Ignore engineering, sales, marketing, HR, finance and support roles.
 Return a JSON array. One object per opening:
 [
   {{"title": "exact title as written",
+    "employer": "the hiring company for THIS listing. Job boards and aggregators
+                 name a different company per row — use that name. A single
+                 company's own careers page does not, so return \\"\\" there.",
     "location": "exact location as written, or \\"\\" if not stated",
     "url": "link to the posting if one appears in the text, else \\"\\""}}
 ]
@@ -164,8 +168,26 @@ def main():
         entries = entries[: args.limit]
 
     print(f"fetching {len(entries)} careers pages\n")
-    with ThreadPoolExecutor(max_workers=10) as pool:
-        pages = list(pool.map(fetch_one, entries))
+
+    # Aggregators refuse several simultaneous requests from one client — Indeed
+    # returned nothing for 3 of 4 URLs when they went out together. Fetch one
+    # host at a time with a short gap, and keep different hosts in parallel.
+    from urllib.parse import urlparse
+    by_host = {}
+    for entry in entries:
+        by_host.setdefault(urlparse(entry[0]).hostname or "", []).append(entry)
+
+    def fetch_host(group):
+        out = []
+        for i, entry in enumerate(group):
+            if i:
+                time.sleep(2.5)
+            out.append(fetch_one(entry))
+        return out
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        pages = [page for group in pool.map(fetch_host, by_host.values())
+                 for page in group]
 
     usable, thin, dead = [], [], []
     for company, url, text, anchors in pages:
@@ -229,15 +251,22 @@ def main():
             link = urljoin(url, link) if link else ""
             if not link or link.rstrip("/") == url.rstrip("/"):
                 link = match_job_url(opening["title"], anchors, url)
+            # On an aggregator the employer differs per row, so prefer the one
+            # the page named. A company careers page has no per-row employer and
+            # falls back to the configured name.
+            employer = (opening.get("employer") or "").strip() or company
             slug = re.sub(r"[^a-z0-9]+", "-", opening["title"].lower()).strip("-")
-            key = f"careers:{company.lower().replace(' ', '-')}:{slug}"
+            # Employer is part of the key: one portal page lists many companies,
+            # and "product-designer" alone would collide across all of them.
+            key = (f"careers:{company.lower().replace(' ', '-')}"
+                   f":{re.sub(r'[^a-z0-9]+', '-', employer.lower()).strip('-')}:{slug}")
             if key in seen:
                 continue
             seen.add(key)
             fresh.append({
                 "source": "careers",
                 "source_id": slug,
-                "company": company,
+                "company": employer,
                 "title": opening["title"].strip(),
                 "location": (opening.get("location") or "").strip(),
                 "url": link,

@@ -27,3 +27,27 @@ https://www.purplle.com/careers                         Purplle
 https://www.angelone.in/careers                         Angel One
 https://www.persistent.com/company-overview/careers/    Persistent Systems
 https://www.tatatechnologies.com/careers/               Tata Technologies
+
+# --- job portals and aggregators -------------------------------------------
+# Verified to serve listings in plain HTML (checked 2026-08-13). These are public
+# search pages; the extractor reads the employer per row rather than using the
+# portal name.
+#
+# Not included, and why:
+#   Naukri      client-rendered, jobs arrive by XHR — nothing in the HTML
+#   Internshala bot wall
+#   Cutshort    bot wall
+#   Foundit     bot wall
+#   Hirist      bot wall
+#   Careerjet   bot wall
+# Those need the logged-in browser channel, not a plain fetch.
+
+https://in.indeed.com/jobs?q=ux+designer&l=Mumbai&fromage=14                 Indeed
+https://in.indeed.com/jobs?q=product+designer&l=Pune&fromage=14              Indeed
+https://in.indeed.com/jobs?q=ui+ux+designer&l=Hyderabad&fromage=14           Indeed
+https://in.indeed.com/jobs?q=graphic+designer&l=Nagpur&fromage=14            Indeed
+https://www.shine.com/job-search/ux-designer-jobs-in-mumbai                  Shine
+https://www.shine.com/job-search/ui-ux-designer-jobs-in-pune                 Shine
+https://www.shine.com/job-search/graphic-designer-jobs-in-hyderabad          Shine
+https://wellfound.com/role/r/product-designer                                Wellfound
+https://wellfound.com/role/r/ux-designer                                     Wellfound
