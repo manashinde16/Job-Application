@@ -5,25 +5,23 @@
 - To: `ameet.palkar@lollypop.design`  (guess confidence — name from site; address pattern unknown, this is a common shape)
 - Role: UX designer · Mumbai
 - Posting: https://lollypop.design/careers/
-- Body length: 116 words
+- Body length: 136 words
 
 ## Subject
 
-UX designer role in Mumbai / Ananya Saini
+UX designer application / Ananya Saini
 
 ## Body
 
-Hi Ameet,
+Ameet,
 
-I saw the UX designer opening for your Mumbai studio and wanted to share my work. My background spans agency projects at AT Creation, where I conducted usability testing and translated findings into user flows, and my B2B UX case study, Bounceless, which focuses on creating a cleaner verification experience for teams handling accurate email lists.
+I saw Lollypop’s Mumbai studio is growing its UX team, and I wanted to share how my background in both agency design and product thinking applies to your projects.
 
-Working across both product thinking and visual execution has taught me how to collaborate closely with developers during handoff while keeping user needs centered.
+In my B2B case study, Bounceless, I designed a cleaner verification experience for teams that depend on accurate email lists, translating usability testing findings directly into user flows. Earlier, during my time as a UI/UX designer at AT Creation, I conducted usability testing and worked alongside developers on design handoff. At Ascent Business Solutions, I also built reusable design systems that cut turnaround times for over one hundred digital and print assets.
 
-You can view my work and case studies at https://ananya-portfolio-nu.vercel.app/
+You can view the full case study on my portfolio at https://ananya-portfolio-nu.vercel.app/.
 
-Would you be open to taking a look at the Bounceless case study, or sharing 15 minutes to discuss the team in Mumbai?
-
-Ananya
+Would you be open to taking a look at that case study, or a 15-minute call to discuss the Mumbai UX role?
 
 Ananya Saini
 +91-8605846929
@@ -31,27 +29,13 @@ https://ananya-portfolio-nu.vercel.app/
 
 ## Follow-ups
 
-**Day 4** — Hi Ameet,
+**Day 4** — Hi Ameet, just floating my note from last week. I would love to share how my Bounceless case study aligns with your Mumbai team's work if you have fifteen minutes.
 
-I am following up on my note last week regarding the UX designer role in Mumbai. I would still love to share how my B2B case study, Bounceless, relates to the work your team does at Lollypop.
-
-My portfolio is at https://ananya-portfolio-nu.vercel.app/
-
-Do you have 15 minutes to chat this week?
-
-Ananya
-
-**Day 11** — Hi Ameet,
-
-I know you are busy, so this will be my final note regarding the UX designer opening in Mumbai. If the timing isn't right or the role has been filled, I completely understand and wish you the best with your current projects.
-
-If you ever want to review my portfolio at https://ananya-portfolio-nu.vercel.app/ in the future, my door is always open.
-
-Ananya
+**Day 11** — Hi Ameet, I know things are busy at the studio. This is my final check-in regarding the UX designer role. Wishing you the best with your current projects.
 
 ## Why it opens that way
 
-I opened by referencing the Mumbai UX designer opening because my background in UX testing and B2B case work directly aligns with studio project needs.
+Addressed Lollypop's Mumbai studio growth directly to establish immediate context.
 
 ## Other contact options
 

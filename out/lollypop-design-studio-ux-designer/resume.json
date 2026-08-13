@@ -1,45 +1,45 @@
 {
   "headline": "UI/UX Designer",
-  "tagline": "UI/UX designer with a computer science background, bringing user research and technical feasibility to product design.",
+  "tagline": "UI/UX Designer with foundational agency experience and a B.Tech in Computer Science, specializing in user flows, wireframing, and usability testing.",
   "skills": [
     {
       "label": "Design & UX",
-      "items": "Figma, Wireframing, Prototyping, User Flows, Usability Testing, Responsive Design, Design Systems"
+      "items": "Figma, wireframing, prototyping, user flows, usability testing, responsive design, design systems"
     },
     {
       "label": "Tools & Tech",
-      "items": "Framer, Webflow, Miro, Notion, Photoshop, Illustrator, CorelDRAW"
+      "items": "Framer, Webflow, Miro, Notion, Photoshop, Illustrator, CorelDRAW, AI-assisted workflows"
     },
     {
-      "label": "Visual & Brand",
-      "items": "Branding and Visual Identity, Typography, Layout, Print Production"
+      "label": "Visual & Print",
+      "items": "Branding and visual identity, typography, layout, print production"
     }
   ],
   "experience": [
     {
       "company": "Ascent Business Solutions",
       "title": "Graphic Designer",
-      "location": "Nagpur",
+      "location": "Nagpur, Maharashtra, India",
       "dates": "Jul 2025 \u2013 present",
       "bullets": [
-        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
-        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
-        "Worked with HR and management stakeholders across low revision cycles.",
-        "Managed print-ready files including bleed, sizing, and colour accuracy using typography, colour systems, and layout principles.",
-        "Utilized AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work",
+        "Designed 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications",
+        "Worked with HR and management stakeholders across low revision cycles",
+        "Managed print-ready files including bleed, sizing, and colour accuracy using typography, colour systems, layout, and visual hierarchy",
+        "Used AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration"
       ]
     },
     {
       "company": "AT Creation",
       "title": "UI/UX Designer",
-      "location": "Nagpur",
+      "location": "Nagpur, Maharashtra, India",
       "dates": "Sep 2022 \u2013 Mar 2023",
       "bullets": [
-        "Conducted usability testing, feeding findings back into user flows and interface usability.",
-        "Executed wireframing and prototyping for digital products.",
-        "Worked with developers and stakeholders on design-to-development handoff, leveraging a computer science background for technical feasibility.",
-        "Created logos, visual identity systems, and brand guidelines for early-stage businesses.",
-        "Designed social campaigns, branding assets, and brochures for startups and SMBs using Photoshop and Illustrator."
+        "Conducted usability testing, feeding findings back into user flows and interface usability",
+        "Created wireframes and interactive prototypes for digital products",
+        "Worked with developers and stakeholders on design-to-development handoff, leveraging a computer science background for technical feasibility",
+        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs"
       ]
     }
   ],
@@ -48,29 +48,29 @@
       "name": "Bounceless",
       "dates": "2024",
       "bullets": [
-        "Developed a B2B UX case study delivering a cleaner verification experience for teams that depend on accurate email lists.",
-        "Documented end-to-end problem-to-outcome design process."
+        "Executed a B2B UX case study delivering a cleaner verification experience for teams that depend on accurate email lists",
+        "Documented end-to-end problem-to-outcome design process, wireframes, and interface decisions"
       ]
     },
     {
       "name": "Fashion Brand Social Campaign",
       "dates": "Apr 2024",
       "bullets": [
-        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+        "Designed an Instagram and Facebook campaign series that drove a 15% increase in follower engagement"
       ]
     }
   ],
   "education": [
     {
       "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
-      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "detail": "B.Tech Computer Science, CGPA 8.03. Provides developer handoff credibility, technical feasibility conversations, and systems thinking.",
       "dates": "June 2020 \u2013 June 2024"
     }
   ],
-  "emphasis": "Led with UI/UX experience, user flows, usability testing, and the Bounceless B2B UX case study, supported by a computer science background for developer handoff and technical feasibility.",
+  "emphasis": "Led with UI/UX experience, usability testing, wireframing, and the Bounceless B2B case study to match Lollypop's UX designer role, while highlighting the B.Tech CS degree for developer handoff.",
   "omitted": [
-    "Contact details, LinkedIn, Behance, Portfolio links and base location (retained essentials only)",
-    "Unquantified or secondary portfolio project titles without documentation (Zest Club, Potted Paradise, Design \u00d7 Engineering, Learnara, Common Ground, Foodbank, Domino's rethought)",
-    "AT Creation startup branding kit details (Sep-Oct 2023)"
+    "Omitted 7 portfolio project titles lacking documentation (Zest Club, Potted Paradise, etc.) to keep focus on fully realized work.",
+    "Omitted duplicate bullets across roles to avoid repetition and padding.",
+    "Omitted secondary graphic design details not relevant to a core UX role."
   ]
 }

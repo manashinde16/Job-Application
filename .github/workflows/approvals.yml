@@ -1,0 +1,60 @@
+name: process approvals
+
+# Every 15 minutes during Indian working hours, so a "send 2" typed on a phone is
+# acted on without anyone opening a terminal. Outside those hours there is nobody
+# to approve anything, so the run would just burn minutes.
+#
+# GitHub's scheduler is best-effort and can lag by several minutes under load;
+# that is fine here, since an application going out at 11:07 instead of 11:00
+# changes nothing.
+on:
+  schedule:
+    - cron: "*/15 4-14 * * 1-5"   # 09:30-20:00 IST, weekdays
+  workflow_dispatch:
+
+concurrency:
+  group: job-agent-approvals
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  approvals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Handle any typed approvals
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
+          # Remove this line to go live. While it is set, "send" reports what it
+          # WOULD have sent and mails nothing — the right default until a real
+          # send has been watched end to end once.
+          MAIL_DRY_RUN: "1"
+        run: python3 scripts/approve.py
+
+      # The Telegram offset and the sent log both live in db/. Without committing
+      # them, the same command would be replayed on the next tick and an
+      # application could be mailed twice.
+      - name: Commit approval state
+        run: |
+          git config user.name  "job-agent"
+          git config user.email "job-agent@users.noreply.github.com"
+          git add db
+          if git diff --cached --quiet; then
+            echo "no approvals this tick"
+          else
+            git commit -m "approvals: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

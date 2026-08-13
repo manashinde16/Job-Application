@@ -18,6 +18,12 @@ __pycache__/
 db/jobs_new.jsonl
 db/digest.md
 db/needs_browser.txt
+
+# Telegram poll cursor and the approval queue are state, and MUST be committed
+# or a 'send' command replays and mails twice. Listed here only as a reminder
+# that they are intentional:
+#   db/pending.json
+#   db/tg_offset.json
 .job-agent-state.json
 
 # Committed on purpose (do not add these to the ignore list):

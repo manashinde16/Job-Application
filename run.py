@@ -39,6 +39,7 @@ DB = ROOT / "db"
 OUT = ROOT / "out"
 SCORED = DB / "scored.jsonl"
 APPLIED = DB / "applied.json"
+PENDING = DB / "pending.json"
 
 FOLLOWUP_DAYS = (4, 11)
 
@@ -106,11 +107,12 @@ def parse_email_md(path):
     return to.strip(), subject.strip(), body.strip()
 
 
-def card(job, prepared):
+def card(job, prepared, number=None):
     """One Telegram message for one role."""
     fit = job.get("fit")
+    tag = f"<b>#{number}</b>  " if number is not None else ""
     lines = [
-        f"<b>{esc(job.get('company'))}</b> — {esc(job.get('title'))}",
+        f"{tag}<b>{esc(job.get('company'))}</b> — {esc(job.get('title'))}",
         f"{esc(job.get('location'))}  ·  fit <b>{fit}/10</b>  ·  {esc(job.get('tier'))}",
         "",
         esc(job.get("why") or ""),
@@ -144,8 +146,15 @@ def card(job, prepared):
                 f"<code>{esc(subject)}</code>",
                 "<b>Body</b> (tap to copy)",
                 f"<pre>{esc(body)}</pre>",
-                "<i>Check it still sounds like you, then press send.</i>",
             ]
+            if number is not None:
+                lines += [
+                    f"✅ Or just reply <code>send {number}</code> and I'll send it "
+                    f"for you, resume attached — no Gmail needed.",
+                    f"<i>Reply <code>skip {number}</code> to drop it.</i>",
+                ]
+            else:
+                lines.append("<i>Check it still sounds like you, then press send.</i>")
     if prepared.get("contacts"):
         lines += ["", "<b>Other contacts:</b>"]
         for c in prepared["contacts"][:4]:
@@ -214,6 +223,7 @@ def main():
         print(f"  deferring {len(fresh) - len(shortlist)} to a later run (quota)")
 
     prepared = {}
+    pending = {}
     if not args.dry_run:
         for job in shortlist:
             key = job["key"]
@@ -237,6 +247,19 @@ def main():
                     pass
 
             prepared[key] = entry
+            # Numbered so an approval can name it: "send 2" in the group.
+            number = str(len(pending) + 1)
+            to, subject, body = entry.get("email") or ("", "", "")
+            pending[number] = {
+                "key": key,
+                "company": job.get("company"),
+                "title": job.get("title"),
+                "url": job.get("apply_url") or job.get("url"),
+                "to": to,
+                "subject": subject,
+                "body": body,
+                "resume": str(entry["resume"]) if entry.get("resume") else "",
+            }
             applied[key] = {
                 "company": job.get("company"),
                 "title": job.get("title"),
@@ -257,22 +280,23 @@ def main():
         f"{len(fresh)} new worth applying to"
         + (f" · {len(shortlist)} prepared" if not args.dry_run else " · dry run"),
     ]
-    pending = due_followups(applied, today)
-    if pending:
-        header.append(f"{len(pending)} follow-up(s) due today")
+    followups = due_followups(applied, today)
+    if followups:
+        header.append(f"{len(followups)} follow-up(s) due today")
     if not fresh:
         header += ["", "Nothing new cleared the bar today. The junior design market "
                        "in Pune / Mumbai / Hyderabad is thin — this is normal."]
     note.send("\n".join(header))
 
+    number_of = {item["key"]: num for num, item in pending.items()}
     for job in shortlist:
         entry = prepared.get(job["key"], {})
-        note.send(card(job, entry), preview=False)
+        note.send(card(job, entry, number_of.get(job["key"])), preview=False)
         if entry.get("resume"):
             note.document(entry["resume"],
                           f"{job.get('company')} — {job.get('title')} · tailored resume")
 
-    for key, record, day in pending:
+    for key, record, day in followups:
         email_md = OUT / f"{slug(record.get('company'))}-{slug(record.get('title'))}" / "email.md"
         text = ""
         if email_md.exists():
@@ -291,14 +315,22 @@ def main():
 
     if not args.dry_run:
         save_applied(applied)
+        PENDING.write_text(json.dumps(pending, indent=2, sort_keys=True))
 
     if not note.enabled:
         path = note.flush_fallback()
         if path:
             print(f"\ndigest written to {path.relative_to(ROOT)}")
 
+    if pending:
+        note.send(
+            "Reply <code>send 1</code> (or any number above) and I'll send that "
+            "email for you with the resume attached.\n"
+            "<code>list</code> shows what's pending · <code>skip 1</code> drops one."
+        )
+
     print(f"\ndone in {time.time() - started:.0f}s")
-    print("\nNothing was sent to anyone. Every draft waits for a human to press send.")
+    print("\nNothing was sent to anyone. Drafts wait for a typed 'send N' approval.")
 
 
 if __name__ == "__main__":
