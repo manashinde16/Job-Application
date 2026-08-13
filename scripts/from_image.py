@@ -27,6 +27,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from notify import esc  # noqa: E402
+from outreach import normalise_body  # noqa: E402
 from score_jobs import experience_gate, load_search, prefilter  # noqa: E402
 
 DB = ROOT / "db"
@@ -50,6 +51,8 @@ Extract:
   "is_job_post": true if this really is a job posting or hiring post, else false,
   "role": "the job title as written",
   "company": "the hiring company as written",
+  "poster_name": "the person who posted it, if a name is shown — recruiters post
+                  under their own name on LinkedIn. \"\" if only a company is shown",
   "location": "location as written, including remote/hybrid/onsite if stated",
   "emails": ["every email address VISIBLE in the image, exactly as written"],
   "links": ["every application URL visible, exactly as written"],
@@ -63,18 +66,35 @@ Read carefully. Email addresses in these posts are often written oddly ("mail
 your CV to hr [at] company [dot] com") — transcribe exactly what you see, do not
 normalise it. If no email is visible, return an empty list; do not invent one."""
 
-DRAFT_SYSTEM = """You write a short cold application email for a junior designer,
-in her voice, first person, plain.
+DRAFT_SYSTEM = """You write short cold application emails for a junior designer, in
+her voice, first person, plain. A recruiter skims this in about eight seconds on a
+phone, so structure matters as much as content.
 
-Rules:
-- 110-140 words in the body.
-- Every claim must come from her profile. Invent nothing.
-- Open with something specific to this role or company. No "I hope this finds you
-  well", no "I am writing to express my interest".
-- One proof point, then her portfolio link once, then one easy ask.
-- Name the single most relevant case study.
-- She is junior; do not oversell, do not apologise.
-- Plain text. No signature block — that gets appended."""
+REQUIRED SHAPE — five short paragraphs, in this order, blank line between each:
+  1. Greeting. "Hi <first name>," when a name is given, otherwise "Hello,".
+  2. One sentence naming the exact role and where she saw it, plus ONE specific
+     thing about the role or company that shows she read it.
+  3. Her strongest relevant proof, two sentences maximum. Concrete work, not
+     adjectives.
+  4. The single most relevant case study by name, one clause on what it shows,
+     then her portfolio URL. The URL appears exactly once in the whole email.
+  5. One easy ask, and if the role is onsite in a city she would move to, say
+     plainly that she is in Nagpur and ready to relocate.
+
+Then "Ananya" on its own line. No signature block — that is appended after.
+
+HARD RULES:
+- 110-150 words in the body. Longer gets skimmed and dropped.
+- Every claim must come from her profile. Invent nothing — no metrics, no tools,
+  no experience she does not have.
+- Never open with "I hope this email finds you well", "I am writing to express my
+  interest", "wanted to reach out", "wanted to connect" or "I came across". They
+  mark it as a template instantly.
+- No "passionate", "leverage", "synergy", "dynamic", "fast-paced", "rockstar".
+- Do not stack every fact into one paragraph. Short paragraphs read as confident;
+  a wall of text reads as desperate.
+- She is junior. Do not oversell, and do not apologise for it either.
+- Plain text only, no markdown, no bullet characters, no emoji."""
 
 DRAFT_PROMPT = """Draft the email for this job, which she found as a post on a feed.
 
@@ -83,14 +103,14 @@ HER PROFILE — the only source of facts about her
 
 THE ROLE, as read from the screenshot
 Company:     {company}
+Posted by:   {poster_name}
 Role:        {role}
 Location:    {location}
 Experience:  {experience_text}
 Requirements:{requirements}
 Notes:       {notes}
 
-The recipient is whoever posted it — usually a recruiter or founder, and often
-the address is a generic hiring inbox. Write it so it works either way.
+Greet the poster by first name if one is given above. If not, use "Hello,".
 
 Return JSON:
 {{
@@ -135,9 +155,16 @@ def next_number(pending):
 
 
 def pick_resume():
-    """Same fallback chain the daily run uses."""
-    for candidate in (OUT / "generic" / "resume.pdf",
-                      ROOT / "profile" / "current-resume.pdf"):
+    """Her own CV, not a generated one.
+
+    A screenshot arrives with no job description to tailor against — only what is
+    visible in the image — so a "tailored" resume would be tailored to almost
+    nothing. Her real CV is the honest choice here, and the filename is her name
+    because that is what the recipient sees in their inbox.
+    """
+    for candidate in (ROOT / "profile" / "Ananya Saini - Resume.pdf",
+                      ROOT / "profile" / "current-resume.pdf",
+                      OUT / "generic" / "resume.pdf"):
         if candidate.exists():
             return str(candidate)
     return ""
@@ -209,6 +236,7 @@ def handle_image(mime, data, note):
         draft = complete_json(
             DRAFT_PROMPT.format(
                 profile=profile, company=company, role=role,
+                poster_name=(info.get("poster_name") or "").strip() or "not shown",
                 location=info.get("location") or "not stated",
                 experience_text=info.get("experience_text") or "not stated",
                 requirements=info.get("requirements") or "not stated",
@@ -219,7 +247,7 @@ def handle_image(mime, data, note):
     except LLMError as e:
         return f"Read the post, but drafting failed.\n\n{esc(str(e)[:200])}"
 
-    body = (draft.get("body") or "").strip()
+    body = normalise_body(draft.get("body") or "")
     if not body:
         return "Drafting returned nothing usable — nothing queued."
 

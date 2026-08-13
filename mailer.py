@@ -64,7 +64,11 @@ def build(to, subject, body, attachments=(), reply_to=None):
         msg["Reply-To"] = reply_to
     msg.set_content(body)
 
-    for path in attachments:
+    for item in attachments:
+        # Either a path, or (path, "name recipient sees.pdf"). The filename shows
+        # up in the recipient's inbox, so "Ananya Saini - Resume.pdf" beats
+        # "resume.pdf" sitting among fifty other resume.pdf files.
+        path, shown = item if isinstance(item, (tuple, list)) else (item, None)
         path = Path(path)
         if not path.exists():
             continue
@@ -73,9 +77,18 @@ def build(to, subject, body, attachments=(), reply_to=None):
             path.read_bytes(),
             maintype="application",
             subtype=subtype,
-            filename=path.name,
+            filename=shown or path.name,
         )
     return msg
+
+
+def _attachment_names(attachments):
+    """Display names, tolerating both plain paths and (path, shown) pairs."""
+    names = []
+    for item in attachments:
+        path, shown = item if isinstance(item, (tuple, list)) else (item, None)
+        names.append(shown or Path(path).name)
+    return ", ".join(names) or "none"
 
 
 def send(to, subject, body, attachments=(), reply_to=None):
@@ -88,7 +101,7 @@ def send(to, subject, body, attachments=(), reply_to=None):
     msg = build(to, subject, body, attachments, reply_to)
 
     if dry_run():
-        attached = ", ".join(Path(a).name for a in attachments) or "none"
+        attached = _attachment_names(attachments)
         return (f"DRY RUN — not sent. To {to}, subject {subject!r}, "
                 f"{len(body.split())} words, attachments: {attached}")
 
@@ -120,5 +133,4 @@ def send(to, subject, body, attachments=(), reply_to=None):
     except (smtplib.SMTPException, OSError) as e:
         raise MailError(f"send failed: {type(e).__name__}: {e}") from e
 
-    attached = ", ".join(Path(a).name for a in attachments) or "none"
-    return f"sent to {to} — attachments: {attached}"
+    return f"sent to {to} — attachments: {_attachment_names(attachments)}"

@@ -257,7 +257,10 @@ def handle(command, number, pending, applied, note):
     if not (to and subject and body):
         return f"Draft for #{number} is incomplete — nothing was sent."
 
-    attachments = [p for p in (item.get("resume"),) if p and Path(p).exists()]
+    # Present the attachment under her name whatever the file is called on disk.
+    resume = item.get("resume")
+    attachments = ([(resume, "Ananya Saini - Resume.pdf")]
+                   if resume and Path(resume).exists() else [])
     try:
         result = mailer.send(to, subject, body, attachments=attachments,
                              reply_to=item.get("reply_to"))
