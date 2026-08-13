@@ -24,6 +24,7 @@ phone is acted on without anyone opening a terminal.
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -50,8 +51,12 @@ OFFSET = DB / "tg_offset.json"
 # is the one that always works; the bare form is accepted too, for when privacy
 # mode has been disabled via BotFather.
 COMMAND_RE = re.compile(
-    r"^\s*/?(send|skip|replied|list|help)(?:@\w+)?\b\s*#?\s*(\d+)?", re.I
+    r"^\s*/?(send|skip|replied|list|help|run|pause|resume|status)"
+    r"(?:@\w+)?\b\s*#?\s*(\d+)?", re.I
 )
+
+STATE = DB / "state.json"
+RUN_LOCK = DB / "run.lock"
 
 
 def load_json(path, default):
@@ -114,9 +119,79 @@ HELP = (
     "<code>/send 2</code> — send that application's email, resume attached\n"
     "<code>/skip 2</code> — drop it\n"
     "<code>/replied 2</code> — mark answered, cancels its follow-ups\n\n"
+    "<b>Controls</b>\n"
+    "<code>/run</code> — search for jobs now, don't wait for 10:30\n"
+    "<code>/pause</code> — stop the daily search\n"
+    "<code>/resume</code> — start it again\n"
+    "<code>/status</code> — what's running, and what's queued\n\n"
     "<i>The leading slash matters in groups: without it Telegram never "
     "delivers the message to the bot.</i>"
 )
+
+
+def load_state():
+    return load_json(STATE, {"paused": False})
+
+
+def run_in_progress():
+    """Is a search already running? The lock is a pid file, checked for liveness
+    so a crashed run cannot block every future one."""
+    if not RUN_LOCK.exists():
+        return False
+    try:
+        pid = int(RUN_LOCK.read_text().strip())
+        os.kill(pid, 0)          # signal 0 only tests existence
+        return True
+    except (ValueError, OSError):
+        RUN_LOCK.unlink(missing_ok=True)
+        return False
+
+
+def start_run():
+    """Launch the daily search detached, so the watcher keeps answering."""
+    import subprocess
+    if load_state().get("paused"):
+        return ("The agent is paused, so nothing was started. "
+                "Send <code>/resume</code> first.")
+    if run_in_progress():
+        return "A search is already running. It will post here when it finishes."
+
+    log = DB / "manual_run.log"
+    try:
+        handle = log.open("a")
+        proc = subprocess.Popen(
+            [sys.executable, str(ROOT / "run.py")],
+            cwd=ROOT, stdout=handle, stderr=handle,
+            start_new_session=True,          # survives this poll cycle
+        )
+        RUN_LOCK.write_text(str(proc.pid))
+    except Exception as e:  # noqa: BLE001
+        return f"Could not start the search: {esc(f'{type(e).__name__}: {e}')}"
+    return ("<b>Searching now.</b>\n\nThis takes a few minutes — discovery, "
+            "scoring, then a tailored resume and email per match. Cards will "
+            "appear here as they are ready.")
+
+
+def describe_status(pending, applied):
+    state = load_state()
+    sent = sum(1 for r in applied.values() if r.get("sent_on"))
+    awaiting = sum(1 for r in applied.values()
+                   if r.get("sent_on") and not r.get("replied"))
+    lines = [
+        "<b>Status</b>",
+        "",
+        f"Daily search: <b>{'PAUSED' if state.get('paused') else 'on'}</b>"
+        + ("" if state.get("paused") else " — every day at 10:30 IST"),
+        f"Search running right now: {'yes' if run_in_progress() else 'no'}",
+        f"Approvals: listening, about 1 second to respond",
+        "",
+        f"Pending your decision: <b>{len(pending)}</b>",
+        f"Sent so far: <b>{sent}</b>",
+        f"Awaiting a reply: <b>{awaiting}</b>",
+        "",
+        "<code>/run</code> to search now · <code>/list</code> to see pending",
+    ]
+    return "\n".join(lines)
 
 
 def handle(command, number, pending, applied, note):
@@ -125,6 +200,19 @@ def handle(command, number, pending, applied, note):
         return HELP
     if command == "list":
         return describe_pending(pending, applied)
+    if command == "status":
+        return describe_status(pending, applied)
+    if command == "run":
+        return start_run()
+    if command in ("pause", "resume"):
+        paused = command == "pause"
+        save_json(STATE, {**load_state(), "paused": paused})
+        if paused:
+            return ("<b>Paused.</b>\n\nNo more daily searches until you send "
+                    "<code>/resume</code>. Anything already queued can still be "
+                    "sent with <code>/send N</code>, and follow-ups still arrive.")
+        return ("<b>Resumed.</b>\n\nThe daily search runs again at 10:30 IST. "
+                "Send <code>/run</code> to go now instead of waiting.")
 
     if number is None:
         return "Which one? Try <code>/list</code>, then <code>/send 2</code>."

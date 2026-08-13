@@ -40,6 +40,8 @@ OUT = ROOT / "out"
 SCORED = DB / "scored.jsonl"
 APPLIED = DB / "applied.json"
 PENDING = DB / "pending.json"
+STATE = DB / "state.json"
+RUN_LOCK = DB / "run.lock"
 
 FOLLOWUP_DAYS = (4, 11)
 
@@ -216,6 +218,19 @@ def main():
     started = time.time()
     today = date.today()
     note = Notifier()
+
+    # /pause has to stop the SCHEDULED run too, not just manual ones — otherwise
+    # pausing from Telegram would be silently ignored at 10:30 tomorrow.
+    if STATE.exists():
+        try:
+            if json.loads(STATE.read_text()).get("paused"):
+                print("paused via /pause — exiting without searching")
+                note.send("Daily search skipped: the agent is <b>paused</b>. "
+                          "Send <code>/resume</code> to turn it back on.")
+                RUN_LOCK.unlink(missing_ok=True)
+                return
+        except json.JSONDecodeError:
+            pass
     print(f"job-agent daily run — {today}")
     print(f"telegram: {'configured' if note.enabled else 'not configured, writing db/digest.md'}")
 
@@ -351,6 +366,7 @@ def main():
             "<code>/list</code> shows what's pending · <code>/skip 1</code> drops one."
         )
 
+    RUN_LOCK.unlink(missing_ok=True)   # a /run can start again immediately
     print(f"\ndone in {time.time() - started:.0f}s")
     print("\nNothing was sent to anyone. Drafts wait for a typed 'send N' approval.")
 

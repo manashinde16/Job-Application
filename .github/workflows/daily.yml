@@ -1,14 +1,18 @@
 name: daily job run
 
-# 05:00 UTC = 10:30 IST, weekdays only.
+# 05:00 UTC = 10:30 IST, every day.
 #
 # 10:30 is deliberate: Indian offices are open and people are through their first
 # inbox pass, so a cold email lands near the top rather than under everything that
-# arrived overnight. Weekends are skipped — a Sunday application just ages before
-# anyone sees it.
+# arrived overnight.
+#
+# Weekends included. Discovery is worth running daily regardless — postings appear
+# at all hours, and the 8-day freshness cap means a Saturday find is still fresh on
+# Monday. Sending is a separate, human decision, so nothing goes out on a Sunday
+# unless someone types /send.
 on:
   schedule:
-    - cron: "0 5 * * 1-5"
+    - cron: "0 5 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
