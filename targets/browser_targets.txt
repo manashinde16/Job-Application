@@ -1,0 +1,57 @@
+# Employers that need the browser channel — client-rendered pages or bot-blocked.
+# Format:  <url>  <company name>  [# note]
+#
+# A plain HTTP fetch gets an empty shell from these, so a real browser has to
+# render them. Confirmed by scripts/find_listings.py and scripts/fetch_careers.py.
+#
+# Where the underlying ATS is known it's noted: those vendors serve the same
+# listings to a rendered page, so one generic browser reader handles them all.
+
+# --- known ATS, client-rendered ---
+https://clevertap.darwinbox.in/ms/candidate/careers     CleverTap        # darwinbox
+https://upgrad.darwinbox.in/ms/candidate/careers        upGrad           # darwinbox
+https://careers.cyient.com/cyient/                      Cyient           # phenom
+https://iaaviz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Jobs-at-Icertis/   Icertis   # oracle hcm
+
+# --- Mumbai product companies (all SPAs) ---
+https://www.zeptonow.com/careers                        Zepto
+https://careers.dreamsports.group/                      Dream11
+https://www.games24x7.com/careers/                      Games24x7
+https://careers.bookmyshow.com/                         BookMyShow
+https://careers.nykaa.com/                              Nykaa
+https://www.tatadigital.com/careers                     Tata Digital
+https://www.tatacliq.com/careers                        Tata CLiQ
+https://www.angelone.in/careers                         Angel One
+https://netcorecloud.com/careers/                       Netcore Cloud
+https://www.pepperfry.com/careers                       Pepperfry
+https://www.purplle.com/careers                         Purplle
+https://eruditus.com/careers/                           Eruditus
+https://www.fynd.com/careers                            Fynd
+https://pixis.ai/careers/                               Pixis
+https://infra.market/careers/                           Infra.Market
+https://chalo.com/careers                               Chalo
+https://www.boat-lifestyle.com/pages/careers            boAt Lifestyle
+https://www.cleartrip.com/careers                       Cleartrip
+
+# --- Pune ---
+https://www.persistent.com/company-overview/careers/    Persistent Systems
+https://www.tatatechnologies.com/careers/               Tata Technologies
+https://www.bajajfinserv.in/careers                     Bajaj Finserv
+
+# --- Hyderabad ---
+https://darwinbox.com/company/careers                   Darwinbox
+https://skyroot.in/careers.html                         Skyroot Aerospace
+
+# --- studios: no reachable careers page, check socials/Behance instead ---
+https://think.design/                                   Think Design
+https://www.elephantdesign.com/                         Elephant Design
+https://fractalink.com/                                 Fractal Ink Design Studio
+https://www.interactiveavenues.com/                     Interactive Avenues
+https://www.kinnect.in/                                 Kinnect
+https://www.watconsult.com/                             WATConsult
+https://www.gozoop.com/                                 Gozoop
+https://foxymoron.in/                                   FoxyMoron
+https://talented.agency/                                Talented
+https://sideways.co.in/                                 Sideways
+https://autumngrey.com/                                 Autumn Grey
+https://studioabd.com/                                  Studio ABD

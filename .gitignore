@@ -1,0 +1,29 @@
+# THIS REPO MUST STAY PRIVATE.
+# It contains her phone number, email, CV content and case-study notes. Nothing
+# here is secret-scanner protected — privacy comes from the repo being private.
+# Never make it public, never fork it to a public org.
+
+# Real secrets never get committed. Keys live in ~/.job-agent.env locally and in
+# GitHub Actions secrets in CI.
+.env
+*.env
+!.env.example
+
+# Local tooling
+.venv-tools/
+__pycache__/
+*.pyc
+
+# Transient per-run files — regenerated every run, no value in history
+db/jobs_new.jsonl
+db/digest.md
+db/needs_browser.txt
+.job-agent-state.json
+
+# Committed on purpose (do not add these to the ignore list):
+#   profile/            her verified profile and case-study notes
+#   targets/            company lists and search config
+#   db/jobs.jsonl       what we've already seen, so nothing is notified twice
+#   db/scored.jsonl     scoring verdicts
+#   db/applied.json     what was prepared, sent, and which follow-ups are due
+#   out/                tailored resumes and drafted emails, needed for follow-ups

@@ -1,0 +1,167 @@
+# Companies to probe with scripts/find_boards.py — one name per line.
+# Rebuilt for a junior product/UX designer targeting Pune, Mumbai, Hyderabad.
+# Design-employing companies in those three cities, plus studios and agencies
+# (which hire juniors far more readily than product companies do).
+
+# --- Mumbai / Navi Mumbai / Thane ---
+Zepto
+Dream11
+Games24x7
+BookMyShow
+Nykaa
+Media.net
+Rebel Foods
+Tata Digital
+Tata CLiQ
+Angel One
+CleverTap
+Haptik
+Netcore Cloud
+Pepperfry
+Purplle
+Turtlemint
+upGrad
+Eruditus
+Emeritus
+Fynd
+Pixis
+Infra.Market
+Chalo
+Boat Lifestyle
+Sugar Cosmetics
+Cleartrip
+EaseMyTrip
+Kotak Mahindra Bank
+ICICI Lombard
+Aditya Birla Capital
+Piramal
+Asian Paints
+Godrej
+Marico
+Jio
+Zolve
+Loop Health
+Onsurity
+Yubi
+CredAvenue
+
+# --- Pune ---
+MindTickle
+Druva
+Icertis
+PubMatic
+Nutanix
+Rubrik
+Cohesity
+Persistent Systems
+KPIT Technologies
+Cybage
+Tata Technologies
+Amdocs
+Bajaj Finserv
+Vodafone Idea
+Mastercard
+Barclays
+Deutsche Bank
+Northern Trust
+Entrata
+Vertafore
+Duck Creek Technologies
+Ellucian
+Aera Technology
+FPL Technologies
+OneCard
+Zensar
+Xoriant
+Harbinger Group
+Seagate
+Veritas
+NICE
+FIS
+Fiserv
+John Deere
+Cummins
+Emerson
+Siemens
+Honeywell
+Eaton
+
+# --- Hyderabad ---
+HighRadius
+Darwinbox
+Zenoti
+ServiceNow
+Salesforce
+Pegasystems
+FactSet
+Broadridge
+Anthology
+Cyient
+Virtusa
+GlobalLogic
+ValueLabs
+Tavant
+Prolifics
+Techwave
+Skyroot Aerospace
+Warner Bros Discovery
+Electronic Arts
+Amadeus
+Sagility
+Providence India
+Invesco
+Franklin Templeton
+ADP
+Synchrony
+State Street
+DBS Bank
+Novartis
+Qualcomm
+
+# --- design studios and creative agencies (best junior-hiring odds) ---
+Lollypop Design Studio
+Think Design
+Obvious
+Codewalla
+Net Solutions
+Fractal Ink Design Studio
+Elephant Design
+Onio Design
+Schbang
+Interactive Avenues
+Kinnect
+WATConsult
+Gozoop
+FoxyMoron
+Dentsu Creative
+Ogilvy
+Leo Burnett
+Isobar
+Landor
+Talented
+Sideways
+Autumn Grey
+Umbrella Design
+Studio ABD
+
+# --- remote-India friendly product companies ---
+Zoho
+Chargebee
+Freshworks
+Postman
+Hasura
+Atlan
+Whatfix
+Sprinklr
+BrowserStack
+Wingify
+Hevo Data
+CleverTap
+Toplyne
+Rocketlane
+Plum
+Springworks
+Fyle
+Zluri
+Devtron
+Middleware

@@ -1,0 +1,29 @@
+# Verified job-LISTINGS pages (not careers landing pages).
+# Format:  <url>  <company name>
+#
+# Every URL here has been confirmed to return server-rendered text containing
+# actual openings. Marketing landing pages were removed deliberately: they never
+# list jobs, and each page costs one of the 120 daily model requests.
+#
+# Anything JS-rendered or blocked lives in targets/browser_targets.txt instead.
+# Re-run scripts/find_listings.py after adding a company to check which it is.
+
+# --- design studios and agencies ---
+https://lollypop.design/careers/                        Lollypop Design Studio
+https://www.codewalla.com/jobs                          Codewalla
+https://www.netsolutions.com/careers/                   Net Solutions
+https://careers.schbang.com/jobs/Careers                Schbang
+
+https://www.gozoop.com/careers                          Gozoop
+
+# --- product companies ---
+https://haptik.freshteam.com/jobs                       Haptik
+https://www.cybage.com/careers/open-positions/current-openings   Cybage
+https://www.kpit.com/job-listing/                       KPIT Technologies
+
+# --- unlocked by browser-realistic headers (were returning nothing before) ---
+https://careers.nykaa.com/                              Nykaa
+https://www.purplle.com/careers                         Purplle
+https://www.angelone.in/careers                         Angel One
+https://www.persistent.com/company-overview/careers/    Persistent Systems
+https://www.tatatechnologies.com/careers/               Tata Technologies

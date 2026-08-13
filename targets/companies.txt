@@ -1,0 +1,109 @@
+# Target company boards.
+#
+#   <provider>  <slug>  <display name>
+#
+# provider: greenhouse | lever | ashby | workable | recruitee
+# slug:     the company id in their board URL, e.g.
+#           job-boards.greenhouse.io/stripe        -> greenhouse  stripe
+#           jobs.lever.co/netflix                  -> lever       netflix
+#           jobs.ashbyhq.com/linear                -> ashby       linear
+#
+# To find a slug: open the company's careers page, click any job, and look at
+# the URL it lands on. If it isn't one of the five providers above, that company
+# needs the browser path instead — leave it out for now.
+#
+# Wrong slugs are harmless: fetch_jobs.py reports them and keeps going.
+# Prune anything that fails, and keep adding. 100+ boards is a healthy list.
+
+greenhouse  stripe          Stripe
+greenhouse  databricks      Databricks
+greenhouse  figma           Figma
+greenhouse  cloudflare      Cloudflare
+greenhouse  discord         Discord
+greenhouse  reddit          Reddit
+greenhouse  robinhood       Robinhood
+greenhouse  doordash        DoorDash
+greenhouse  dropbox         Dropbox
+greenhouse  coinbase        Coinbase
+greenhouse  asana           Asana
+greenhouse  plaid           Plaid
+greenhouse  brex            Brex
+greenhouse  airtable        Airtable
+greenhouse  notion          Notion
+greenhouse  retool          Retool
+greenhouse  vercel          Vercel
+greenhouse  anthropic       Anthropic
+greenhouse  gitlab          GitLab
+greenhouse  hasura          Hasura
+
+ashby       linear          Linear
+ashby       ramp            Ramp
+
+lever       netflix         Netflix
+
+# --- added by find_boards.py ---
+ashby       airwallex                Airwallex
+ashby       atlan                    Atlan
+ashby       bounce                   Bounce
+ashby       confluent                Confluent
+ashby       miro                     Miro
+ashby       navi                     Navi
+ashby       pleo                     Pleo
+ashby       snowflake                Snowflake
+ashby       tekion                   Tekion
+ashby       zapier                   Zapier
+greenhouse  airbnb                   Airbnb
+greenhouse  algolia                  Algolia
+greenhouse  amplitude                Amplitude
+greenhouse  braze                    Braze
+greenhouse  canonical                Canonical
+greenhouse  chargepoint              Chargepoint
+greenhouse  contentful               Contentful
+greenhouse  datadog                  Datadog
+greenhouse  druva                    Druva
+greenhouse  elastic                  Elastic
+greenhouse  gocardless               GoCardless
+greenhouse  grafanalabs              Grafana Labs
+greenhouse  groww                    Groww
+greenhouse  highradius               Highradius
+greenhouse  mixpanel                 Mixpanel
+greenhouse  mongodb                  MongoDB
+greenhouse  monzo                    Monzo
+greenhouse  observeai                Observe AI
+greenhouse  phonepe                  PhonePe
+greenhouse  postman                  Postman
+greenhouse  remote                   Remote
+greenhouse  slice                    Slice
+greenhouse  thoughtworks             Thoughtworks
+greenhouse  twilio                   Twilio
+greenhouse  typeform                 Typeform
+greenhouse  wise                     Wise
+lever       cred                     CRED
+lever       hevodata                 Hevo Data
+lever       meesho                   Meesho
+lever       mindtickle               MindTickle
+lever       nium                     Nium
+lever       paytm                    Paytm
+lever       porter                   Porter
+lever       zeta                     Zeta
+
+# --- added by find_boards.py ---
+ashby       obvious                  Obvious
+greenhouse  landor                   Landor
+greenhouse  nice                     NICE
+greenhouse  ogilvy                   Ogilvy
+greenhouse  pubmatic                 PubMatic
+greenhouse  rubrik                   Rubrik
+greenhouse  zenoti                   Zenoti
+lever       aeratechnology           Aera Technology
+lever       entrata                  Entrata
+recruitee   veritas                  Veritas
+smartrecruiters freshworks               Freshworks
+smartrecruiters harbingergroup           Harbinger Group
+smartrecruiters loophealth               Loop Health
+smartrecruiters medianet                 Media.net
+smartrecruiters rebelfoods               Rebel Foods
+smartrecruiters servicenow               ServiceNow
+smartrecruiters turtlemint               Turtlemint
+smartrecruiters valuelabs                ValueLabs
+smartrecruiters whatfix                  Whatfix
