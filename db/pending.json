@@ -8,5 +8,15 @@
     "title": "UX designer",
     "to": "ameet.palkar@lollypop.design",
     "url": "https://lollypop.design/careers/"
+  },
+  "99": {
+    "body": "Sent because someone replied /send 99 in the Telegram group.\n\nProves the chain end to end: card -> typed approval -> email from her Gmail with the resume attached.\n\n\u2014 job-agent",
+    "company": "TEST",
+    "key": "test:loop-check-2",
+    "resume": "out/generic/resume.pdf",
+    "subject": "job-agent test #99",
+    "title": "safe check \u2014 goes to her own inbox",
+    "to": "saini.ananya2003@gmail.com",
+    "url": "https://example.com"
   }
 }

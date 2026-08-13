@@ -97,6 +97,27 @@ def job_dir(job):
     return OUT / f"{slug(job.get('company'))}-{slug(job.get('title'))}"
 
 
+# Tailoring can fail: the model refuses, a claim fails the fact check, or the
+# quota is spent. An application must still go out with a resume attached, so
+# fall back to the best available — the generic tailored one first, then her
+# original CV. Never send with nothing attached.
+GENERIC_RESUME = OUT / "generic" / "resume.pdf"
+BASELINE_RESUME = ROOT / "profile" / "current-resume.pdf"
+
+
+def pick_resume(tailored, tailored_ok):
+    """Best resume available for this application, and why."""
+    if tailored_ok and tailored.exists():
+        return tailored
+    for fallback, label in ((GENERIC_RESUME, "generic tailored"),
+                            (BASELINE_RESUME, "her original CV")):
+        if fallback.exists():
+            print(f"  tailoring unavailable — falling back to {label}")
+            return fallback
+    print("  no resume available at all — the card will go out without one")
+    return None
+
+
 def parse_email_md(path):
     """Pull the recipient, subject and body back out of a drafted email.md."""
     import re
@@ -201,6 +222,7 @@ def main():
     if not args.skip_discovery:
         run_step("1/4  discover — ATS boards", ["scripts/fetch_jobs.py"])
         run_step("1/4  discover — careers listings pages", ["scripts/fetch_careers.py"])
+        run_step("1/4  discover — global remote boards", ["scripts/fetch_remote.py"])
 
     run_step("2/4  score", ["scripts/score_jobs.py"])
 
@@ -231,9 +253,7 @@ def main():
             entry = {}
 
             ok, _ = run_step("resume", ["scripts/tailor.py", "--job", key], timeout=600)
-            pdf = job_dir(job) / "resume.pdf"
-            if ok and pdf.exists():
-                entry["resume"] = pdf
+            entry["resume"] = pick_resume(job_dir(job) / "resume.pdf", ok)
 
             ok, _ = run_step("outreach", ["scripts/outreach.py", "--job", key], timeout=900)
             email_md = job_dir(job) / "email.md"
@@ -293,8 +313,10 @@ def main():
         entry = prepared.get(job["key"], {})
         note.send(card(job, entry, number_of.get(job["key"])), preview=False)
         if entry.get("resume"):
+            generic = Path(entry["resume"]).parent.name in ("generic", "profile")
+            label = "general resume (tailoring unavailable)" if generic else "tailored resume"
             note.document(entry["resume"],
-                          f"{job.get('company')} — {job.get('title')} · tailored resume")
+                          f"{job.get('company')} — {job.get('title')} · {label}")
 
     for key, record, day in followups:
         email_md = OUT / f"{slug(record.get('company'))}-{slug(record.get('title'))}" / "email.md"

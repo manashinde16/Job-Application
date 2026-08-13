@@ -43,22 +43,29 @@ SYSTEM = """You screen job postings for one specific candidate. You are blunt an
 calibrated, not encouraging. Most postings are a bad fit and should score low.
 
 HARD RULE — seniority. The candidate has roughly 1.5 years total: 13 months in her
-current role plus a 7-month internship. She is a junior designer. A posting is
-eligible ONLY if its minimum experience requirement is {cap} years or less.
-- "0-2 years", "1-3 years", "2-3 years", "3 years", "3+ years", fresher,
-  entry-level, graduate  -> eligible
-- "4+ years", "3-6 years", "5 years", mid-level, senior, lead  -> tier MUST be
-  "skip", fit MUST be 3 or lower, and say so in red_flags
-Apply this even when the title sounds junior. Read what the JD actually asks for.
-Do not stretch, do not rationalise, do not credit "she could grow into it".
+current role plus a 7-month internship. A posting is eligible only if its
+requirement TOPS OUT at {cap} years.
+- eligible: fresher, entry-level, graduate, "0-2 years", "1-3 years",
+  "2-3 years", "3 years"
+- NOT eligible: "{cap}+ years", "minimum {cap} years", "at least {cap} years",
+  "3-5 years", "4+ years", mid-level, senior, lead
+The plus sign matters. "3 years" is fine; "3+ years" is not, because the plus
+means there is no upper bound. Treat "minimum 3" and "at least 3" as "3+".
+When ineligible: tier MUST be "skip", fit MUST be 3 or lower, and say so in
+red_flags. Apply this even when the title sounds junior.
 
 Other rules:
 - Score against what the candidate has ACTUALLY done. Never credit potential.
 - Visual/brand/graphic design roles AT PRODUCT COMPANIES OR DESIGN STUDIOS are a
   legitimate route in for this candidate and should score well — do not penalise
   them for not being titled "Product Designer".
-- Location is a hard constraint. Read it carefully. "Remote" with no country
-  named is ambiguous, not automatically fine.
+- Location. Two different rules:
+  * ONSITE or HYBRID: only Pune, Mumbai, Navi Mumbai, Thane, Hyderabad or Nagpur.
+    Anywhere else, including Bengaluru and NCR, is location_ok false.
+  * REMOTE: acceptable ANYWHERE IN THE WORLD. She is in India with no visa, so
+    the only remote roles to reject are ones restricted to a region she cannot
+    work from — "Remote (US only)", "Remote - EMEA". A globally remote role, or
+    one open to India, is location_ok true regardless of where the company is.
 - Only name skills, projects and numbers that appear in the profile. Inventing
   anything makes the output useless."""
 
@@ -99,13 +106,20 @@ only if the company is a strong target. 0-3 = skip.
 If years_ok is false, tier is "skip" and fit is 3 or lower. No exceptions."""
 
 
-# Ways a JD states its experience bar. Each pattern's first group is the minimum.
+# How a JD states its experience bar. open_ended means "this many or more", which
+# is the difference between "3 years" (acceptable) and "3+ years" (not).
 YEARS_PATTERNS = [
-    r"(\d+)\s*\+\s*(?:years?|yrs?)",                                   # "4+ years"
-    r"(\d+)\s*(?:-|–|—|to)\s*\d+\s*(?:years?|yrs?)",                   # "2-4 years"
-    r"(?:minimum|min\.?|at\s*least|atleast|over)\s*(?:of\s*)?(\d+)\s*(?:years?|yrs?)",
-    r"(\d+)\s*(?:years?|yrs?)\s*(?:of\s+)?(?:relevant\s+|professional\s+|proven\s+"
-    r"|total\s+|hands[- ]on\s+|industry\s+)?experience",
+    # "4+ years", "3 + yrs", "5 years or more"
+    (r"(\d+)\s*\+\s*(?:years?|yrs?)", True),
+    (r"(\d+)\s*(?:years?|yrs?)\s*(?:or|and)\s*(?:more|above|higher|plus)", True),
+    # "minimum 3 years", "at least 4 yrs" — also a floor with no ceiling
+    (r"(?:minimum|min\.?|at\s*least|atleast|over|more\s+than)\s*(?:of\s*)?"
+     r"(\d+)\s*(?:years?|yrs?)", True),
+    # "2-4 years" — bounded, so the UPPER bound is what matters
+    (r"\d+\s*(?:-|–|—|to)\s*(\d+)\s*(?:years?|yrs?)", False),
+    # plain "3 years of experience"
+    (r"(\d+)\s*(?:years?|yrs?)\s*(?:of\s+)?(?:relevant\s+|professional\s+|proven\s+"
+     r"|total\s+|hands[- ]on\s+|industry\s+)?experience", False),
 ]
 
 FRESHER_HINTS = re.compile(
@@ -115,48 +129,76 @@ FRESHER_HINTS = re.compile(
 )
 
 
-def min_years_required(text):
-    """Every distinct minimum-years figure the JD states, ascending.
+def years_figures(text):
+    """Experience requirements found in the JD, as (years, open_ended) pairs.
 
-    Returns [] when the posting never names a number — common, and not a reason
-    to reject. A JD often states several bars ("2-4 years design experience",
-    "5+ years leading teams"); the caller decides how strict to be, so this
-    reports all of them rather than picking one.
+    A bounded range contributes its UPPER bound: "1-3 years" tops out at 3, which
+    is acceptable, whereas "3-5" tops out at 5 and is not.
     """
     found = set()
-    for pattern in YEARS_PATTERNS:
+    for pattern, open_ended in YEARS_PATTERNS:
         for m in re.finditer(pattern, text, re.I):
             try:
                 n = int(m.group(1))
             except (TypeError, ValueError):
                 continue
             if 0 <= n <= 30:  # ignore "10000 users", "2024", and similar noise
-                found.add(n)
+                found.add((n, open_ended))
     return sorted(found)
 
 
-def experience_gate(text, cap):
-    """Reject only when the posting is unambiguously above the candidate's level.
+def min_years_required(text):
+    """Just the numbers, for display and for the prompt."""
+    return sorted({n for n, _ in years_figures(text)})
 
-    A definite reject means every experience figure in the JD is above the cap.
-    If any figure is within reach — or the JD signals fresher/entry-level — the
-    posting goes to the model, which makes the judgement call with the rule
-    stated explicitly.
+
+def experience_gate(text, cap, open_ended_cap=None):
+    """Reject postings that ask for more experience than she has.
+
+    Two ways to fail, matching the rule exactly:
+      - a bounded requirement whose top is above the cap ("3-5 years", cap 3)
+      - an open-ended floor at or above open_ended_cap ("3+ years", "minimum 3")
+        because the plus means there is no ceiling
+
+    A posting that never names a number is not rejected here — the model reads it.
     """
     if FRESHER_HINTS.search(text):
         return None
-    years = min_years_required(text)
-    if years and min(years) > cap:
-        return f"needs {min(years)}+ yrs (cap {cap})"
-    return None
+
+    open_ended_cap = cap if open_ended_cap is None else open_ended_cap
+    figures = years_figures(text)
+    if not figures:
+        return None
+
+    # "minimum 3 years" matches both the open-ended pattern and the plain-years
+    # one, giving (3, True) and (3, False) for a single phrase. The open-ended
+    # reading is the true one, so collapse per number with True winning.
+    bar = {}
+    for n, open_ended in figures:
+        bar[n] = bar.get(n, False) or open_ended
+
+    acceptable = [
+        n for n, open_ended in bar.items()
+        if ((n < open_ended_cap) if open_ended else (n <= cap))
+    ]
+    if acceptable:
+        return None
+
+    worst = min(bar)
+    return (f"needs {worst}{'+' if bar[worst] else ''} yrs "
+            f"(cap {cap}, no open-ended {open_ended_cap}+)")
 
 
 def load_search():
     cfg = json.loads(SEARCH.read_text())
-    cfg["_inc_title"] = re.compile("|".join(cfg["title_include"]), re.I)
-    cfg["_exc_title"] = re.compile("|".join(cfg["title_exclude"]), re.I)
-    cfg["_inc_geo"] = re.compile("|".join(cfg["geo_include"]), re.I)
-    cfg["_exc_geo"] = re.compile("|".join(cfg["geo_exclude"]), re.I)
+    compile_any = lambda key: re.compile("|".join(cfg[key]), re.I)
+    cfg["_inc_title"] = compile_any("title_include")
+    cfg["_exc_title"] = compile_any("title_exclude")
+    cfg["_onsite"] = compile_any("onsite_cities")
+    cfg["_onsite_no"] = compile_any("onsite_excluded_cities")
+    cfg["_remote"] = compile_any("remote_markers")
+    cfg["_remote_global"] = compile_any("remote_global_markers")
+    cfg["_remote_no"] = compile_any("remote_restricted_to")
     return cfg
 
 
@@ -169,14 +211,26 @@ def prefilter(job, cfg):
         return "title excluded (seniority or wrong discipline)"
 
     loc = job.get("location", "") or ""
-    if cfg["_exc_geo"].search(loc):
-        # A multi-city posting survives only if one of HER cities is named.
-        # "Mumbai, Bengaluru" stays; "Bengaluru, India" and "Remote - US" go.
-        if not re.search(r"pune|mumbai|thane|hyderabad|secunderabad|nagpur", loc, re.I):
-            return f"location out of scope ({loc[:40]})"
-    if not cfg["_inc_geo"].search(loc):
-        return f"location not in scope ({loc[:40]})"
-    return None
+    if not loc.strip():
+        return None  # unstated location — let the model read the description
+
+    # Remote and onsite are judged by different rules.
+    if cfg["_remote"].search(loc):
+        # A remote role anywhere in the world is fine, unless the posting pins
+        # itself to a region she has no right to work in. Naming worldwide/global/
+        # India alongside that rescues it ("Remote - India, United States").
+        if cfg["_remote_no"].search(loc) and not cfg["_remote_global"].search(loc):
+            return f"remote but restricted to another region ({loc[:40]})"
+        return None
+
+    # Onsite or hybrid: she has to be able to get there.
+    if cfg["_onsite_no"].search(loc) and not cfg["_onsite"].search(loc):
+        return f"onsite in a city she has excluded ({loc[:40]})"
+    if cfg["_onsite"].search(loc):
+        return None
+    if re.search(r"\bindia\b|\bin-", loc, re.I):
+        return None  # "India" with no city — ambiguous, let the model decide
+    return f"onsite outside her cities ({loc[:40]})"
 
 
 def load_jobs(use_all):
@@ -258,6 +312,7 @@ def main():
     print(f"\nscoring {len(todo)} jobs\n")
 
     cap = cfg["max_years_required"]
+    open_cap = cfg.get("reject_open_ended_at_or_above", cap)
     system = SYSTEM.format(cap=cap)
     gated = 0
 
@@ -268,7 +323,7 @@ def main():
             continue
 
         # Cheap deterministic reject before spending a model call.
-        blocked = experience_gate(desc, cap)
+        blocked = experience_gate(desc, cap, open_cap)
         if blocked:
             gated += 1
             print(f"  [{i}/{len(todo)}] {job['company'][:14]:<15} "
