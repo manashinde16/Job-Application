@@ -27,6 +27,10 @@ import urllib.request
 import uuid
 from pathlib import Path
 
+from env import load_env
+
+load_env()
+
 API = "https://api.telegram.org/bot{token}/{method}"
 LIMIT = 4000  # Telegram's hard cap is 4096; leave room for the chunk suffix
 

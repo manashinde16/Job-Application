@@ -21,6 +21,10 @@ import time
 import urllib.error
 import urllib.request
 
+from env import load_env
+
+load_env()
+
 # Per-provider default model. Override with LLM_MODEL.
 DEFAULTS = {
     "gemini": "gemini-2.5-flash",
@@ -60,34 +64,6 @@ PREFERENCE = [
 
 class LLMError(RuntimeError):
     pass
-
-
-def _load_dotenv():
-    """Load API keys from an env file so scheduled runs need no shell export.
-
-    Looks outside the repo first (~/.job-agent.env) — keeping secrets out of the
-    working tree entirely is safer than relying on .gitignore. Real environment
-    variables always win over file contents.
-    """
-    candidates = [
-        os.path.expanduser("~/.job-agent.env"),
-        os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env"),
-    ]
-    for path in candidates:
-        if not os.path.exists(path):
-            continue
-        with open(path) as fh:
-            for line in fh:
-                line = line.strip()
-                if not line or line.startswith("#") or "=" not in line:
-                    continue
-                name, _, value = line.partition("=")
-                name, value = name.strip(), value.strip().strip("'\"")
-                if name and name not in os.environ:
-                    os.environ[name] = value
-
-
-_load_dotenv()
 
 
 def _provider():

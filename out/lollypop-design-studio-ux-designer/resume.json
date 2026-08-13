@@ -1,45 +1,45 @@
 {
   "headline": "UI/UX Designer",
-  "tagline": "UI/UX Designer with a B.Tech in Computer Science and experience in wireframing, usability testing, and developer handoff.",
+  "tagline": "UI/UX designer with a computer science background, bringing user research and technical feasibility to product design.",
   "skills": [
     {
       "label": "Design & UX",
-      "items": "Figma, wireframing, prototyping, user flows, usability testing, responsive design, design systems"
+      "items": "Figma, Wireframing, Prototyping, User Flows, Usability Testing, Responsive Design, Design Systems"
     },
     {
-      "label": "Visual & Print",
-      "items": "Illustrator, Photoshop, CorelDRAW, branding and visual identity, typography, layout, print production"
+      "label": "Tools & Tech",
+      "items": "Framer, Webflow, Miro, Notion, Photoshop, Illustrator, CorelDRAW"
     },
     {
-      "label": "Tools & Technical",
-      "items": "Framer, Webflow, Miro, Notion, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+      "label": "Visual & Brand",
+      "items": "Branding and Visual Identity, Typography, Layout, Print Production"
     }
   ],
   "experience": [
     {
       "company": "Ascent Business Solutions",
       "title": "Graphic Designer",
-      "location": "Nagpur, Maharashtra, India",
+      "location": "Nagpur",
       "dates": "Jul 2025 \u2013 present",
       "bullets": [
-        "Built reusable design templates and visual systems that cut turnaround time and repetitive work",
-        "Designed 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications",
-        "Worked with HR and management stakeholders across 5 cross-functional teams with low revision cycles",
-        "Managed print-ready files including bleed, sizing, and colour accuracy using typography, colour systems, layout, and visual hierarchy",
-        "Leveraged AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration"
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Worked with HR and management stakeholders across low revision cycles.",
+        "Managed print-ready files including bleed, sizing, and colour accuracy using typography, colour systems, and layout principles.",
+        "Utilized AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
       ]
     },
     {
       "company": "AT Creation",
       "title": "UI/UX Designer",
-      "location": "Nagpur, Maharashtra, India",
+      "location": "Nagpur",
       "dates": "Sep 2022 \u2013 Mar 2023",
       "bullets": [
-        "Conducted usability testing, feeding findings back into user flows and interface usability",
-        "Created wireframes and interactive prototypes for early-stage digital products",
-        "Collaborated with developers and stakeholders on design-to-development handoff",
-        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses",
-        "Produced social campaigns, branding assets, and brochures for startups and SMBs using Photoshop and Illustrator"
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Executed wireframing and prototyping for digital products.",
+        "Worked with developers and stakeholders on design-to-development handoff, leveraging a computer science background for technical feasibility.",
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs using Photoshop and Illustrator."
       ]
     }
   ],
@@ -48,27 +48,29 @@
       "name": "Bounceless",
       "dates": "2024",
       "bullets": [
-        "Developed a B2B UX case study focused on delivering a cleaner verification experience for teams that depend on accurate email lists"
+        "Developed a B2B UX case study delivering a cleaner verification experience for teams that depend on accurate email lists.",
+        "Documented end-to-end problem-to-outcome design process."
       ]
     },
     {
       "name": "Fashion Brand Social Campaign",
       "dates": "Apr 2024",
       "bullets": [
-        "Created an Instagram and Facebook series that achieved a 15% increase in follower engagement"
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
       ]
     }
   ],
   "education": [
     {
       "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
-      "detail": "B.Tech Computer Science, CGPA 8.03. CS background applied to developer handoff credibility, technical feasibility conversations, and systems thinking.",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
       "dates": "June 2020 \u2013 June 2024"
     }
   ],
-  "emphasis": "Led with UX process experience from AT Creation and the B2B Bounceless case study to match Lollypop's UX designer opening, backed by technical feasibility from her Computer Science degree.",
+  "emphasis": "Led with UI/UX experience, user flows, usability testing, and the Bounceless B2B UX case study, supported by a computer science background for developer handoff and technical feasibility.",
   "omitted": [
-    "Omitted portfolio project titles without documentation (Zest Club, Potted Paradise, Design \u00d7 Engineering, Learnara, Common Ground, Foodbank, Domino's rethought) to maintain focus on fully realized case studies.",
-    "Omitted secondary links like Behance and LinkedIn from the core JSON structure to preserve space for a clean, single-page layout."
+    "Contact details, LinkedIn, Behance, Portfolio links and base location (retained essentials only)",
+    "Unquantified or secondary portfolio project titles without documentation (Zest Club, Potted Paradise, Design \u00d7 Engineering, Learnara, Common Ground, Foodbank, Domino's rethought)",
+    "AT Creation startup branding kit details (Sep-Oct 2023)"
   ]
 }

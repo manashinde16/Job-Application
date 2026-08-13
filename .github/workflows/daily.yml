@@ -1,0 +1,100 @@
+name: daily job run
+
+# 01:30 UTC = 07:00 IST, weekdays only. Applying at 3am Sunday helps nobody, and
+# recruiters read mail on working mornings.
+on:
+  schedule:
+    - cron: "30 1 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Discover and score only — no resumes, no drafts"
+        type: boolean
+        default: false
+      max_drafts:
+        description: "Cap prepared applications this run"
+        default: "6"
+      min_fit:
+        description: "Only prepare roles at or above this fit score"
+        default: "6"
+
+# State lives in the repo, so two runs at once would race on the same files.
+concurrency:
+  group: job-agent-daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # No pip install anywhere — the whole agent is stdlib on purpose, which
+      # keeps this step at a couple of seconds and immune to dependency drift.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check required secrets are present
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::error::GEMINI_API_KEY is not set. Add it under"
+            echo "::error::Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          if [ -z "${{ secrets.TELEGRAM_BOT_TOKEN }}" ]; then
+            echo "::warning::TELEGRAM_BOT_TOKEN not set — the digest will be"
+            echo "::warning::written to db/digest.md instead of sent to Telegram."
+          fi
+
+      - name: Run the agent
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Any one of these is enough; the provider is auto-detected. Extra keys
+          # give the run more daily headroom when Gemini's free tier is spent.
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 run.py \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            --max-drafts "${{ inputs.max_drafts || '6' }}" \
+            --min-fit "${{ inputs.min_fit || '6' }}"
+
+      # Without this, every run re-notifies the same roles: the "already seen"
+      # record and the follow-up schedule both live in db/.
+      - name: Commit state
+        run: |
+          git config user.name  "job-agent"
+          git config user.email "job-agent@users.noreply.github.com"
+          git add db out profile/case_studies 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "no state changes"
+          else
+            git commit -m "daily run $(date -u +%Y-%m-%d): update job state"
+            # A concurrent human commit shouldn't fail the run.
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      # The digest is the run's actual product — keep it even if Telegram failed.
+      - name: Upload digest and drafts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-${{ github.run_number }}
+          path: |
+            db/digest.md
+            out/**/email.md
+            out/**/resume.pdf
+          if-no-files-found: ignore
+          retention-days: 30
