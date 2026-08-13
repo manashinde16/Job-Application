@@ -17,5 +17,14 @@
     "sent_to": "saini.ananya2003@gmail.com",
     "title": "goes to her own inbox, not an employer",
     "url": "https://example.com"
+  },
+  "test:loop-check-2": {
+    "company": "TEST",
+    "followups_sent": [],
+    "replied": false,
+    "sent_on": "2026-08-13",
+    "sent_to": "saini.ananya2003@gmail.com",
+    "title": "safe check \u2014 goes to her own inbox",
+    "url": "https://example.com"
   }
 }
