@@ -149,9 +149,9 @@ def card(job, prepared, number=None):
             ]
             if number is not None:
                 lines += [
-                    f"✅ Or just reply <code>send {number}</code> and I'll send it "
+                    f"✅ Or just reply <code>/send {number}</code> and I'll send it "
                     f"for you, resume attached — no Gmail needed.",
-                    f"<i>Reply <code>skip {number}</code> to drop it.</i>",
+                    f"<i>Reply <code>/skip {number}</code> to drop it.</i>",
                 ]
             else:
                 lines.append("<i>Check it still sounds like you, then press send.</i>")
@@ -324,9 +324,9 @@ def main():
 
     if pending:
         note.send(
-            "Reply <code>send 1</code> (or any number above) and I'll send that "
+            "Reply <code>/send 1</code> (or any number above) and I'll send that "
             "email for you with the resume attached.\n"
-            "<code>list</code> shows what's pending · <code>skip 1</code> drops one."
+            "<code>/list</code> shows what's pending · <code>/skip 1</code> drops one."
         )
 
     print(f"\ndone in {time.time() - started:.0f}s")

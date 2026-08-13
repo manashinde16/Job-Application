@@ -4,10 +4,13 @@ Act on approvals typed into Telegram.
 
 The daily run numbers each prepared application. Reply in the group with:
 
-    send 2         send that application's email, resume attached
-    skip 2         drop it, and stop offering it
-    list           show what is pending
-    replied 2      mark it as answered, which cancels its follow-ups
+    /send 2        send that application's email, resume attached
+    /skip 2        drop it, and stop offering it
+    /list          show what is pending
+    /replied 2     mark it as answered, which cancels its follow-ups
+
+The leading slash is required in groups: Telegram's privacy mode means a bot
+never receives plain group messages, only commands, mentions and replies.
 
 Nothing is sent without one of those messages. The reply IS the approval — this
 script only ever acts on an instruction a human typed, one application at a time.
@@ -39,8 +42,15 @@ PENDING = DB / "pending.json"
 APPLIED = DB / "applied.json"
 OFFSET = DB / "tg_offset.json"
 
+# Leading slash optional, @botname suffix optional.
+#
+# Telegram bots default to privacy mode in groups, which means a plain "send 9"
+# is never delivered to the bot at all — only messages starting with "/", ones
+# that mention it, and replies to its own messages get through. So the slash form
+# is the one that always works; the bare form is accepted too, for when privacy
+# mode has been disabled via BotFather.
 COMMAND_RE = re.compile(
-    r"^\s*(send|skip|replied|list|help)\b\s*#?\s*(\d+)?", re.I
+    r"^\s*/?(send|skip|replied|list|help)(?:@\w+)?\b\s*#?\s*(\d+)?", re.I
 )
 
 
@@ -88,18 +98,19 @@ def describe_pending(pending, applied):
             f"<b>#{num}</b> {esc(item['company'])} — {esc(item['title'])}  "
             f"<i>({state})</i>"
         )
-    lines += ["", "Reply <code>send 1</code> to send one, "
-                  "or <code>skip 1</code> to drop it."]
+    lines += ["", "Reply <code>/send 1</code> to send one, "
+                  "or <code>/skip 1</code> to drop it."]
     return "\n".join(lines)
 
 
 HELP = (
     "<b>Commands</b>\n\n"
-    "<code>list</code> — what is pending\n"
-    "<code>send 2</code> — send that application's email, resume attached\n"
-    "<code>skip 2</code> — drop it\n"
-    "<code>replied 2</code> — mark answered, cancels its follow-ups\n\n"
-    "<i>Nothing is sent unless you type send.</i>"
+    "<code>/list</code> — what is pending\n"
+    "<code>/send 2</code> — send that application's email, resume attached\n"
+    "<code>/skip 2</code> — drop it\n"
+    "<code>/replied 2</code> — mark answered, cancels its follow-ups\n\n"
+    "<i>The leading slash matters in groups: without it Telegram never "
+    "delivers the message to the bot.</i>"
 )
 
 
@@ -111,12 +122,12 @@ def handle(command, number, pending, applied, note):
         return describe_pending(pending, applied)
 
     if number is None:
-        return "Which one? Try <code>list</code>, then <code>send 2</code>."
+        return "Which one? Try <code>/list</code>, then <code>/send 2</code>."
 
     item = pending.get(str(number))
     if not item:
         return (f"No pending application #{number}. "
-                f"Send <code>list</code> to see the current numbers.")
+                f"Send <code>/list</code> to see the current numbers.")
 
     key = item["key"]
     record = applied.setdefault(key, {})
@@ -136,7 +147,7 @@ def handle(command, number, pending, applied, note):
     # command == "send"
     if record.get("sent_on"):
         return (f"Already sent on {record['sent_on']} — not sending again. "
-                f"Use <code>replied {number}</code> if they answered.")
+                f"Use <code>/replied {number}</code> if they answered.")
 
     to, subject, body = item.get("to"), item.get("subject"), item.get("body")
     if not (to and subject and body):
@@ -165,7 +176,7 @@ def handle(command, number, pending, applied, note):
     return (f"<b>Sent</b> — {esc(label)}\n"
             f"to {esc(to)}\n\n"
             f"<i>Follow-up reminders will appear on day 4 and day 11 "
-            f"unless you mark it <code>replied {number}</code>.</i>")
+            f"unless you mark it <code>/replied {number}</code>.</i>")
 
 
 def process_once(note):

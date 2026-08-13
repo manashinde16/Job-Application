@@ -8,5 +8,15 @@
     "title": "UX designer",
     "to": "ameet.palkar@lollypop.design",
     "url": "https://lollypop.design/careers/"
+  },
+  "9": {
+    "body": "This email was sent because someone replied \"send 9\" in the Telegram group.\n\nThat proves the whole chain works: card in Telegram -> typed approval -> email sent from her Gmail with the resume attached.\n\nThe real applications work identically. Nothing goes out without a typed send.\n\n\u2014 job-agent",
+    "company": "TEST \u2014 safe loop check",
+    "key": "test:loop-check",
+    "resume": "out/lollypop-design-studio-ux-designer/resume.pdf",
+    "subject": "job-agent \u2014 Telegram approval loop test",
+    "title": "goes to her own inbox, not an employer",
+    "to": "saini.ananya2003@gmail.com",
+    "url": "https://example.com"
   }
 }
