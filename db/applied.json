@@ -8,5 +8,14 @@
     "sent_on": null,
     "title": "UX designer",
     "url": "https://lollypop.design/careers/"
+  },
+  "test:loop-check": {
+    "company": "TEST \u2014 safe loop check",
+    "followups_sent": [],
+    "replied": false,
+    "sent_on": "2026-08-13",
+    "sent_to": "saini.ananya2003@gmail.com",
+    "title": "goes to her own inbox, not an employer",
+    "url": "https://example.com"
   }
 }
