@@ -157,9 +157,33 @@ people drop when they're tired, so the agent owns the remembering.
 
 ---
 
-## Running it autonomously on a Mac (no GitHub scope needed)
+## How it actually runs
 
-Two launchd timers, already installed:
+**GitHub Actions is authoritative.** Both workflows are live and verified:
+
+| Workflow | Schedule | Does |
+|---|---|---|
+| `daily job run` | 05:00 UTC = 10:30 IST, Mon–Fri | discover, score, tailor, draft, post cards |
+| `process approvals` | every 15 min, 09:30–20:00 IST | acts on any `/send` typed in Telegram |
+
+```bash
+gh run list --repo <repo> --limit 5        # recent runs
+gh workflow run "daily job run" --repo <repo> --field dry_run=true
+```
+
+Nothing needs to be switched on locally — this runs on GitHub's machines.
+
+## Optional local backup on a Mac (currently disabled)
+
+Two launchd timers are installed but **unloaded**, because running both them and
+GitHub Actions would post every digest twice and fight over git state. Enable them
+only as a fallback if Actions is ever unavailable:
+
+```bash
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.jobagent.daily.plist
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.jobagent.approvals.plist
+```
+
 
 | Timer | Schedule | Does |
 |---|---|---|
