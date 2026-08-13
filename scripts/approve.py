@@ -68,15 +68,20 @@ def save_json(path, data):
     path.write_text(json.dumps(data, indent=2, sort_keys=True))
 
 
-def get_updates(note, offset):
-    """New messages since the last one we handled."""
+def get_updates(note, offset, long_poll=0):
+    """New messages since the last one we handled.
+
+    long_poll seconds > 0 asks Telegram to hold the connection open until a
+    message arrives, so it is delivered the moment it is sent rather than on the
+    next poll. That is the difference between ~1 second and a full poll interval.
+    """
     import urllib.request
     url = (f"https://api.telegram.org/bot{note.token}/getUpdates"
-           f"?timeout=0&allowed_updates=%5B%22message%22%5D")
+           f"?timeout={int(long_poll)}&allowed_updates=%5B%22message%22%5D")
     if offset:
         url += f"&offset={offset}"
     try:
-        with urllib.request.urlopen(url, timeout=45) as resp:
+        with urllib.request.urlopen(url, timeout=int(long_poll) + 25) as resp:
             data = json.loads(resp.read().decode())
     except Exception as e:  # noqa: BLE001 — a polling failure is not fatal
         print(f"  getUpdates failed: {type(e).__name__}: {e}")
@@ -179,13 +184,32 @@ def handle(command, number, pending, applied, note):
             f"unless you mark it <code>/replied {number}</code>.</i>")
 
 
-def process_once(note):
+def commit_state():
+    """Persist state so a cloud run and this watcher agree on what was sent."""
+    import subprocess
+    try:
+        if not subprocess.run(["git", "status", "--porcelain", "db"], cwd=ROOT,
+                              capture_output=True, text=True, timeout=30).stdout.strip():
+            return
+        subprocess.run(["git", "add", "db"], cwd=ROOT, capture_output=True, timeout=30)
+        subprocess.run(
+            ["git", "-c", "user.name=job-agent",
+             "-c", "user.email=job-agent@local", "commit", "-q", "-m",
+             f"approvals {time.strftime('%Y-%m-%dT%H:%MZ', time.gmtime())}"],
+            cwd=ROOT, capture_output=True, timeout=60)
+        subprocess.run(["git", "push", "-q", "origin", "main"], cwd=ROOT,
+                       capture_output=True, timeout=120)
+    except Exception as e:  # noqa: BLE001 — a git failure must not stop the watcher
+        print(f"  commit skipped: {type(e).__name__}")
+
+
+def process_once(note, long_poll=0):
     pending = load_json(PENDING, {})
     applied = load_json(APPLIED, {})
     state = load_json(OFFSET, {})
     offset = state.get("offset")
 
-    updates = get_updates(note, offset)
+    updates = get_updates(note, offset, long_poll)
     if not updates:
         return 0
 
@@ -216,6 +240,8 @@ def process_once(note):
     save_json(PENDING, pending)
     save_json(APPLIED, applied)
     save_json(OFFSET, {"offset": highest})
+    if handled:
+        commit_state()
     return handled
 
 
@@ -238,14 +264,19 @@ def main():
         print(f"{n} command(s) handled")
         return
 
-    print("watching for commands, ctrl-c to stop")
+    # Long poll: Telegram holds the request open until something arrives, so a
+    # typed command is acted on in about a second. No busy-waiting either — the
+    # process is idle in a blocking read between messages.
+    print("watching (long poll, ~1s response), ctrl-c to stop")
     while True:
         try:
-            process_once(note)
-            time.sleep(20)
+            process_once(note, long_poll=50)
         except KeyboardInterrupt:
             print("\nstopped")
             return
+        except Exception as e:  # noqa: BLE001 — never let one bad poll end the watch
+            print(f"  poll error: {type(e).__name__}: {e}; retrying in 10s")
+            time.sleep(10)
 
 
 if __name__ == "__main__":
