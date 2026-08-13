@@ -146,7 +146,7 @@ def main():
     sent = note.send("\n".join([
         "<b>job-agent is connected</b>",
         "",
-        "This is where the daily digest lands, every weekday at 07:00 IST.",
+        "This is where the daily digest lands, every weekday at 10:30 IST.",
         "",
         "Each morning you'll get one message per role worth applying to:",
         "· the company, title, location and a fit score",

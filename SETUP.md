@@ -2,7 +2,7 @@
 
 Two people are involved. Ananya does part 2 on her phone; you do the rest.
 
-After this, the agent runs itself every weekday at 7:00 IST and neither of you
+After this, the agent runs itself every weekday at 10:30 IST and neither of you
 touches a terminal again.
 
 ---
@@ -93,7 +93,7 @@ Then run it properly once:
 gh workflow run "daily job run" --repo ananya-job-agent -f max_drafts=3
 ```
 
-From then on it fires automatically at 01:30 UTC (07:00 IST), Monday to Friday.
+From then on it fires automatically at 05:00 UTC (10:30 IST), Monday to Friday.
 
 ---
 

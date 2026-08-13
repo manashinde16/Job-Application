@@ -33,7 +33,8 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from fetch_jobs import DB, get_text, load_seen  # noqa: E402
+from fetch_jobs import DB, clean, get_html, load_seen  # noqa: E402
+from html import unescape as html_unescape  # noqa: E402
 
 URLS = ROOT / "targets" / "careers_urls.txt"
 ALL_JOBS = DB / "jobs.jsonl"
@@ -83,9 +84,73 @@ def read_urls():
     return out
 
 
+def clean_html(html):
+    """Raw HTML -> readable text, dropping script/style bodies first."""
+    if not html:
+        return ""
+    stripped = re.sub(r"<(script|style|noscript|svg)[^>]*>.*?</\1>", " ",
+                      html, flags=re.S | re.I)
+    return clean(stripped)
+
+
+ANCHOR_RE = re.compile(r"<a\b[^>]*href=[\"']([^\"'#]+)[\"'][^>]*>(.*?)</a>", re.S | re.I)
+STOPWORDS = {
+    "the", "and", "for", "with", "job", "jobs", "career", "careers", "hiring",
+    "apply", "role", "position", "opening", "openings", "a", "an", "of", "in",
+    "at", "to", "view", "details", "more", "read",
+}
+
+
+def _tokens(text):
+    return {
+        w for w in re.findall(r"[a-z0-9]+", (text or "").lower())
+        if len(w) > 1 and w not in STOPWORDS
+    }
+
+
+def extract_anchors(html, base):
+    """Every link on the page, as (absolute_url, label, label_tokens).
+
+    The model is given plain text, which has no hrefs in it — so per-job links
+    have to come from the markup and be matched back to the extracted titles.
+    Without this, every careers-page job pointed at the listing page instead of
+    its own posting.
+    """
+    anchors = []
+    for href, inner in ANCHOR_RE.findall(html):
+        label = re.sub(r"<[^>]+>", " ", inner)
+        label = html_unescape(re.sub(r"\s+", " ", label)).strip()
+        if not href or href.lower().startswith(("javascript:", "mailto:", "tel:")):
+            continue
+        absolute = urljoin(base, href)
+        anchors.append((absolute, label, _tokens(label) | _tokens(href)))
+    return anchors
+
+
+def match_job_url(title, anchors, fallback):
+    """Best per-job link for an extracted title, or the listing page."""
+    wanted = _tokens(title)
+    if not wanted:
+        return fallback
+    best, best_score = None, 0.0
+    for url, label, tokens in anchors:
+        if not tokens:
+            continue
+        overlap = len(wanted & tokens)
+        if not overlap:
+            continue
+        # Reward covering the title, and prefer the tighter of two equal matches.
+        score = overlap / len(wanted) + 0.25 * (overlap / len(tokens))
+        if score > best_score:
+            best, best_score = url, score
+    # Require most of the title to be present; a single shared word is noise.
+    return best if best and best_score >= 0.7 else fallback
+
+
 def fetch_one(entry):
     url, company = entry
-    return company, url, get_text(url)
+    html, landed = get_html(url)
+    return company, url, clean_html(html), extract_anchors(html, landed)
 
 
 def main():
@@ -103,15 +168,15 @@ def main():
         pages = list(pool.map(fetch_one, entries))
 
     usable, thin, dead = [], [], []
-    for company, url, text in pages:
+    for company, url, text, anchors in pages:
         if not text:
             dead.append((company, url))
         elif len(text) < MIN_TEXT:
             thin.append((company, url, len(text)))
         else:
-            usable.append((company, url, text))
+            usable.append((company, url, text, anchors))
 
-    for company, url, text in sorted(usable, key=lambda p: -len(p[2])):
+    for company, url, text, _anchors in sorted(usable, key=lambda p: -len(p[2])):
         print(f"  OK             {company:<28} {len(text):>7} chars")
     for company, url, n in thin:
         print(f"  NEEDS-BROWSER  {company:<28} {n:>7} chars (JS-rendered)")
@@ -142,7 +207,7 @@ def main():
     fresh = []
     print(f"\nextracting openings from {len(usable)} pages\n")
 
-    for company, url, text in usable:
+    for company, url, text, anchors in usable:
         try:
             openings = complete_json(
                 PROMPT.format(company=company, url=url, text=text[:MAX_TEXT]),
@@ -161,7 +226,9 @@ def main():
             if not isinstance(opening, dict) or not opening.get("title"):
                 continue
             link = (opening.get("url") or "").strip()
-            link = urljoin(url, link) if link else url
+            link = urljoin(url, link) if link else ""
+            if not link or link.rstrip("/") == url.rstrip("/"):
+                link = match_job_url(opening["title"], anchors, url)
             slug = re.sub(r"[^a-z0-9]+", "-", opening["title"].lower()).strip("-")
             key = f"careers:{company.lower().replace(' ', '-')}:{slug}"
             if key in seen:
