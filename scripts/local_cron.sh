@@ -18,6 +18,10 @@ MODE="${1:-daily}"
 cd "$REPO" || exit 1
 mkdir -p "$REPO/db"
 
+# Fetch state written by a cloud run first. Acting on a stale applied.json is how
+# the same application gets emailed twice.
+git pull -q --rebase --autostash origin main >/dev/null 2>&1 || true
+
 # Keep the log from growing without bound.
 if [ -f "$LOG" ] && [ "$(wc -c <"$LOG")" -gt 2000000 ]; then
   tail -c 500000 "$LOG" > "$LOG.tmp" && mv "$LOG.tmp" "$LOG"

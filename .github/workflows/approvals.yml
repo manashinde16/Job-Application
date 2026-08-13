@@ -7,9 +7,17 @@ name: process approvals
 # GitHub's scheduler is best-effort and can lag by several minutes under load;
 # that is fine here, since an application going out at 11:07 instead of 11:00
 # changes nothing.
+# No schedule here on purpose.
+#
+# GitHub's cron floor is 5 minutes and real firings lag well past that, so an
+# approval could sit for 10+ minutes. The local launchd timer polls every 60
+# seconds instead and owns this job.
+#
+# Only ONE scheduler may poll Telegram. Whichever ran second could read a stale
+# applied.json, not know the mail had already gone, and send the same application
+# twice. Kept here as a manual fallback for when the Mac is off:
+#   gh workflow run "process approvals" --repo <repo>
 on:
-  schedule:
-    - cron: "*/15 4-14 * * 1-5"   # 09:30-20:00 IST, weekdays
   workflow_dispatch:
 
 concurrency:
