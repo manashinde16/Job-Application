@@ -97,6 +97,19 @@ From then on it fires automatically at 05:00 UTC (10:30 IST), Monday to Friday.
 
 ---
 
+## Before the first real run: turn off Telegram's in-app browser
+
+On her phone: **Telegram › Settings › Data and Storage › Browser › turn OFF
+"In-app browser."**
+
+Without this, tapping the Gmail link opens Telegram's own browser, which loads
+Gmail's mobile web view. That view ignores compose parameters and just shows the
+inbox — the draft appears empty. With it off, the link opens in Chrome or Safari,
+which hands off to the Gmail app and the draft arrives filled in.
+
+Every card also carries the address, subject and body as tap-to-copy blocks, so
+there is a working path even if this setting is left on.
+
 ## Her daily routine
 
 One Telegram message per role, each carrying:
@@ -108,8 +121,9 @@ One Telegram message per role, each carrying:
 - The tailored resume as a PDF attachment
 - Backup contacts if the first address bounces
 
-She reads it, taps the mailto link, checks it still sounds like her, presses send.
-Attaches the PDF from the same chat. About 10 minutes for the whole batch.
+She reads it, taps the Gmail link (or copies the three blocks), checks it still
+sounds like her, presses send. Attaches the PDF from the same chat. About 10
+minutes for the whole batch.
 
 **Nothing is ever sent automatically.** The agent prepares; a human sends. That is
 deliberate — a wrong auto-send to a company she wants is not recoverable, and one

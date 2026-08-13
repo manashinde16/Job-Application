@@ -123,17 +123,27 @@ def card(job, prepared):
     if prepared.get("email"):
         to, subject, body = prepared["email"]
         if to and "TBD" not in to:
-            # Gmail compose over https — Telegram silently refuses to render a
-            # mailto: href, so that link looked like plain text and did nothing.
+            # Two routes on purpose.
+            #
+            # The Gmail compose URL pre-fills everything, but only in a real
+            # browser: Telegram's in-app browser loads Gmail's mobile web view,
+            # which ignores ?view=cm and just shows the inbox. Works on desktop,
+            # and on mobile once the in-app browser is turned off.
+            #
+            # So the address and body are also given as <code>, which Telegram
+            # renders as tap-to-copy. That path works on every client regardless
+            # of browser settings.
             link = gmail_compose(to, subject, body)
             lines += [
                 "",
-                f"<b>Email:</b> {esc(to)}",
-                f"<b>Subject:</b> {esc(subject)}",
-                "",
-                esc(body),
-                "",
                 f'➡️ <a href="{esc(link)}">TAP HERE — opens Gmail, already filled in</a>',
+                "",
+                "<b>To</b> (tap to copy)",
+                f"<code>{esc(to)}</code>",
+                "<b>Subject</b> (tap to copy)",
+                f"<code>{esc(subject)}</code>",
+                "<b>Body</b> (tap to copy)",
+                f"<pre>{esc(body)}</pre>",
                 "<i>Check it still sounds like you, then press send.</i>",
             ]
     if prepared.get("contacts"):
