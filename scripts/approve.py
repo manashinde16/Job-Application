@@ -338,6 +338,11 @@ def process_once(note, long_poll=0):
             else:
                 from from_image import handle_image  # noqa: PLC0415
                 note.send(handle_image(mime, data, note))
+                # handle_image writes the new card straight to pending.json.
+                # Without re-reading it here, the save at the end of this
+                # function would write back the copy loaded before the image
+                # arrived and silently delete the card that was just queued.
+                pending = load_json(PENDING, {})
                 commit_state()
             handled += 1
             continue
