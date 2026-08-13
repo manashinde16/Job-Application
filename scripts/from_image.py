@@ -27,7 +27,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from notify import esc  # noqa: E402
-from score_jobs import experience_gate, load_search  # noqa: E402
+from score_jobs import experience_gate, load_search, prefilter  # noqa: E402
 
 DB = ROOT / "db"
 PENDING = DB / "pending.json"
@@ -166,8 +166,28 @@ def handle_image(mime, data, note):
     emails = [e for e in emails if e]
     links = [l for l in (info.get("links") or []) if l]
 
-    # The seniority rule applies to a screenshot exactly as it does to a feed.
     cfg = load_search()
+
+    # The location rule applies to a screenshot too. Without this a US-onsite
+    # recruiter post would be queued and drafted for a role she cannot take —
+    # exactly what the first real screenshot turned out to be.
+    location = (info.get("location") or "").strip()
+    geo_reason = prefilter(
+        {"title": role, "location": location or "unknown"},
+        {**cfg, "max_job_age_days": None},   # age is judged separately below
+    )
+    # Only a geography verdict blocks here. prefilter also rejects on title, but
+    # someone who screenshots a post has already decided the role is worth a look,
+    # so the title filter is not applied to a deliberate hand-off.
+    if geo_reason and geo_reason.startswith(("onsite", "remote")):
+        return (f"<b>Skipped — location</b>\n\n{esc(company)} — {esc(role)}\n"
+                f"{esc(location or 'no location shown')}\n\n"
+                f"<i>{esc(geo_reason)}</i>\n\n"
+                f"Onsite works only in Pune, Mumbai, Thane, Hyderabad or Nagpur. "
+                f"Remote is fine from anywhere, unless the post ties it to a region "
+                f"she cannot work from. Nothing queued.")
+
+    # The seniority rule applies exactly as it does to a discovered posting.
     haystack = " ".join(str(info.get(k) or "") for k in
                         ("experience_text", "requirements", "notes"))
     blocked = experience_gate(haystack, cfg["max_years_required"],
