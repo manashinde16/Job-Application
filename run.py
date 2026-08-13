@@ -326,7 +326,13 @@ def main():
     number_of = {item["key"]: num for num, item in pending.items()}
     for job in shortlist:
         entry = prepared.get(job["key"], {})
-        note.send(card(job, entry, number_of.get(job["key"])), preview=False)
+        number = number_of.get(job["key"])
+        result = note.send(card(job, entry, number), preview=False)
+        # Recording the message id lets someone reply to a card and type "send"
+        # instead of remembering which number it was — with twenty cards a
+        # morning, replying is the natural way to point at one.
+        if number and isinstance(result, int):
+            pending[number]["message_id"] = result
         if entry.get("resume"):
             generic = Path(entry["resume"]).parent.name in ("generic", "profile")
             label = "general resume (tailoring unavailable)" if generic else "tailored resume"

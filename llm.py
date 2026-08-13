@@ -15,6 +15,7 @@ Every backend exposes the same call:
     complete("your prompt", system="you are ...", max_tokens=2000)
 """
 
+import base64
 import json
 import os
 import time
@@ -180,7 +181,8 @@ def _post(url, payload, headers, timeout=120):
         return json.loads(resp.read().decode())
 
 
-def complete(prompt, system=None, max_tokens=4096, temperature=0.3, retries=2):
+def complete(prompt, system=None, max_tokens=4096, temperature=0.3, retries=2,
+             images=()):
     """Send one prompt, get the text back.
 
     On a daily-quota 429 the model is marked spent and the next model in the pool
@@ -196,7 +198,8 @@ def complete(prompt, system=None, max_tokens=4096, temperature=0.3, retries=2):
         for attempt in range(retries):
             try:
                 return _dispatch(
-                    provider, model, key, prompt, system, max_tokens, temperature
+                    provider, model, key, prompt, system, max_tokens, temperature,
+                    images,
                 )
             except urllib.error.HTTPError as e:
                 body = e.read().decode(errors="replace")
@@ -226,7 +229,8 @@ def complete(prompt, system=None, max_tokens=4096, temperature=0.3, retries=2):
     raise last_err or LLMError(f"{provider} failed with no usable model")
 
 
-def _dispatch(provider, model, key, prompt, system, max_tokens, temperature):
+def _dispatch(provider, model, key, prompt, system, max_tokens, temperature,
+              images=()):
     if provider == "gemini":
         # Header auth, not ?key= — the newer "AQ."-prefixed keys only work this way.
         url = (
@@ -242,8 +246,12 @@ def _dispatch(provider, model, key, prompt, system, max_tokens, temperature):
         # gemini-flash-latest rejects it with a 400. Fall back to the smallest
         # accepted budget rather than failing.
         budget = int(os.environ.get("GEMINI_THINKING_BUDGET", "0"))
+        parts = [{"text": prompt}]
+        for mime, data in images:
+            parts.append({"inlineData": {"mimeType": mime,
+                                         "data": base64.b64encode(data).decode()}})
         payload = {
-            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+            "contents": [{"role": "user", "parts": parts}],
             "generationConfig": {
                 "maxOutputTokens": max_tokens,
                 "temperature": temperature,
@@ -308,8 +316,15 @@ def _dispatch(provider, model, key, prompt, system, max_tokens, temperature):
         "ollama": os.environ.get("OLLAMA_HOST", "http://localhost:11434")
         + "/v1/chat/completions",
     }
+    if images:
+        content = [{"type": "text", "text": prompt}]
+        for mime, data in images:
+            content.append({"type": "image_url", "image_url": {
+                "url": f"data:{mime};base64,{base64.b64encode(data).decode()}"}})
+    else:
+        content = prompt
     messages = ([{"role": "system", "content": system}] if system else []) + [
-        {"role": "user", "content": prompt}
+        {"role": "user", "content": content}
     ]
     payload = {
         "model": model,
@@ -322,7 +337,8 @@ def _dispatch(provider, model, key, prompt, system, max_tokens, temperature):
     return data["choices"][0]["message"]["content"].strip()
 
 
-def complete_json(prompt, system=None, max_tokens=4096, temperature=0.1, retries=3):
+def complete_json(prompt, system=None, max_tokens=4096, temperature=0.1, retries=3,
+                  images=()):
     """Same as complete(), but parses the reply as JSON.
 
     Models like to wrap JSON in ```json fences and add a sentence of preamble,
@@ -343,7 +359,7 @@ def complete_json(prompt, system=None, max_tokens=4096, temperature=0.1, retries
     last_raw = ""
     for tokens, sys_prompt in attempts:
         raw = complete(prompt, system=sys_prompt, max_tokens=tokens,
-                       temperature=temperature, retries=retries)
+                       temperature=temperature, retries=retries, images=images)
         last_raw = raw
 
         text = raw.strip()

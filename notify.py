@@ -94,20 +94,27 @@ class Notifier:
     # --- public api ----------------------------------------------------------
 
     def send(self, text, preview=False):
-        """Send one message, splitting on paragraph boundaries if oversized."""
+        """Send one message, splitting on paragraph boundaries if oversized.
+
+        Returns the id of the FIRST message sent, so a card can be recognised
+        later when someone replies to it. Falls back to True/False when Telegram
+        is not configured or the send failed.
+        """
         self._buffer.append(text)
         if not self.enabled:
             return True
 
-        ok = True
+        ok, first_id = True, None
         for chunk in _split(text, LIMIT):
             try:
-                self._call("sendMessage", {
+                result = self._call("sendMessage", {
                     "chat_id": self.chat_id,
                     "text": chunk,
                     "parse_mode": "HTML",
                     "disable_web_page_preview": not preview,
                 })
+                if first_id is None:
+                    first_id = (result.get("result") or {}).get("message_id")
             except urllib.error.HTTPError as e:
                 detail = e.read().decode(errors="replace")[:200]
                 print(f"  [telegram] {e.code}: {detail}")
@@ -115,7 +122,7 @@ class Notifier:
             except Exception as e:  # noqa: BLE001 — a failed notification must not
                 print(f"  [telegram] {type(e).__name__}: {e}")  # kill the pipeline
                 ok = False
-        return ok
+        return (first_id if first_id is not None else ok) if ok else False
 
     def document(self, path, caption=""):
         self._buffer.append(f"[attached: {Path(path).name}] {caption}")
@@ -127,6 +134,26 @@ class Notifier:
         except Exception as e:  # noqa: BLE001
             print(f"  [telegram] upload failed: {type(e).__name__}: {e}")
             return False
+
+    def download(self, file_id):
+        """Fetch a file someone sent the bot. Returns (mime, bytes) or (None, None).
+
+        Telegram hands out a short-lived path rather than a direct URL, so this is
+        always two calls: getFile, then the download.
+        """
+        try:
+            info = self._call("getFile", {"file_id": file_id})
+            path = (info.get("result") or {}).get("file_path")
+            if not path:
+                return None, None
+            url = f"https://api.telegram.org/file/bot{self.token}/{path}"
+            with urllib.request.urlopen(url, timeout=90) as resp:
+                data = resp.read()
+            mime = mimetypes.guess_type(path)[0] or "image/jpeg"
+            return mime, data
+        except Exception as e:  # noqa: BLE001
+            print(f"  [telegram] download failed: {type(e).__name__}: {e}")
+            return None, None
 
     def flush_fallback(self):
         """Write everything to db/digest.md — the no-Telegram path."""

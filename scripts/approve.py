@@ -194,6 +194,17 @@ def describe_status(pending, applied):
     return "\n".join(lines)
 
 
+def number_from_reply(message, pending):
+    """Which pending item is this a reply to, if any."""
+    replied = (message.get("reply_to_message") or {}).get("message_id")
+    if not replied:
+        return None
+    for num, item in pending.items():
+        if item.get("message_id") == replied:
+            return int(num)
+    return None
+
+
 def handle(command, number, pending, applied, note):
     """Run one typed instruction. Returns the reply text."""
     if command == "help":
@@ -312,12 +323,35 @@ def process_once(note, long_poll=0):
         if note.chat_id and chat_id != str(note.chat_id):
             continue
 
+        # A photo is an instruction too: "read this job post and queue it".
+        photos = message.get("photo") or []
+        document = message.get("document") or {}
+        if photos or (document.get("mime_type") or "").startswith("image/"):
+            # Telegram sends several sizes; the last is the largest.
+            file_id = photos[-1]["file_id"] if photos else document["file_id"]
+            print(f"  {(message.get('from') or {}).get('first_name', 'someone')}: "
+                  f"sent an image")
+            note.send("Reading that screenshot...")
+            mime, data = note.download(file_id)
+            if not data:
+                note.send("I could not download that image — try sending it again.")
+            else:
+                from from_image import handle_image  # noqa: PLC0415
+                note.send(handle_image(mime, data, note))
+                commit_state()
+            handled += 1
+            continue
+
         match = COMMAND_RE.match(text)
         if not match:
             continue
 
         command = match.group(1).lower()
         number = int(match.group(2)) if match.group(2) else None
+        # A reply to a card identifies the job on its own, so the number can be
+        # left off: reply "send" to card #7 and it means "send 7".
+        if number is None:
+            number = number_from_reply(message, pending)
         who = (message.get("from") or {}).get("first_name", "someone")
         print(f"  {who}: {command} {number if number is not None else ''}".rstrip())
 
