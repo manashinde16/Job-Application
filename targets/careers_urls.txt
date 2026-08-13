@@ -42,10 +42,10 @@ https://www.tatatechnologies.com/careers/               Tata Technologies
 #   Careerjet   bot wall
 # Those need the logged-in browser channel, not a plain fetch.
 
-https://in.indeed.com/jobs?q=ux+designer&l=Mumbai&fromage=14                 Indeed
-https://in.indeed.com/jobs?q=product+designer&l=Pune&fromage=14              Indeed
-https://in.indeed.com/jobs?q=ui+ux+designer&l=Hyderabad&fromage=14           Indeed
-https://in.indeed.com/jobs?q=graphic+designer&l=Nagpur&fromage=14            Indeed
+https://in.indeed.com/jobs?q=ux+designer&l=Mumbai&fromage=7                 Indeed
+https://in.indeed.com/jobs?q=product+designer&l=Pune&fromage=7              Indeed
+https://in.indeed.com/jobs?q=ui+ux+designer&l=Hyderabad&fromage=7           Indeed
+https://in.indeed.com/jobs?q=graphic+designer&l=Nagpur&fromage=7            Indeed
 https://www.shine.com/job-search/ux-designer-jobs-in-mumbai                  Shine
 https://www.shine.com/job-search/ui-ux-designer-jobs-in-pune                 Shine
 https://www.shine.com/job-search/graphic-designer-jobs-in-hyderabad          Shine

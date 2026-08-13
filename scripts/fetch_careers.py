@@ -63,6 +63,9 @@ Return a JSON array. One object per opening:
                  name a different company per row — use that name. A single
                  company's own careers page does not, so return \\"\\" there.",
     "location": "exact location as written, or \\"\\" if not stated",
+    "posted": "how old the listing says it is, copied exactly — \\"3 days ago\\",
+               \\"Just posted\\", \\"Today\\", \\"30+ days ago\\", a date. Job
+               boards show this next to each row. \\"\\" if absent.",
     "url": "link to the posting if one appears in the text, else \\"\\""}}
 ]
 
@@ -271,7 +274,7 @@ def main():
                 "location": (opening.get("location") or "").strip(),
                 "url": link,
                 "apply_url": link,
-                "posted_at": "",
+                "posted_at": (opening.get("posted") or "").strip(),
                 "description": "",
                 # Falls back to the listing page when the extraction found no
                 # per-job link. Less detail than a real JD, but the scorer still

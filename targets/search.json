@@ -1,10 +1,9 @@
 {
-  "_comment": "Search parameters. Edited by hand — no code changes needed.",
-
-  "candidate": "Ananya Saini — junior product/UX designer, ~1.5 yrs, Nagpur-based",
-
-  "_note_geo": "Two separate rules. ONSITE/HYBRID roles must be in one of her four cities. REMOTE roles are accepted from anywhere in the world, unless the posting restricts itself to a region she cannot work from (US-only, Canada-only, EMEA-only, and so on). A remote role in a city she has excluded is still fine — she would not be relocating.",
-
+  "_comment": "Search parameters. Edited by hand \u2014 no code changes needed.",
+  "candidate": "Ananya Saini \u2014 junior product/UX designer, ~1.5 yrs, Nagpur-based",
+  "_note_freshness": "Only postings from the last max_job_age_days are shown. Older than that and the role is usually filled or the pipeline is cold, so the application is wasted effort. Postings with no readable date are kept \u2014 a live careers page is presumed current \u2014 but they are counted separately so the ratio stays visible.",
+  "max_job_age_days": 8,
+  "_note_geo": "Two separate rules. ONSITE/HYBRID roles must be in one of her four cities. REMOTE roles are accepted from anywhere in the world, unless the posting restricts itself to a region she cannot work from (US-only, Canada-only, EMEA-only, and so on). A remote role in a city she has excluded is still fine \u2014 she would not be relocating.",
   "onsite_cities": [
     "pune",
     "mumbai",
@@ -16,7 +15,6 @@
     "maharashtra",
     "telangana"
   ],
-
   "remote_markers": [
     "remote",
     "work from home",
@@ -26,7 +24,6 @@
     "fully remote",
     "home[- ]based"
   ],
-
   "remote_global_markers": [
     "worldwide",
     "global",
@@ -35,8 +32,7 @@
     "international",
     "india"
   ],
-
-  "_note_remote_restricted": "A remote posting naming ONLY one of these is out of reach — she has no work authorisation there. It is kept if it also says worldwide/global/anywhere/India.",
+  "_note_remote_restricted": "A remote posting naming ONLY one of these is out of reach \u2014 she has no work authorisation there. It is kept if it also says worldwide/global/anywhere/India.",
   "remote_restricted_to": [
     "united states",
     "\\busa\\b",
@@ -71,8 +67,7 @@
     "\\buae\\b",
     "dubai"
   ],
-
-  "_note_onsite_excluded": "Indian cities she will not relocate to. Applies to onsite/hybrid roles only — a remote role listed against these cities is still acceptable.",
+  "_note_onsite_excluded": "Indian cities she will not relocate to. Applies to onsite/hybrid roles only \u2014 a remote role listed against these cities is still acceptable.",
   "onsite_excluded_cities": [
     "bengaluru",
     "bangalore",
@@ -92,7 +87,6 @@
     "kochi",
     "chandigarh"
   ],
-
   "title_include": [
     "product design",
     "product designer",
@@ -115,12 +109,9 @@
     "designer i\\b",
     "\\bdesigner\\b"
   ],
-
-  "_note_seniority": "HARD RULE: she has ~1.5 years total. A posting is eligible only if its requirement tops out at 3 years. '3+ years' is NOT acceptable — the plus makes it open-ended above 3. '3 years', '1-3 years', '2-3 years', '0-2 years' and fresher all are.",
-
+  "_note_seniority": "HARD RULE: she has ~1.5 years total. A posting is eligible only if its requirement tops out at 3 years. '3+ years' is NOT acceptable \u2014 the plus makes it open-ended above 3. '3 years', '1-3 years', '2-3 years', '0-2 years' and fresher all are.",
   "max_years_required": 3,
   "reject_open_ended_at_or_above": 3,
-
   "title_exclude": [
     "senior",
     "\\bsr\\.?\\b",
@@ -154,7 +145,6 @@
     "recruiter",
     "accountant"
   ],
-
   "min_fit_to_keep": 5,
   "max_llm_calls_per_run": 120,
   "jd_chars_for_scoring": 4500

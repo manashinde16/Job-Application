@@ -26,6 +26,7 @@ import json
 import re
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -189,6 +190,76 @@ def experience_gate(text, cap, open_ended_cap=None):
             f"(cap {cap}, no open-ended {open_ended_cap}+)")
 
 
+# Every source stamps its dates differently: ISO, epoch seconds, epoch
+# milliseconds, RFC822, or a human phrase scraped off a portal row.
+RELATIVE_RE = re.compile(
+    r"(?:(\d+)\+?\s*(minute|hour|day|week|month)s?\s*ago)"
+    r"|(just\s*posted|today|new|posted\s*today|yesterday|active\s*today)",
+    re.I,
+)
+RELATIVE_DAYS = {"minute": 0, "hour": 0, "day": 1, "week": 7, "month": 30}
+
+
+def parse_posted(value):
+    """Best-effort age in days from any of the date shapes we receive.
+
+    Returns None when nothing can be read — the caller decides what to do with
+    an unknown date rather than guessing at one.
+    """
+    if value is None:
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+
+    now = datetime.now(timezone.utc)
+
+    # Epoch, seconds or milliseconds
+    if re.fullmatch(r"\d{10}", text):
+        return (now - datetime.fromtimestamp(int(text), timezone.utc)).days
+    if re.fullmatch(r"\d{13}", text):
+        return (now - datetime.fromtimestamp(int(text) / 1000, timezone.utc)).days
+
+    # "3 days ago", "Just posted", "30+ days ago"
+    m = RELATIVE_RE.search(text)
+    if m:
+        if m.group(3):
+            return 1 if m.group(3).lower() == "yesterday" else 0
+        return int(m.group(1)) * RELATIVE_DAYS[m.group(2).lower()]
+
+    # ISO 8601, with or without timezone
+    iso = text.replace("Z", "+00:00")
+    for candidate in (iso, iso[:19], iso[:10]):
+        try:
+            dt = datetime.fromisoformat(candidate)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return (now - dt).days
+        except ValueError:
+            continue
+
+    # RFC822, as used by RSS feeds
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(text)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return (now - dt).days
+    except (TypeError, ValueError, IndexError):
+        return None
+
+
+def job_age_days(job):
+    """Age of a posting in days, or None if no source field is readable."""
+    for field in ("posted_at", "posted", "fetched_at"):
+        if field == "fetched_at":
+            break  # fetched_at is when WE saw it, not when it was posted
+        age = parse_posted(job.get(field))
+        if age is not None:
+            return max(age, 0)
+    return None
+
+
 def load_search():
     cfg = json.loads(SEARCH.read_text())
     compile_any = lambda key: re.compile("|".join(cfg[key]), re.I)
@@ -204,6 +275,14 @@ def load_search():
 
 def prefilter(job, cfg):
     """Return None to keep the job, or a string reason for dropping it."""
+    # Freshness first: it is the cheapest check and removes the most.
+    max_age = cfg.get("max_job_age_days")
+    if max_age:
+        age = job_age_days(job)
+        if age is not None and age > max_age:
+            # Stable prefix so the run summary groups these into one line.
+            return f"posted over {max_age} days ago ({age}d)"
+
     title = job.get("title", "")
     if not cfg["_inc_title"].search(title):
         return "title not a design role"
@@ -284,6 +363,11 @@ def main():
             kept.append(job)
 
     print(f"{len(jobs)} jobs in -> {len(kept)} survived the prefilter\n")
+    if cfg.get("max_job_age_days"):
+        undated = sum(1 for j in kept if job_age_days(j) is None)
+        print(f"  freshness: {len(kept) - undated} dated within "
+              f"{cfg['max_job_age_days']} days, {undated} with no readable date "
+              f"(kept — a live listing page is presumed current)\n")
     for reason, n in sorted(drops.items(), key=lambda kv: -kv[1]):
         print(f"  dropped {n:>5}  {reason}")
 
