@@ -1,0 +1,76 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic designer with 1.5+ years of experience delivering digital and print creatives, visual identity systems, and AI-assisted workflows.",
+  "skills": [
+    {
+      "label": "Design Tools & Core",
+      "items": "Illustrator, Photoshop, Figma, CorelDRAW, typography, layout design, visual hierarchy, print production"
+    },
+    {
+      "label": "Workflow & Systems",
+      "items": "AI-assisted design workflows (ChatGPT, Adobe Firefly), design templates, visual systems, print-ready file management"
+    },
+    {
+      "label": "UX & Prototyping",
+      "items": "Wireframing, prototyping, user flows, usability testing, responsive design"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Designed 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced marketing collateral including banners, standees, certificates, ID cards, and presentations.",
+        "Collaborated with HR and management stakeholders to deliver assets with low revision cycles.",
+        "Managed print-ready files focusing on bleed, sizing, colour accuracy, typography, layout, and visual hierarchy.",
+        "Leveraged AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and creative exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing and fed findings back into user flows and interface usability.",
+        "Created wireframes and prototypes for early-stage digital products.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Developed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Used Photoshop and Illustrator to build product visuals and marketing assets."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding kit for AT Creation startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Designed complete branding kit including logo, typography, and palette for an early-stage startup."
+      ]
+    },
+    {
+      "name": "Social campaign for a fashion brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Delivered an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her commercial graphic design experience at Ascent Business Solutions, highlighting 100+ digital and print creatives, visual systems, and AI-assisted workflows to match Nestasia's focus on digital platforms and AI tool usage.",
+  "omitted": [
+    "Bounceless B2B UX case study (omitted because this role focuses on graphic design and visual creation rather than UX case studies)",
+    "Extra portfolio project titles without documentation (Zest Club, Potted Paradise, Design \u00d7 Engineering, Learnara, Common Ground, Foodbank, Domino's rethought) to keep the resume concise and focused on verified outcomes."
+  ]
+}
