@@ -1,0 +1,72 @@
+{
+  "company": "Lollypop Design Studio",
+  "domain": "lollypop.design",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "ameet.palkar@lollypop.design",
+      "name": "Ameet Palkar",
+      "role": "Design Director",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Ameet Palkar (Design Director) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "ameet@lollypop.design",
+      "name": "Ameet Palkar",
+      "role": "Design Director",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Ameet Palkar (Design Director) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "mohith.surendran@lollypop.design",
+      "name": "Mohith Surendran",
+      "role": "Lead - UI Designer",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Mohith Surendran (Lead - UI Designer) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "mohith@lollypop.design",
+      "name": "Mohith Surendran",
+      "role": "Lead - UI Designer",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Mohith Surendran (Lead - UI Designer) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "rama.kini@lollypop.design",
+      "name": "Rama Kini",
+      "role": "EVP, Design and Software services",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Rama Kini (EVP, Design and Software services) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "rama@lollypop.design",
+      "name": "Rama Kini",
+      "role": "EVP, Design and Software services",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Rama Kini (EVP, Design and Software services) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "anil.reddy@lollypop.design",
+      "name": "Anil Reddy",
+      "role": "Founder",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Anil Reddy (Founder) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "anil@lollypop.design",
+      "name": "Anil Reddy",
+      "role": "Founder",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Anil Reddy (Founder) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
