@@ -1,0 +1,40 @@
+{
+  "company": "Cruitical",
+  "domain": "wellfound.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "priya.shah@wellfound.com",
+      "name": "Priya Shah",
+      "role": "Sr Eng",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Priya Shah (Sr Eng) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "priya@wellfound.com",
+      "name": "Priya Shah",
+      "role": "Sr Eng",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Priya Shah (Sr Eng) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "marcus.bennett@wellfound.com",
+      "name": "Marcus Bennett",
+      "role": "Staff",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Marcus Bennett (Staff) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "marcus@wellfound.com",
+      "name": "Marcus Bennett",
+      "role": "Staff",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Marcus Bennett (Staff) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
