@@ -108,3 +108,16 @@ push failed (offline?)
 approve.py — mail mode: live
 0 command(s) handled
 --- approvals exited 0 ---
+To https://github.com/manashinde16/Job-Application.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/manashinde16/Job-Application.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+push failed (offline?)
+
+=========== approvals  2026-08-26 15:18:23 IST ===========
+approve.py — mail mode: live
+0 command(s) handled
+--- approvals exited 0 ---
