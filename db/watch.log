@@ -146,3 +146,9 @@ watching (long poll, ~1s response), ctrl-c to stop
   Manas: send 1
   Manas: sent an image
   Manas: sent an image
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  Manas: sent an image
