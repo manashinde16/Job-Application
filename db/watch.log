@@ -142,3 +142,4 @@ watching (long poll, ~1s response), ctrl-c to stop
   getUpdates failed: TimeoutError: The read operation timed out
   Manas: sent an image
   Manas: send 1
+  Manas: sent an image
