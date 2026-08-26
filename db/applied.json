@@ -68,34 +68,13 @@
       4,
       11
     ],
-    "replied": false,
+    "replied": true,
+    "reply_category": "question",
+    "reply_detected_on": "2026-08-26",
+    "reply_summary": "The recruiter asked the candidate to fill out a detailed questionnaire regarding experience, salary, and portfolio.",
     "sent_on": "2026-08-13",
     "sent_to": "anujagadkari07@gmail.com",
     "title": "UI/UX Designer (Junior)",
     "url": ""
-  },
-  "test:loop-check": {
-    "company": "TEST \u2014 safe loop check",
-    "followups_sent": [
-      4,
-      11
-    ],
-    "replied": false,
-    "sent_on": "2026-08-13",
-    "sent_to": "saini.ananya2003@gmail.com",
-    "title": "goes to her own inbox, not an employer",
-    "url": "https://example.com"
-  },
-  "test:loop-check-2": {
-    "company": "TEST",
-    "followups_sent": [
-      4,
-      11
-    ],
-    "replied": false,
-    "sent_on": "2026-08-13",
-    "sent_to": "saini.ananya2003@gmail.com",
-    "title": "safe check \u2014 goes to her own inbox",
-    "url": "https://example.com"
   }
 }

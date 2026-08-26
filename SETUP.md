@@ -213,6 +213,30 @@ python3 run.py                     # the real thing
 With no Telegram credentials the digest is written to `db/digest.md` instead, so
 everything is testable before any Telegram setup exists.
 
+## Reply detection
+
+Every run checks her mailbox for answers to applications that were sent, and marks
+those applications answered so their follow-ups stop. It uses IMAP with the same
+Gmail app password the sender uses — no extra credential.
+
+Three constraints, deliberately:
+
+- **Read only.** The mailbox is opened readonly. Nothing is sent, deleted, moved
+  or marked read.
+- **Scoped.** It only looks at addresses we actually emailed, from
+  `db/applied.json`. It does not read the rest of her inbox.
+- **An auto-acknowledgement is not a reply.** "Thank you for applying" means
+  nobody has looked at it yet, so follow-ups keep running. Only a human reply —
+  an interview invite, an assessment, a question, an offer, a rejection —
+  cancels them.
+
+Interview invites, offers and rejections arrive in Telegram with the sender and
+subject quoted, so the classification can be checked against the real email.
+
+```bash
+python3 scripts/gmail_sync.py --dry-run   # classify and report, write nothing
+```
+
 ## Knobs
 
 | Flag | Does |

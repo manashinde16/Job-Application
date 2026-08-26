@@ -245,6 +245,11 @@ def main():
 
     run_step("2/4  score", ["scripts/score_jobs.py"])
 
+    # Before anything is notified: has anyone replied? This must happen ahead of
+    # the follow-up pass, or a day-4 nudge goes to a recruiter who already wrote
+    # back — the worst failure mode the agent had.
+    run_step("2/4  check for replies", ["scripts/gmail_sync.py"], timeout=900)
+
     scored = load_scored()
     applied = load_applied()
 

@@ -441,3 +441,213 @@ telegram: configured
 ==============================================================
 1/4  discover — ATS boards
 ==============================================================
+  0 new
+  GoCardless                     25 open,   0 new
+  Grafana Labs                  152 open,   0 new
+  Groww                           5 open,   0 new
+  Highradius                     84 open,   0 new
+  Mixpanel                       95 open,   0 new
+  MongoDB                       405 open,   0 new
+  Monzo                          66 open,   0 new
+  Observe AI                     17 open,   0 new
+  PhonePe                        64 open,   0 new
+  Postman                        66 open,   0 new
+  Remote                          2 open,   0 new
+  Slice                          41 open,   0 new
+  Thoughtworks                   47 open,   0 new
+  Twilio                        141 open,   0 new
+  Typeform                       11 open,   0 new
+  Wise                           19 open,   0 new
+  CRED                           14 open,   0 new
+  Hevo Data                      42 open,   0 new
+  Meesho                         48 open,   0 new
+  MindTickle                     21 open,   0 new
+  Nium                           39 open,   0 new
+  Paytm                         223 open,   0 new
+  Porter                         27 open,   0 new
+  Zeta                           22 open,   0 new
+  Obvious                         2 open,   0 new
+  Landor                         44 open,   0 new
+  NICE                          222 open,   0 new
+  Ogilvy                        136 open,   0 new
+  PubMatic                       73 open,   0 new
+  Rubrik                        120 open,   0 new
+  Zenoti                         39 open,   0 new
+  Aera Technology                11 open,   0 new
+  Entrata                        14 open,   0 new
+  Veritas                         1 open,   0 new
+  Freshworks                    166 open,   0 new
+  Harbinger Group                 1 open,   0 new
+  Loop Health                     1 open,   0 new
+  Media.net                       1 open,   0 new
+  Rebel Foods                     1 open,   0 new
+  ServiceNow                    545 open,   1 new
+  Turtlemint                      1 open,   0 new
+  ValueLabs                       1 open,   0 new
+  Whatfix                         1 open,   0 new
+
+9804 roles seen across 86 boards
+4 new -> db/jobs_new.jsonl
+
+6 board(s) failed — usually a wrong slug:
+  - DoorDash [greenhouse/doordash] HTTP 404
+  - Plaid [greenhouse/plaid] HTTP 404
+  - Notion [greenhouse/notion] HTTP 404
+  - Retool [greenhouse/retool] HTTP 404
+  - Hasura [greenhouse/hasura] HTTP 404
+  - Netflix [lever/netflix] HTTP 404
+
+==============================================================
+1/4  discover — careers listings pages
+==============================================================
+           Shine                          12063 chars
+  OK             Indeed                         11745 chars
+  OK             Wellfound                      11719 chars
+  OK             Wellfound                      10624 chars
+  OK             Indeed                         10468 chars
+  OK             KPIT Technologies              10441 chars
+  OK             Codewalla                       9145 chars
+  OK             Tata Technologies               9114 chars
+  OK             Net Solutions                   6817 chars
+  OK             Lollypop Design Studio          4970 chars
+  OK             Persistent Systems              3431 chars
+  OK             Nykaa                           1597 chars
+  OK             Schbang                         1352 chars
+  OK             Gozoop                           796 chars
+  UNREACHABLE    Haptik                               https://haptik.freshteam.com/jobs
+  UNREACHABLE    Indeed                               https://in.indeed.com/jobs?q=product+designe
+
+20 readable, 0 need a browser, 2 unreachable
+-> db/needs_browser.txt for the browser channel
+
+extracting openings from 20 pages
+
+  Lollypop Design Studio         9 design roles,   0 new
+  Codewalla                      0 design roles,   0 new
+  Net Solutions                  0 design roles,   0 new
+  Schbang                        0 design roles,   0 new
+  Gozoop                         0 design roles,   0 new
+  Cybage                         0 design roles,   0 new
+  KPIT Technologies              0 design roles,   0 new
+  Nykaa                          0 design roles,   0 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Purplle                        0 design roles,   0 new
+  Angel One                      0 design roles,   0 new
+  Persistent Systems             0 design roles,   0 new
+  Tata Technologies              0 design roles,   0 new
+  Indeed                        14 design roles,   0 new
+  Indeed                        14 design roles,  13 new
+  Indeed                        12 design roles,   0 new
+  Shine                         19 design roles,   0 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Shine                         19 design roles,   0 new
+  Shine                         20 design roles,   0 new
+  Wellfound                     25 design roles,   0 new
+  Wellfound                     21 design roles,   0 new
+
+13 new design roles -> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — global remote boards
+==============================================================
+fetching 4 remote job boards (12597 jobs already known)
+
+  remoteok             19 design roles,    0 new
+  remotive             18 design roles,    0 new
+  weworkremotely       47 design roles,    0 new
+  himalayas             0 design roles,    0 new
+
+0 new remote design roles -> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — LinkedIn (public jobs-guest)
+==============================================================
+10 LinkedIn searches, posted within 8 days
+
+  UI UX designer @ Mumbai, Maharashtra, India             10 found,   0 new
+  product designer @ Mumbai, Maharashtra, India           10 found,   0 new
+  UI UX designer @ Pune, Maharashtra, India               10 found,   0 new
+  product designer @ Pune, Maharashtra, India             10 found,   0 new
+  UI UX designer @ Hyderabad, Telangana, India            10 found,   0 new
+  graphic designer @ Nagpur, Maharashtra, India            7 found,   0 new
+  UI UX designer @ India [remote]                         10 found,   0 new
+  junior product designer @ India [remote]                10 found,   0 new
+  product designer @ Remote [remote]                      10 found,   0 new
+  visual designer @ India [remote]                        10 found,   0 new
+
+97 cards seen, 0 new
+-> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — Instahyre
+==============================================================
+Instahyre: 300 design postings (job_functions (7, 18, 77))
+
+105 postings read across 3 page(s), 0 new
+-> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — freehire (remote, worldwide)
+==============================================================
+10 freehire searches, posted within 8 days
+
+  category=design&work_mode=remote&seniority=junior            8 of 8 match,   0 new
+  category=design&work_mode=remote&seniority=intern            5 of 5 match,   0 new
+  category=product&work_mode=remote&seniority=junior           5 of 5 match,   0 new
+  q=junior product designer&work_mode=remote                  50 of 258 match,   1 new
+  q=junior ux designer&work_mode=remote                       50 of 258 match,   0 new
+  q=ui ux designer&work_mode=remote                           50 of 251 match,   0 new
+  q=visual designer&work_mode=remote                          50 of 207 match,   0 new
+  q=graphic designer&work_mode=remote                         50 of 149 match,   0 new
+  category=design&work_mode=remote&countries=in               23 of 23 match,   0 new
+  q=product designer&work_mode=remote&countries=in            50 of 258 match,   0 new
+
+341 rows read, 1 new
+-> db/jobs_new.jsonl
+
+==============================================================
+2/4  score
+==============================================================
+18 jobs in -> 7 survived the prefilter
+
+  freshness: 0 dated within 8 days, 7 with no readable date (kept — a live listing page is presumed current)
+
+  dropped     6  title not a design role
+  dropped     5  title excluded
+
+------------------------------------------------------------------------------
+  Alpha Realty      UX/UI Designer (Project Revenue Sharing Basi  Hybrid work in Hyderabad
+  Excel Soft Servi  UI/UX Designer                                Ameerpet, Hyderabad, Tel
+  Mrchams Services  UI/UX Designer Intern                         KPHB Colony, Hyderabad, 
+  rarefictionmedia  END-TO-END WEBSITE DESIGNER, DEVELOPER & SEO  Madhapur, Hyderabad, Tel
+  charter fleet ma  Graphic Designer & Video Editor               Remote in Hyderabad, Tel
+  Egen Solutions    Multimedia Designer                           Hyderabad, Telangana
+  ADscholars        Creative Designer and Developer               Hyderabad, Telangana
+------------------------------------------------------------------------------
+
+scoring 7 jobs
+
+  [1/7] Alpha Realty    fit  1  skip     UX/UI Designer (Project Revenue Shar
+  [2/7] Excel Soft Ser  fit  2  skip     UI/UX Designer
+  [3/7] Mrchams Servic  no description available, skipped
+  [4/7] rarefictionmed  no description available, skipped
+  [5/7] charter fleet   fit  1  skip     Graphic Designer & Video Editor
+  [6/7] Egen Solutions  no description available, skipped
+  [7/7] ADscholars      no description available, skipped
+
+3 scored, 0 at fit >= 5 and within 3 yrs
+-> db/scored.jsonl
+
+==============================================================
+3/4  prepare
+==============================================================
+57 scored total, 0 new at fit >= 6, preparing 0
+
+==============================================================
+4/4  notify
+==============================================================
+
+done in 346s
+
+Nothing was sent to anyone. Drafts wait for a typed 'send N' approval.
