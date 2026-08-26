@@ -4,3 +4,174 @@ telegram: configured
 ==============================================================
 1/4  discover — ATS boards
 ==============================================================
+ 0 new
+  GoCardless                     28 open,   0 new
+  Grafana Labs                  146 open,   0 new
+  Groww                           8 open,   0 new
+  Highradius                     76 open,   0 new
+  Mixpanel                       61 open,   2 new
+  MongoDB                       414 open,   1 new
+  Monzo                          81 open,   2 new
+  Observe AI                     18 open,   0 new
+  PhonePe                        81 open,   0 new
+  Postman                       105 open,   0 new
+  Remote                          2 open,   0 new
+  Slice                          42 open,   0 new
+  Thoughtworks                   49 open,   0 new
+  Twilio                        164 open,   0 new
+  Typeform                       13 open,   0 new
+  Wise                            1 open,   0 new
+  CRED                            6 open,   0 new
+  Hevo Data                      40 open,   0 new
+  Meesho                         55 open,   1 new
+  MindTickle                     24 open,   0 new
+  Nium                           37 open,   0 new
+  Paytm                         250 open,   2 new
+  Porter                         28 open,   0 new
+  Zeta                           23 open,   0 new
+  Obvious                         2 open,   0 new
+  Landor                         32 open,   0 new
+  NICE                          289 open,   0 new
+  Ogilvy                        130 open,   0 new
+  PubMatic                       70 open,   0 new
+  Rubrik                        114 open,   2 new
+  Zenoti                         37 open,   0 new
+  Aera Technology                11 open,   0 new
+  Entrata                        12 open,   0 new
+  Veritas                         1 open,   0 new
+  Freshworks                    152 open,   1 new
+  Harbinger Group                 1 open,   0 new
+  Loop Health                     1 open,   0 new
+  Media.net                       1 open,   0 new
+  Rebel Foods                     1 open,   0 new
+  ServiceNow                    482 open,   5 new
+  Turtlemint                      1 open,   0 new
+  ValueLabs                       1 open,   0 new
+  Whatfix                         1 open,   0 new
+
+9555 roles seen across 86 boards
+29 new -> db/jobs_new.jsonl
+
+6 board(s) failed — usually a wrong slug:
+  - DoorDash [greenhouse/doordash] HTTP 404
+  - Plaid [greenhouse/plaid] HTTP 404
+  - Notion [greenhouse/notion] HTTP 404
+  - Retool [greenhouse/retool] HTTP 404
+  - Hasura [greenhouse/hasura] HTTP 404
+  - Netflix [lever/netflix] HTTP 404
+
+==============================================================
+1/4  discover — careers listings pages
+==============================================================
+rs
+  OK             Indeed                         11561 chars
+  OK             Wellfound                      11191 chars
+  OK             Indeed                         10491 chars
+  OK             Indeed                         10027 chars
+  OK             KPIT Technologies               9800 chars
+  OK             Codewalla                       9145 chars
+  OK             Tata Technologies               9114 chars
+  OK             Net Solutions                   6788 chars
+  OK             Lollypop Design Studio          4915 chars
+  OK             Persistent Systems              3431 chars
+  OK             Haptik                          2750 chars
+  OK             Nykaa                           1597 chars
+  OK             Schbang                         1352 chars
+  OK             Gozoop                           796 chars
+
+22 readable, 0 need a browser, 0 unreachable
+
+extracting openings from 22 pages
+
+  Lollypop Design Studio         8 design roles,   1 new
+  Codewalla                      0 design roles,   0 new
+  Net Solutions                  0 design roles,   0 new
+  Schbang                        0 design roles,   0 new
+  Gozoop                         0 design roles,   0 new
+  Haptik                         0 design roles,   0 new
+  Cybage                         0 design roles,   0 new
+  KPIT Technologies              0 design roles,   0 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Nykaa                          0 design roles,   0 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Purplle                        0 design roles,   0 new
+  Angel One                      0 design roles,   0 new
+  Persistent Systems             0 design roles,   0 new
+  Tata Technologies              0 design roles,   0 new
+  Indeed                        15 design roles,   7 new
+  Indeed                        10 design roles,   4 new
+  Indeed                        11 design roles,   2 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Indeed                         8 design roles,   2 new
+  Shine                         19 design roles,   0 new
+  Shine                         19 design roles,   0 new
+  Shine                         20 design roles,   1 new
+  Wellfound                     24 design roles,   0 new
+  Wellfound                     23 design roles,   0 new
+
+17 new design roles -> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — global remote boards
+==============================================================
+fetching 4 remote job boards (9858 jobs already known)
+
+  remoteok              3 design roles,    0 new
+  remotive             18 design roles,    2 new
+  weworkremotely       56 design roles,    0 new
+  himalayas             1 design roles,    0 new
+
+2 new remote design roles -> db/jobs_new.jsonl
+
+==============================================================
+2/4  score
+==============================================================
+48 jobs in -> 8 survived the prefilter
+
+  freshness: 1 dated within 8 days, 7 with no readable date (kept — a live listing page is presumed current)
+
+  dropped    32  title not a design role
+  dropped     6  title excluded
+  dropped     1  posted over 8 days ago
+  dropped     1  onsite in a city she has excluded
+
+------------------------------------------------------------------------------
+  Shriya Innovativ  Web / Mobile UI Designer                      Malad, Mumbai, Maharasht
+  LRN Corporation   Creative Designer Associate                   Hybrid work in Mumbai, M
+  4DESIGNS          Project Co-ordinator, Product Designer        Vile Parle, Mumbai, Maha
+  Integrative Syst  Jr. Graphic Designer                          Pune, Maharashtra
+  Techsol DMS LLP   Graphics Designer                             Fatimanagar, Pune, Mahar
+  Milestone Techno  Graphic Designer                              Hyderabad, Telangana
+  Pragmatic Techso  UI/UX Designer                                Nagpur, Maharashtra
+  AGP               Motion Graphics Designer & Animator (Mobile   Hyderabad
+------------------------------------------------------------------------------
+
+scoring 8 jobs
+
+  [1/8] Shriya Innovat  fit  1  skip     Web / Mobile UI Designer
+  [2/8] LRN Corporatio  fit  2  skip     Creative Designer Associate
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [3/8] 4DESIGNS        fit  1  skip     Project Co-ordinator, Product Design
+  [4/8] Integrative Sy  fit  2  skip     Jr. Graphic Designer
+  [5/8] Techsol DMS LL  fit  1  skip     Graphics Designer
+  [6/8] Milestone Tech  fit  1  skip     Graphic Designer
+  [7/8] Pragmatic Tech  fit  2  skip     UI/UX Designer
+  [8/8] AGP             fit  2  skip     Motion Graphics Designer & Animator 
+
+8 scored, 0 at fit >= 5 and within 3 yrs
+-> db/scored.jsonl
+
+==============================================================
+3/4  prepare
+==============================================================
+9 scored total, 0 new at fit >= 6, preparing 0
+
+==============================================================
+4/4  notify
+==============================================================
+
+done in 315s
+
+Nothing was sent to anyone. Drafts wait for a typed 'send N' approval.

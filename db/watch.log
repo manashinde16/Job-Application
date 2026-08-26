@@ -29,3 +29,96 @@ watching (long poll, ~1s response), ctrl-c to stop
   getUpdates failed: TimeoutError: The read operation timed out
   Manas: run
   Manas: pause
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: URLError: <urlopen error [Errno 60] Operation timed out>
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: URLError: <urlopen error [Errno 54] Connection reset by peer>
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: ConnectionResetError: [Errno 54] Connection reset by peer
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  getUpdates failed: TimeoutError: The read operation timed out
+  Ananya: sent an image
