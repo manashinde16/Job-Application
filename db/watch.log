@@ -135,3 +135,4 @@ approve.py — mail mode: live
 watching (long poll, ~1s response), ctrl-c to stop
   Manas: run
   Manas: send 1
+  Manas: send 2
