@@ -181,3 +181,257 @@ telegram: configured
 ==============================================================
 1/4  discover — ATS boards
 ==============================================================
+ 0 new
+  GoCardless                     25 open,   0 new
+  Grafana Labs                  152 open,   0 new
+  Groww                           5 open,   0 new
+  Highradius                     84 open,   1 new
+  Mixpanel                       95 open,   0 new
+  MongoDB                       405 open,   1 new
+  Monzo                          66 open,   1 new
+  Observe AI                     17 open,   0 new
+  PhonePe                        64 open,   0 new
+  Postman                        66 open,   0 new
+  Remote                          2 open,   0 new
+  Slice                          41 open,   0 new
+  Thoughtworks                   47 open,   3 new
+  Twilio                        141 open,   2 new
+  Typeform                       11 open,   0 new
+  Wise                           19 open,   0 new
+  CRED                           14 open,   0 new
+  Hevo Data                      42 open,   0 new
+  Meesho                         48 open,   0 new
+  MindTickle                     21 open,   0 new
+  Nium                           39 open,   2 new
+  Paytm                         223 open,   2 new
+  Porter                         27 open,   0 new
+  Zeta                           22 open,   1 new
+  Obvious                         2 open,   0 new
+  Landor                         44 open,   0 new
+  NICE                          222 open,   1 new
+  Ogilvy                        136 open,   0 new
+  PubMatic                       73 open,   0 new
+  Rubrik                        120 open,   0 new
+  Zenoti                         39 open,   1 new
+  Aera Technology                11 open,   0 new
+  Entrata                        14 open,   0 new
+  Veritas                         1 open,   0 new
+  Freshworks                    166 open,   4 new
+  Harbinger Group                 1 open,   0 new
+  Loop Health                     1 open,   0 new
+  Media.net                       1 open,   0 new
+  Rebel Foods                     1 open,   0 new
+  ServiceNow                    544 open,   1 new
+  Turtlemint                      1 open,   0 new
+  ValueLabs                       1 open,   0 new
+  Whatfix                         1 open,   0 new
+
+9801 roles seen across 86 boards
+34 new -> db/jobs_new.jsonl
+
+6 board(s) failed — usually a wrong slug:
+  - DoorDash [greenhouse/doordash] HTTP 404
+  - Plaid [greenhouse/plaid] HTTP 404
+  - Notion [greenhouse/notion] HTTP 404
+  - Retool [greenhouse/retool] HTTP 404
+  - Hasura [greenhouse/hasura] HTTP 404
+  - Netflix [lever/netflix] HTTP 404
+
+==============================================================
+1/4  discover — careers listings pages
+==============================================================
+    11745 chars
+  OK             Wellfound                      11719 chars
+  OK             KPIT Technologies              11385 chars
+  OK             Wellfound                      10624 chars
+  OK             Indeed                         10468 chars
+  OK             Codewalla                       9145 chars
+  OK             Tata Technologies               9114 chars
+  OK             Net Solutions                   6817 chars
+  OK             Lollypop Design Studio          4970 chars
+  OK             Persistent Systems              3431 chars
+  OK             Nykaa                           1597 chars
+  OK             Schbang                         1352 chars
+  OK             Gozoop                           796 chars
+  UNREACHABLE    Haptik                               https://haptik.freshteam.com/jobs
+  UNREACHABLE    Indeed                               https://in.indeed.com/jobs?q=product+designe
+  UNREACHABLE    Indeed                               https://in.indeed.com/jobs?q=ui+ux+designer&
+
+19 readable, 0 need a browser, 3 unreachable
+-> db/needs_browser.txt for the browser channel
+
+extracting openings from 19 pages
+
+  Lollypop Design Studio         9 design roles,   0 new
+  Codewalla                      0 design roles,   0 new
+  Net Solutions                  0 design roles,   0 new
+  Schbang                        0 design roles,   0 new
+  Gozoop                         0 design roles,   0 new
+  Cybage                         0 design roles,   0 new
+  KPIT Technologies              0 design roles,   0 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Nykaa                          0 design roles,   0 new
+  Purplle                        0 design roles,   0 new
+  Angel One                      0 design roles,   0 new
+  Persistent Systems             0 design roles,   0 new
+  Tata Technologies              0 design roles,   0 new
+  Indeed                        15 design roles,  14 new
+  Indeed                        12 design roles,  12 new
+  Shine                         19 design roles,   2 new
+  Shine                         19 design roles,   0 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Shine                         20 design roles,   0 new
+  Wellfound                     25 design roles,   3 new
+  Wellfound                     21 design roles,   0 new
+
+31 new design roles -> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — global remote boards
+==============================================================
+fetching 4 remote job boards (12269 jobs already known)
+
+  remoteok             19 design roles,    0 new
+  remotive             18 design roles,    0 new
+  weworkremotely       47 design roles,    0 new
+  himalayas             0 design roles,    0 new
+
+0 new remote design roles -> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — LinkedIn (public jobs-guest)
+==============================================================
+10 LinkedIn searches, posted within 8 days
+
+  UI UX designer @ Mumbai, Maharashtra, India             10 found,   0 new
+  product designer @ Mumbai, Maharashtra, India           10 found,   0 new
+  UI UX designer @ Pune, Maharashtra, India               10 found,   0 new
+  product designer @ Pune, Maharashtra, India             10 found,   1 new
+  UI UX designer @ Hyderabad, Telangana, India            10 found,   3 new
+  graphic designer @ Nagpur, Maharashtra, India            7 found,   0 new
+  UI UX designer @ India [remote]                         10 found,   3 new
+  junior product designer @ India [remote]                10 found,   4 new
+  product designer @ Remote [remote]                      10 found,  10 new
+  visual designer @ India [remote]                        10 found,   0 new
+
+97 cards seen, 21 new
+-> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — Instahyre
+==============================================================
+Instahyre: 299 design postings (job_functions (7, 18, 77))
+
+105 postings read across 3 page(s), 0 new
+-> db/jobs_new.jsonl
+
+==============================================================
+2/4  score
+==============================================================
+dra Nagar, Nagpur, 
+  Hiravexa Solutio  Graphic Designer Internship                   Nagpur, Maharashtra
+  Arrise Solutions  Graphic Designer                              Hyderabad, Telangana, In
+  Bayne             Product Designer (Bags & Accessories)         Ernakulam, Kerala, India
+------------------------------------------------------------------------------
+
+scoring 25 jobs
+
+  [1/25] RRR MEDIA PRIV  no description available, skipped
+  [2/25] EvolutionCo Di  fit  1  skip     AI-First Junior UX Designer
+  [3/25] The Minimalist  fit  2  skip     UX Designer
+  [4/25] QUIET COOL GRO  fit  2  skip     UI/UX Designer
+  [5/25] Bricksweb Medi  no description available, skipped
+  [6/25] Ideamagix       no description available, skipped
+  [7/25] Monks           no description available, skipped
+  [8/25] LEMON YELLOW L  fit  2  skip     UX - Designer - Insurance
+  [9/25] NHN Solutions   fit  1  skip     Graphic Designer & UI/UX Designer
+  [10/25] sihrsalt        fit  1  skip     Graphic Designer & UI/UX Designer
+  [11/25] Eazr            no description available, skipped
+  [12/25] Violet Infosys  fit  2  skip     Graphic Designer
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [13/25] MedAce Busines  fit  2  skip     Graphic Designer
+  [14/25] Ferromonk Stee  no description available, skipped
+  [15/25] Techior Soluti  no description available, skipped
+  [16/25] Techior Soluti  fit  7  apply    UI UX and Graphic Designer
+  [17/25] Appynitty Comm  no description available, skipped
+  [18/25] AARTI MULTI SE  no description available, skipped
+  [19/25] RYDME PVT. LTD  fit  1  skip     Jr. Graphic Designer
+  [20/25] KPPL, Nagpur    fit  1  skip     Furniture Designer
+  [21/25] Grin Technolog  no description available, skipped
+  [22/25] Brandfinity.in  no description available, skipped
+  [23/25] Hiravexa Solut  fit  2  skip     Graphic Designer Internship
+  [24/25] Arrise Solutio  fit  5  stretch  Graphic Designer
+  [25/25] Bayne           fit  1  skip     Product Designer (Bags & Accessories
+
+14 scored, 2 at fit >= 5 and within 3 yrs
+-> db/scored.jsonl
+
+worth applying to:
+
+   7/10  apply    Techior Solution  UI UX and Graphic Designer
+         The role is for a UI UX and Graphic Designer in Nagpur, which directly aligns with her current graph
+   5/10  stretch  Arrise Solutions  Graphic Designer
+         The role asks for 2+ years in graphic and UI/UX design, matching her combined experience at Ascent a
+
+==============================================================
+3/4  prepare
+==============================================================
+54 scored total, 1 new at fit >= 6, preparing 1
+
+--- Techior Solutions Pvt Ltd / UI UX and Graphic Designer
+
+==============================================================
+resume
+==============================================================
+tailoring for Techior Solutions Pvt Ltd — UI UX and Graphic Designer
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+fact check: clean — every claim traces to the profile
+
+headline: UI/UX and Graphic Designer
+tagline : UI/UX and graphic designer combining user flows, wireframing, and commercial brand collateral.
+emphasis: Led with her combined background in UI/UX wireframing and commercial graphic production, highlighting her dual experience in digital product usability and visual branding systems tailored to Techior Solutions.
+omitted : Duplicate bullet about banners and standees to ensure unique bullets across both jobs.
+omitted : Unspecified portfolio project titles (Zest Club, Potted Paradise, Learnara, etc.) due to lack of problem statements or outcomes.
+
+-> out/techior-solutions-pvt-ltd-ui-ux-and-graphic-designer/resume.pdf (1 page)
+
+==============================================================
+outreach
+==============================================================
+Techior Solutions Pvt Ltd — UI UX and Graphic Designer
+domain: in.indeed.com
+MX records: NO — this domain cannot receive mail
+
+reading public pages for addresses and names...
+  0 address(es) published on site: none
+  address pattern: unknown
+  0 relevant person/people named on site
+
+3 contact option(s), best first:
+  [guess ] careers@in.indeed.com                  role inbox (guessed)
+           common role inbox — may bounce, and rarely reaches a designer
+  [guess ] hr@in.indeed.com                       role inbox (guessed)
+           common role inbox — may bounce, and rarely reaches a designer
+  [guess ] jobs@in.indeed.com                     role inbox (guessed)
+           common role inbox — may bounce, and rarely reaches a designer
+
+drafting...
+  draft was 106 words, retrying once
+
+subject: UI UX and Graphic Designer role
+body   : 122 words  (in range)
+
+-> out/techior-solutions-pvt-ltd-ui-ux-and-graphic-designer/email.md
+nothing sent — a human presses send
+
+==============================================================
+4/4  notify
+==============================================================
+
+done in 493s
+
+Nothing was sent to anyone. Drafts wait for a typed 'send N' approval.
