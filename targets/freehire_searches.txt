@@ -1,0 +1,36 @@
+# freehire.me searches — one URL query string per line.
+#
+# This channel is for REMOTE roles. Everything here sets work_mode=remote, because
+# her onsite search is covered by LinkedIn, Instahyre, Indeed, Shine and the ATS
+# boards, and freehire's strength is that it aggregates remote work globally.
+#
+# Facets that exist (from /api/v1/jobs/facets):
+#   category   design (34.8k), product, engineering_design, frontend, ...
+#   seniority  intern, junior, middle, senior, staff, lead, principal, c_level
+#   work_mode  remote, hybrid, onsite
+#   countries  ISO-3166 alpha-2, lowercased — in, us, gb, de ...
+#   regions    global, apac, asia, eu, amer, africa, anz ...
+#
+# limit, offset, posted_within_days, include_description and semantic_ratio are
+# set by the script — don't put them here.
+#
+# Seniority is filtered here AND by the local gate, deliberately: the facet is
+# only present on postings freehire has enriched, so an unenriched junior role
+# would be missed if we relied on the facet alone. The unfiltered design lines
+# below catch those, and the 3-year gate still rejects anything too senior.
+
+# --- design, remote, at her level ---
+category=design&work_mode=remote&seniority=junior
+category=design&work_mode=remote&seniority=intern
+category=product&work_mode=remote&seniority=junior
+
+# --- keyword searches, remote, no seniority facet (catches unenriched rows) ---
+q=junior product designer&work_mode=remote
+q=junior ux designer&work_mode=remote
+q=ui ux designer&work_mode=remote
+q=visual designer&work_mode=remote
+q=graphic designer&work_mode=remote
+
+# --- remote roles open to India specifically ---
+category=design&work_mode=remote&countries=in
+q=product designer&work_mode=remote&countries=in
