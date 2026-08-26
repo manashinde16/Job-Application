@@ -1,0 +1,6 @@
+# Append-only logs. Both a cloud run and the local watcher add lines, so a rebase
+# would otherwise conflict and leave "<<<<<<< HEAD" markers INSIDE the data —
+# which then breaks JSON parsing. Union merge keeps both sides' lines instead.
+# Duplicate rows are harmless: every consumer dedupes on the "key" field.
+db/*.jsonl   merge=union
+db/digest.md merge=union

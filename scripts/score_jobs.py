@@ -362,7 +362,27 @@ def main():
         else:
             kept.append(job)
 
-    print(f"{len(jobs)} jobs in -> {len(kept)} survived the prefilter\n")
+    # The same role can arrive from two channels — LinkedIn and the company's own
+    # careers page, say — or from one channel whose key format changed. Collapse
+    # on what a human would call the same job, so it is scored and carded once.
+    unique, dupes = [], 0
+    fingerprints = set()
+    for job in kept:
+        fp = (
+            re.sub(r"[^a-z0-9]+", "", (job.get("company") or "").lower()),
+            re.sub(r"[^a-z0-9]+", "", (job.get("title") or "").lower()),
+            re.sub(r"[^a-z0-9]+", "", (job.get("location") or "").lower())[:14],
+        )
+        if fp in fingerprints:
+            dupes += 1
+            continue
+        fingerprints.add(fp)
+        unique.append(job)
+    kept = unique
+
+    print(f"{len(jobs)} jobs in -> {len(kept)} survived the prefilter"
+          + (f" ({dupes} duplicate{'s' if dupes != 1 else ''} collapsed)" if dupes else "")
+          + "\n")
     if cfg.get("max_job_age_days"):
         undated = sum(1 for j in kept if job_age_days(j) is None)
         print(f"  freshness: {len(kept) - undated} dated within "

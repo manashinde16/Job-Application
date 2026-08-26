@@ -1,0 +1,23 @@
+# LinkedIn searches, one per line:  query | location | mode
+#
+# mode is optional: remote, hybrid, or onsite. Omit it for all types.
+# Location strings are LinkedIn place names, e.g. "Pune, Maharashtra, India".
+#
+# Keep this list SHORT. No account is used, so there is nothing to get
+# restricted — but automated access is against LinkedIn's terms, so the defence
+# is low volume. Each line is one request, spaced 2.5s apart, one page each.
+# A dozen searches a day is fine. A hundred is not.
+
+# --- her onsite cities ---
+UI UX designer          | Mumbai, Maharashtra, India
+product designer        | Mumbai, Maharashtra, India
+UI UX designer          | Pune, Maharashtra, India
+product designer        | Pune, Maharashtra, India
+UI UX designer          | Hyderabad, Telangana, India
+graphic designer        | Nagpur, Maharashtra, India
+
+# --- remote, India-eligible and worldwide ---
+UI UX designer          | India                        | remote
+junior product designer | India                        | remote
+product designer        | Remote                       | remote
+visual designer         | India                       | remote

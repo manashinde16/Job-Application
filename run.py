@@ -238,6 +238,8 @@ def main():
         run_step("1/4  discover — ATS boards", ["scripts/fetch_jobs.py"])
         run_step("1/4  discover — careers listings pages", ["scripts/fetch_careers.py"])
         run_step("1/4  discover — global remote boards", ["scripts/fetch_remote.py"])
+        run_step("1/4  discover — LinkedIn (public jobs-guest)", ["scripts/fetch_linkedin.py"])
+        run_step("1/4  discover — Instahyre", ["scripts/fetch_instahyre.py"])
 
     run_step("2/4  score", ["scripts/score_jobs.py"])
 
