@@ -657,3 +657,325 @@ telegram: configured
 ==============================================================
 1/4  discover — ATS boards
 ==============================================================
+  0 new
+  GoCardless                     25 open,   0 new
+  Grafana Labs                  152 open,   0 new
+  Groww                           5 open,   0 new
+  Highradius                     84 open,   0 new
+  Mixpanel                       95 open,   0 new
+  MongoDB                       405 open,   0 new
+  Monzo                          66 open,   0 new
+  Observe AI                     17 open,   0 new
+  PhonePe                        64 open,   0 new
+  Postman                        66 open,   0 new
+  Remote                          2 open,   0 new
+  Slice                          41 open,   0 new
+  Thoughtworks                   47 open,   0 new
+  Twilio                        141 open,   0 new
+  Typeform                       11 open,   0 new
+  Wise                           19 open,   0 new
+  CRED                           14 open,   0 new
+  Hevo Data                      42 open,   0 new
+  Meesho                         48 open,   0 new
+  MindTickle                     21 open,   0 new
+  Nium                           39 open,   0 new
+  Paytm                         223 open,   0 new
+  Porter                         27 open,   0 new
+  Zeta                           22 open,   0 new
+  Obvious                         2 open,   0 new
+  Landor                         44 open,   0 new
+  NICE                          222 open,   0 new
+  Ogilvy                        136 open,   0 new
+  PubMatic                       73 open,   0 new
+  Rubrik                        120 open,   0 new
+  Zenoti                         39 open,   0 new
+  Aera Technology                11 open,   0 new
+  Entrata                        14 open,   0 new
+  Veritas                         1 open,   0 new
+  Freshworks                    165 open,   0 new
+  Harbinger Group                 1 open,   0 new
+  Loop Health                     1 open,   0 new
+  Media.net                       1 open,   0 new
+  Rebel Foods                     1 open,   0 new
+  ServiceNow                    545 open,   0 new
+  Turtlemint                      1 open,   0 new
+  ValueLabs                       1 open,   0 new
+  Whatfix                         1 open,   0 new
+
+9804 roles seen across 86 boards
+3 new -> db/jobs_new.jsonl
+
+6 board(s) failed — usually a wrong slug:
+  - DoorDash [greenhouse/doordash] HTTP 404
+  - Plaid [greenhouse/plaid] HTTP 404
+  - Notion [greenhouse/notion] HTTP 404
+  - Retool [greenhouse/retool] HTTP 404
+  - Hasura [greenhouse/hasura] HTTP 404
+  - Netflix [lever/netflix] HTTP 404
+
+==============================================================
+1/4  discover — careers listings pages
+==============================================================
+    12063 chars
+  OK             Wellfound                      11719 chars
+  OK             Indeed                         11266 chars
+  OK             Wellfound                      10624 chars
+  OK             KPIT Technologies              10441 chars
+  OK             Codewalla                       9145 chars
+  OK             Tata Technologies               9114 chars
+  OK             Net Solutions                   6817 chars
+  OK             Lollypop Design Studio          4970 chars
+  OK             Persistent Systems              3431 chars
+  OK             Nykaa                           1597 chars
+  OK             Schbang                         1352 chars
+  OK             Gozoop                           796 chars
+  UNREACHABLE    Haptik                               https://haptik.freshteam.com/jobs
+  UNREACHABLE    Indeed                               https://in.indeed.com/jobs?q=ux+designer&l=M
+  UNREACHABLE    Indeed                               https://in.indeed.com/jobs?q=graphic+designe
+
+19 readable, 0 need a browser, 3 unreachable
+-> db/needs_browser.txt for the browser channel
+
+extracting openings from 19 pages
+
+  Lollypop Design Studio         9 design roles,   0 new
+  Codewalla                      0 design roles,   0 new
+  Net Solutions                  0 design roles,   0 new
+  Schbang                        0 design roles,   0 new
+  Gozoop                         0 design roles,   0 new
+  Cybage                         0 design roles,   0 new
+  KPIT Technologies              0 design roles,   0 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Nykaa                          0 design roles,   0 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Purplle                        0 design roles,   0 new
+  Angel One                      0 design roles,   0 new
+  Persistent Systems             0 design roles,   0 new
+  Tata Technologies              0 design roles,   0 new
+  Indeed                        15 design roles,  12 new
+  Indeed                        14 design roles,   0 new
+  Shine                         19 design roles,   0 new
+  Shine                         19 design roles,   0 new
+  [llm] gemini-3.5-flash-lite rate limited, waiting 20s
+  Shine                         20 design roles,   0 new
+  Wellfound                     25 design roles,   0 new
+  Wellfound                     21 design roles,   0 new
+
+12 new design roles -> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — global remote boards
+==============================================================
+fetching 4 remote job boards (12613 jobs already known)
+
+  remoteok             19 design roles,    0 new
+  remotive             18 design roles,    0 new
+  weworkremotely       47 design roles,    0 new
+  himalayas             0 design roles,    0 new
+
+0 new remote design roles -> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — LinkedIn (public jobs-guest)
+==============================================================
+10 LinkedIn searches, posted within 8 days
+
+  UI UX designer @ Mumbai, Maharashtra, India             10 found,   2 new
+  product designer @ Mumbai, Maharashtra, India           10 found,   0 new
+  UI UX designer @ Pune, Maharashtra, India               10 found,   0 new
+  product designer @ Pune, Maharashtra, India             10 found,   0 new
+  UI UX designer @ Hyderabad, Telangana, India            10 found,   0 new
+  graphic designer @ Nagpur, Maharashtra, India            7 found,   0 new
+  UI UX designer @ India [remote]                         10 found,   0 new
+  junior product designer @ India [remote]                10 found,   0 new
+  product designer @ Remote [remote]                      10 found,   0 new
+  visual designer @ India [remote]                        10 found,   0 new
+
+97 cards seen, 2 new
+-> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — Instahyre
+==============================================================
+Instahyre: 300 design postings (job_functions (7, 18, 77))
+
+105 postings read across 3 page(s), 3 new
+-> db/jobs_new.jsonl
+
+==============================================================
+1/4  discover — freehire (remote, worldwide)
+==============================================================
+10 freehire searches, posted within 8 days
+
+  category=design&work_mode=remote&seniority=junior            8 of 8 match,   0 new
+  category=design&work_mode=remote&seniority=intern            5 of 5 match,   0 new
+  category=product&work_mode=remote&seniority=junior           5 of 5 match,   0 new
+  q=junior product designer&work_mode=remote                  50 of 257 match,   0 new
+  q=junior ux designer&work_mode=remote                       50 of 257 match,   0 new
+  q=ui ux designer&work_mode=remote                           50 of 250 match,   0 new
+  q=visual designer&work_mode=remote                          50 of 207 match,   0 new
+  q=graphic designer&work_mode=remote                         50 of 149 match,   0 new
+  category=design&work_mode=remote&countries=in               23 of 23 match,   0 new
+  q=product designer&work_mode=remote&countries=in            50 of 259 match,   0 new
+
+341 rows read, 0 new
+-> db/jobs_new.jsonl
+
+==============================================================
+2/4  score
+==============================================================
+20 jobs in -> 9 survived the prefilter
+
+  freshness: 2 dated within 8 days, 7 with no readable date (kept — a live listing page is presumed current)
+
+  dropped     7  title excluded
+  dropped     3  title not a design role
+  dropped     1  onsite in a city she has excluded
+
+------------------------------------------------------------------------------
+  Gephels           UI/UX Designer                                Pune, Maharashtra
+  Geosmatic C & C   Graphic Designer                              Pune, Maharashtra
+  Talentica Softwa  Visual Designer                               Pune, Maharashtra
+  Travarsa          Web Designer & Developer                      Pune, Maharashtra
+  InfoWryt Solutio  Graphic Designer                              Pune, Maharashtra
+  Quantified Ante   UI/UX Designer II Remote                      Pune, Maharashtra
+  Paydoh            UI UX Designer(Mumbai Candidate only)         Mumbai, Maharashtra, Ind
+  Boch & Fernsh, I  UI designer (websites)                        Mumbai, Maharashtra, Ind
+  DataBahn.ai       Product Designer - UI / UX                    Pune
+------------------------------------------------------------------------------
+
+scoring 9 jobs
+
+  [1/9] Gephels         fit  2  skip     UI/UX Designer
+  [2/9] Geosmatic C &   fit  1  skip     Graphic Designer
+  [3/9] Talentica Soft  no description available, skipped
+  [4/9] Travarsa        fit  2  skip     Web Designer & Developer
+  [5/9] InfoWryt Solut  fit  1  skip     Graphic Designer
+  [6/9] Quantified Ant  fit  2  skip     UI/UX Designer II Remote
+  [7/9] Paydoh          fit  7  apply    UI UX Designer(Mumbai Candidate only
+  [8/9] Boch & Fernsh,  fit  7  apply    UI designer (websites)
+  [9/9] DataBahn.ai     fit  1  skip     Product Designer - UI / UX
+
+8 scored, 2 at fit >= 5 and within 3 yrs
+-> db/scored.jsonl
+
+worth applying to:
+
+   7/10  apply    Paydoh            UI UX Designer(Mumbai Candidate only)
+         The role matches her UI/UX design background and fintech/product focus. She has wireframing, prototy
+   7/10  apply    Boch & Fernsh, I  UI designer (websites)
+         The role focuses heavily on UI design, layout, typography, and Figma, aligning directly with her cor
+
+==============================================================
+2/4  check for replies
+==============================================================
+checking 2 sent application(s) for replies
+
+  Techior Solutions Pvt Ltd   no reply yet
+  Amplicomm Sol...            no reply yet
+
+0 human reply/replies found
+
+==============================================================
+3/4  prepare
+==============================================================
+65 scored total, 2 new at fit >= 6, preparing 2
+
+--- Paydoh / UI UX Designer(Mumbai Candidate only)
+
+==============================================================
+resume
+==============================================================
+tailoring for Paydoh — UI UX Designer(Mumbai Candidate only)
+fact check: clean — every claim traces to the profile
+
+headline: UI/UX Designer
+tagline : UI/UX Designer with a B.Tech in Computer Science, bridging product design and developer handoff for web and mobile.
+emphasis: Led with her UI/UX internship, Bounceless case study, and Computer Science background to align directly with Paydoh's focus on user interfaces, developer collaboration, and technical feasibility.
+omitted : AI-assisted workflows (ChatGPT, Adobe Firefly) omitted to keep focus strictly on core UX and UI competencies requested by the fintech posting.
+omitted : Sketch, InVision, Visio, HTML, CSS (SCSS), iOS, Android mentioned in the posting were omitted as they are not present in the verified profile (stretch).
+
+-> out/paydoh-ui-ux-designer-mumbai-candidate-only/resume.pdf (1 page)
+
+==============================================================
+outreach
+==============================================================
+Paydoh — UI UX Designer(Mumbai Candidate only)
+domain: in.linkedin.com
+MX records: yes
+
+reading public pages for addresses and names...
+  0 address(es) published on site: none
+  address pattern: unknown
+  1 relevant person/people named on site
+    - Gayatri — Job Seeker
+
+1 contact option(s), best first:
+  [guess ] gayatri@in.linkedin.com                Gayatri (Job Seeker)
+           name from site; address pattern unknown, this is a common shape
+
+drafting...
+  draft was 92 words, retrying once
+
+subject: UI/UX Designer role / Ananya Saini
+body   : 119 words  (in range)
+
+-> out/paydoh-ui-ux-designer-mumbai-candidate-only/email.md
+nothing sent — a human presses send
+
+--- Boch & Fernsh, Inc. (B&F) / UI designer (websites)
+
+==============================================================
+resume
+==============================================================
+tailoring for Boch & Fernsh, Inc. (B&F) — UI designer (websites)
+fact check: clean — every claim traces to the profile
+
+headline: UI Designer
+tagline : UI designer with a strong eye for layout, typography, and visual hierarchy crafting gorgeous websites and web interfaces.
+emphasis: Led with her proficiency in Figma, Photoshop, and layout fundamentals, highlighting her UI and web interface background while leveraging her computer science degree for developer collaboration.
+omitted : CorelDRAW (less relevant for web-focused UI role)
+omitted : AI-assisted workflows (omitted per resume defect rule to keep AI material minimal)
+omitted : List of 6 additional portfolio projects lacking documentation
+omitted : AT Creation marketing collateral bullets (removed to avoid repeating bullet types across jobs and to focus the AT Creation role on its UI/UX components)
+
+-> out/boch-fernsh-inc-b-f-ui-designer-websites/resume.pdf (1 page)
+
+==============================================================
+outreach
+==============================================================
+Boch & Fernsh, Inc. (B&F) — UI designer (websites)
+domain: in.linkedin.com
+MX records: yes
+
+reading public pages for addresses and names...
+  0 address(es) published on site: none
+  address pattern: unknown
+  0 relevant person/people named on site
+
+3 contact option(s), best first:
+  [guess ] careers@in.linkedin.com                role inbox (guessed)
+           common role inbox — may bounce, and rarely reaches a designer
+  [guess ] hr@in.linkedin.com                     role inbox (guessed)
+           common role inbox — may bounce, and rarely reaches a designer
+  [guess ] jobs@in.linkedin.com                   role inbox (guessed)
+           common role inbox — may bounce, and rarely reaches a designer
+
+drafting...
+  draft was 105 words, retrying once
+  draft was 108 words, retrying once
+
+subject: UI designer with strong layout and Figma skills
+body   : 108 words  (in range)
+
+-> out/boch-fernsh-inc-b-f-ui-designer-websites/email.md
+nothing sent — a human presses send
+
+==============================================================
+4/4  notify
+==============================================================
+
+done in 487s
+
+Nothing was sent to anyone. Drafts wait for a typed 'send N' approval.
