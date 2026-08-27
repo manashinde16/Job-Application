@@ -1,0 +1,72 @@
+{
+  "company": "jobgether",
+  "domain": "jobs.lever.co",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "chris.mills@jobs.lever.co",
+      "name": "Chris Mills",
+      "role": "Director of Recruiting",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Chris Mills (Director of Recruiting) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "chris@jobs.lever.co",
+      "name": "Chris Mills",
+      "role": "Director of Recruiting",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Chris Mills (Director of Recruiting) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "donnie.halloway@jobs.lever.co",
+      "name": "Donnie Halloway",
+      "role": "Director of Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Donnie Halloway (Director of Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "donnie@jobs.lever.co",
+      "name": "Donnie Halloway",
+      "role": "Director of Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Donnie Halloway (Director of Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "brittany.barragy@jobs.lever.co",
+      "name": "Brittany Barragy",
+      "role": "VP, People Operations",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Brittany Barragy (VP, People Operations) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "brittany@jobs.lever.co",
+      "name": "Brittany Barragy",
+      "role": "VP, People Operations",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Brittany Barragy (VP, People Operations) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "marta.martins@jobs.lever.co",
+      "name": "Marta Martins",
+      "role": "People Analytics Manager",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Marta Martins (People Analytics Manager) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "marta@jobs.lever.co",
+      "name": "Marta Martins",
+      "role": "People Analytics Manager",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Marta Martins (People Analytics Manager) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
