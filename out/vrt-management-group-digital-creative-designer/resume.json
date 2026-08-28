@@ -1,0 +1,78 @@
+{
+  "headline": "Visual Designer",
+  "tagline": "Visual designer with 1.5 years of experience delivering brand identities, digital creatives, and print-ready assets.",
+  "skills": [
+    {
+      "label": "Design & Visuals",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Branding and Visual Identity, Typography, Layout, Print Production, Social/Marketing Creative"
+    },
+    {
+      "label": "Process & Tools",
+      "items": "Wireframing, Prototyping, Design Systems, Responsive Design, Usability Testing, Framer, Webflow, Miro, Notion, AI-Assisted Workflows"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 Present",
+      "bullets": [
+        "Produced 100+ digital and print creatives spanning employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated with HR and management stakeholders to maintain low revision cycles.",
+        "Managed print-ready files including bleed, sizing, and colour accuracy.",
+        "Applied AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Designed social campaigns, branding assets, and brochures for SMBs.",
+        "Partnered with developers and stakeholders on design-to-development handoff.",
+        "Conducted usability testing and translated findings into user flows and interface usability.",
+        "Developed wireframes and prototypes for product interfaces."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep \u2013 Oct 2023",
+      "bullets": [
+        "Delivered a comprehensive brand kit featuring logos, typography, and color palettes for startup execution."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Bounceless B2B UX Case Study",
+      "dates": "2024",
+      "bullets": [
+        "Designed a cleaner verification experience focused on accurate email lists for teams."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech in Computer Science, CGPA 8.03. Technical background supporting systems thinking and developer handoff.",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her commercial visual design and branding experience at Ascent and AT Creation to match the Digital Creative Designer role at VRT Management Group.",
+  "omitted": [
+    "Repeated bullets about banners and presentations from AT Creation (removed to avoid duplication)",
+    "Unverified metrics beyond the 100+ creatives, 15% engagement lift, and 8.03 CGPA"
+  ]
+}
