@@ -1,0 +1,70 @@
+{
+  "headline": "Social Media Designer",
+  "tagline": "Social media designer with proven experience driving a 15% increase in follower engagement through targeted campaigns.",
+  "skills": [
+    {
+      "label": "Design & Visuals",
+      "items": "Graphic Design, Branding, Typography, Layout, Visual Hierarchy, Photoshop, Illustrator, CorelDRAW"
+    },
+    {
+      "label": "Social & Digital",
+      "items": "Social Media Campaigns, Marketing Collateral, Digital Creatives, Print Production"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives including marketing collateral, corporate communications, and employee engagement assets",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work",
+        "Worked with management and HR stakeholders through low revision cycles to align visuals with campaign objectives",
+        "Managed print-ready file management including bleed, sizing, and colour accuracy",
+        "Utilised typography, colour systems, and layout principles to maintain brand consistency across materials"
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed social campaigns, branding assets, and brochures for startups and small-medium businesses",
+        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses",
+        "Used Photoshop and Illustrator to create product visuals and marketing assets",
+        "Collaborated with developers and stakeholders on design-to-development handoff"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook social campaign series that delivered a 15% increase in follower engagement"
+      ]
+    },
+    {
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep \u2013 Oct 2023",
+      "bullets": [
+        "Created comprehensive branding package including logo, typography, and palette for startup clients"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her social media design experience at Ascent Business Solutions and her fashion campaign metrics to match the CineLimeMedia role requirements.",
+  "omitted": [
+    "Video editing software (Premiere Pro, Final Cut Pro) - omitted as stretch since the profile mentions Photoshop, Illustrator, and CorelDRAW but not video editing tools required by the JD.",
+    "Bounceless B2B UX case study - omitted to keep the focus strictly on social media and visual design for this specific creative media posting.",
+    "AI-assisted workflows (ChatGPT, Adobe Firefly) - omitted to maintain focus on core design execution."
+  ]
+}

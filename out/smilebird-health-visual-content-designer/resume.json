@@ -1,0 +1,77 @@
+{
+  "headline": "Visual Designer",
+  "tagline": "Visual designer with hands-on experience producing 100+ brand assets and building reusable design templates for corporate communications.",
+  "skills": [
+    {
+      "label": "Design & Visuals",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, branding and visual identity, typography, layout, print production, social/marketing creative"
+    },
+    {
+      "label": "Tools & Workflow",
+      "items": "Framer, Webflow, Miro, Notion, wireframing, prototyping, user flows, design systems, responsive design, usability testing"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Worked with HR and management stakeholders to manage low revision cycles.",
+        "Managed print-ready file requirements including bleed, sizing, and colour accuracy.",
+        "Utilized AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing and fed findings back into user flows and interface usability.",
+        "Executed wireframing and prototyping for digital interfaces.",
+        "Worked with developers and stakeholders on design-to-development handoff using Photoshop and Illustrator."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding kit for AT Creation startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed foundational visual identity systems including logo design, typography selection, and color palettes to ensure brand consistency."
+      ]
+    },
+    {
+      "name": "Social campaign for a fashion brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Completed a B2B UX case study focusing on a cleaner verification experience for teams depending on accurate email lists."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her extensive hands-on experience in producing over 100 digital and print brand assets and building reusable design templates, aligning directly with the Visual Content Designer role requirements.",
+  "omitted": [
+    "Video editing (stretch: profile lists Photoshop/Illustrator and print/social assets, but does not explicitly verify video editing experience mentioned in the JD)"
+  ]
+}

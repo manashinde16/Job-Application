@@ -1,0 +1,29 @@
+{
+  "company": "CineLimeMedia",
+  "domain": "linkedin.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@linkedin.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@linkedin.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@linkedin.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}
