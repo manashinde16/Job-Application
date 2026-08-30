@@ -2,7 +2,9 @@
   "careers:indeed:techior-solutions-pvt-ltd:ui-ux-and-graphic-designer": {
     "company": "Techior Solutions Pvt Ltd",
     "fit": 7,
-    "followups_sent": [],
+    "followups_sent": [
+      4
+    ],
     "prepared_on": "2026-08-26",
     "replied": false,
     "sent_on": "2026-08-26",
@@ -89,7 +91,9 @@
   },
   "image:unknown-company-graphic-designer": {
     "company": "unknown company",
-    "followups_sent": [],
+    "followups_sent": [
+      4
+    ],
     "replied": false,
     "sent_on": "2026-08-26",
     "sent_to": "hr@getcredentialingdone.com",
@@ -98,7 +102,9 @@
   },
   "image:weframetech-ui-ux-designer": {
     "company": "Weframetech",
-    "followups_sent": [],
+    "followups_sent": [
+      4
+    ],
     "replied": false,
     "sent_on": "2026-08-26",
     "sent_to": "bishen@weframetech.com",
@@ -118,7 +124,9 @@
   "linkedin:4456579887": {
     "company": "Boch & Fernsh, Inc. (B&F)",
     "fit": 7,
-    "followups_sent": [],
+    "followups_sent": [
+      4
+    ],
     "prepared_on": "2026-08-26",
     "replied": false,
     "sent_on": "2026-08-26",
@@ -129,7 +137,9 @@
   "linkedin:4456901102": {
     "company": "Paydoh",
     "fit": 7,
-    "followups_sent": [],
+    "followups_sent": [
+      4
+    ],
     "prepared_on": "2026-08-26",
     "replied": false,
     "sent_on": "2026-08-26",
@@ -156,6 +166,16 @@
     "sent_on": null,
     "title": "Social Media Designer and video editor",
     "url": "https://www.linkedin.com/jobs/view/4458459938"
+  },
+  "linkedin:4458979545": {
+    "company": "Boch & Fernsh, Inc. (B&F)",
+    "fit": 7,
+    "followups_sent": [],
+    "prepared_on": "2026-08-30",
+    "replied": false,
+    "sent_on": null,
+    "title": "Website Designer",
+    "url": "https://in.linkedin.com/jobs/view/website-designer-at-boch-fernsh-inc-b-f-4458979545"
   },
   "linkedin:4459467918": {
     "company": "Smilebird Health",
