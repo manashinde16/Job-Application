@@ -1,0 +1,36 @@
+{
+  "company": "Vahan",
+  "domain": "himalayas.app",
+  "mx": true,
+  "pattern": "first",
+  "candidates": [
+    {
+      "email": "logohi@himalayas.app",
+      "name": "",
+      "role": "published address",
+      "confidence": "high",
+      "basis": "published on the company's own site"
+    },
+    {
+      "email": "careers@himalayas.app",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@himalayas.app",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@himalayas.app",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}
