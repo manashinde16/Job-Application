@@ -1,0 +1,24 @@
+{
+  "company": "solvative",
+  "domain": "solvative.breezy.hr",
+  "mx": false,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "neel.sangani@solvative.breezy.hr",
+      "name": "Neel Sangani",
+      "role": "Design Engineer",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Neel Sangani (Design Engineer) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "neel@solvative.breezy.hr",
+      "name": "Neel Sangani",
+      "role": "Design Engineer",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Neel Sangani (Design Engineer) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "company": "Bitmedia Labs",
+  "domain": "djinni.co",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@djinni.co",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@djinni.co",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@djinni.co",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}
