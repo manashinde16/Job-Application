@@ -1,0 +1,29 @@
+{
+  "company": "AccuKnox",
+  "domain": "accuknox.zohorecruit.in",
+  "mx": false,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@accuknox.zohorecruit.in",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@accuknox.zohorecruit.in",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@accuknox.zohorecruit.in",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}
