@@ -4,24 +4,24 @@
 
 - To: `logohi@himalayas.app`  (high confidence — published on the company's own site)
 - Role: Graphic Design Intern · Remote, India
-- Posting: https://himalayas.app/companies/vahan/jobs/graphic-design-intern?utm_source=freehire.me
-- Body length: 106 words
+- Posting: https://himalayas.app/companies/vahan/jobs/graphic-design-intern-8782431477?utm_source=freehire.me
+- Body length: 116 words
 
 ## Subject
 
-Graphic Design Intern role
+Graphic Design Intern role at Vahan
 
 ## Body
 
 Hi,
 
-I saw Vahan's opening for a Graphic Design Intern and wanted to reach out directly given my current design background.
+I saw Vahan's opening for a Graphic Design Intern, and my background producing over 100 digital and print creatives at Ascent Business Solutions makes me a strong fit for your team.
 
-At Ascent Business Solutions, I have designed over 100 digital and print creatives including marketing collateral, presentations, and employee engagement assets. I also built reusable design templates and visual systems that cut turnaround time and reduced repetitive work.
+At Ascent, I design marketing collateral, presentations, and brand assets while building reusable design systems that cut down turnaround time. I also manage print-ready files and collaborate closely with cross-functional stakeholders.
 
-My branding kit for the AT Creation startup demonstrates my ability to handle visual identity and layout work effectively. You can review my work at https://ananya-portfolio-nu.vercel.app/.
+My recent social campaign for a fashion brand, which drove a 15 percent increase in follower engagement, demonstrates my ability to create marketing assets that resonate with audiences. You can view my work in my portfolio at https://ananya-portfolio-nu.vercel.app/.
 
-I would love to discuss how I can support your team with visual content and day to day design needs.
+Could we take 15 minutes to discuss how I can support Vahan's design team?
 
 Ananya
 
@@ -33,23 +33,23 @@ https://ananya-portfolio-nu.vercel.app/
 
 **Day 4** — Hi,
 
-I am following up on my note from last week regarding the Graphic Design Intern position. I remain very interested in supporting Vahan's visual content and engagement projects.
+Checking in on my note from last week about the Graphic Design Intern role. I remain very interested in supporting Vahan's creative output, especially given my background building reusable templates and digital assets at Ascent.
 
-Do you have ten minutes this week to review my template systems and design work?
+Let me know if you have time for a brief chat this week.
 
 Ananya
 
 **Day 11** — Hi,
 
-I know your team is busy reviewing applications for the Graphic Design Intern role. This will be my final note.
+I know things move quickly at Vahan, so I am following up one last time on the Graphic Design Intern position. If the team has moved in another direction, no problem at all.
 
-If the position has been filled, I completely understand and wish the team the best. My portfolio remains available at https://ananya-portfolio-nu.vercel.app/ if your needs change.
+Wishing you and the team a great week ahead.
 
 Ananya
 
 ## Why it opens that way
 
-Opened by connecting Vahan's graphic design internship directly to my current production experience at Ascent Business Solutions.
+Opened by connecting Vahan's need for a graphic design intern directly to my 100+ production assets at Ascent Business Solutions.
 
 ## Other contact options
 

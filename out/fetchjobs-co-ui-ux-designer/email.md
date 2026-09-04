@@ -4,24 +4,24 @@
 
 - To: `careers@in.linkedin.com`  (guess confidence — common role inbox — may bounce, and rarely reaches a designer)
 - Role: UI/UX Designer · India
-- Posting: https://in.linkedin.com/jobs/view/ui-ux-designer-at-fetchjobs-co-4460445737
-- Body length: 115 words
+- Posting: https://in.linkedin.com/jobs/view/ui-ux-designer-at-fetchjobs-co-4461119288
+- Body length: 113 words
 
 ## Subject
 
-UI/UX Designer role / Ananya Saini
+UI/UX Designer role - Ananya Saini
 
 ## Body
 
 Hello,
 
-I saw your opening for a remote UI/UX Designer at Data Eminence and wanted to connect, particularly given your focus on data-driven digital solutions and collaborative engineering teams.
+I saw the UI/UX Designer opening at Data Eminence and was drawn to your focus on data-driven digital solutions that empower businesses.
 
-During my time as a UI/UX Designer at AT Creation, I conducted usability testing and translated findings directly into improved user flows and wireframes. I also bring a B.Tech in Computer Science, which helps me bridge the gap between design intent and technical feasibility during developer handoffs.
+With a B.Tech in Computer Science and hands-on UI/UX experience from my time at AT Creation, I bridge the gap between design and engineering through practical prototyping, usability testing, and developer handoffs.
 
-You can see my end-to-end B2B process in my Bounceless case study, which demonstrates a cleaner verification experience through structured wireframing and user flows: https://ananya-portfolio-nu.vercel.app/
+In my B2B case study Bounceless, I explored creating a cleaner verification experience for teams depending on accurate email lists, which you can view in my portfolio at https://ananya-portfolio-nu.vercel.app/.
 
-Could we take a brief look at that project together sometime next week?
+I would love to share a quick look at how my technical background supports collaborative product teams. Do you have ten minutes next week for a brief chat?
 
 Ananya
 
@@ -33,23 +33,23 @@ https://ananya-portfolio-nu.vercel.app/
 
 **Day 4** — Hi,
 
-Checking in on my note from last week regarding the UI/UX Designer role. My background combining a Computer Science degree with practical wireframing and prototyping experience makes me a strong fit for your product team.
+I wanted to circle back on my note from last week regarding the UI/UX Designer role. My background in both Computer Science and UI/UX allows me to collaborate smoothly with your engineering team.
 
-Take a quick look at my Bounceless case study when you have a moment: https://ananya-portfolio-nu.vercel.app/
+Take a quick look at Bounceless in my portfolio when you have a moment. Are you open to a brief chat next week?
 
 Ananya
 
-**Day 11** — Hello,
+**Day 11** — Hi,
 
-I know your team is busy, so this is my final follow-up regarding the UI/UX Designer position. If the role has been filled, I completely understand and wish Data Eminence the best.
+I know things get busy, so I will keep this brief. If the UI/UX Designer role is already filled or you are no longer reviewing portfolios, please let me know so I can stop following up.
 
-Should you still need someone comfortable with user flows and developer handoffs, my portfolio remains here: https://ananya-portfolio-nu.vercel.app/
+If you are still looking, I remain ready to help Data Eminence build intuitive digital experiences.
 
 Ananya
 
 ## Why it opens that way
 
-Mentioned Data Eminence's focus on data-driven digital solutions and engineering collaboration.
+Mentioned the Data Eminence focus on data-driven digital solutions.
 
 ## Other contact options
 

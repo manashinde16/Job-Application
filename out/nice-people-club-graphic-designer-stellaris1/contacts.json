@@ -1,0 +1,29 @@
+{
+  "company": "Nice People Club",
+  "domain": "nicetomeetyou.zohorecruit.com",
+  "mx": false,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@nicetomeetyou.zohorecruit.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@nicetomeetyou.zohorecruit.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@nicetomeetyou.zohorecruit.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}

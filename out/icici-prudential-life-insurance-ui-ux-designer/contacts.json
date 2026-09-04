@@ -1,0 +1,29 @@
+{
+  "company": "ICICI Prudential Life Insurance",
+  "domain": "instahyre.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@instahyre.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@instahyre.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@instahyre.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}

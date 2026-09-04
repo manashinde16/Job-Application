@@ -1,55 +1,53 @@
 {
   "headline": "UI/UX Designer",
-  "tagline": "UI/UX Designer with a Computer Science background and experience in user research, wireframing, and design systems.",
+  "tagline": "UI/UX Designer with a B.Tech in Computer Science and hands-on expertise in wireframing, prototyping, and design systems.",
   "skills": [
     {
-      "label": "Design Tools & Methods",
-      "items": "Figma, Wireframing, Prototyping, User Flows, Usability Testing, Design Systems, Responsive Design"
+      "label": "Design & Product",
+      "items": "Wireframing, Prototyping, User Flows, Usability Testing, Design Systems, Responsive Design, Figma, Framer, Webflow"
     },
     {
-      "label": "Visual & Branding",
-      "items": "Typography, Colour Systems, Layout, Visual Hierarchy, Adobe Illustrator, Photoshop"
+      "label": "Visual & Brand",
+      "items": "Typography, Color Systems, Layout, Visual Hierarchy, Branding and Visual Identity, Adobe Illustrator, Photoshop"
     },
     {
-      "label": "Technical & AI",
-      "items": "Developer Handoff, Systems Thinking, ChatGPT, Adobe Firefly"
+      "label": "Technical & Tools",
+      "items": "Developer Handoff, Systems Thinking, Miro, Notion, AI-assisted workflows (ChatGPT, Adobe Firefly)"
     }
   ],
   "experience": [
     {
       "company": "Ascent Business Solutions",
       "title": "Graphic Designer",
-      "location": "Nagpur, Maharashtra, India",
+      "location": "Nagpur, Maharashtra",
       "dates": "Jul 2025 \u2013 present",
       "bullets": [
         "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
-        "Created 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding.",
-        "Worked with management and HR stakeholders through low revision cycles.",
-        "Managed print-ready files focusing on bleed, sizing, and colour accuracy using typography and layout principles.",
-        "Used AI-assisted workflows including ChatGPT and Adobe Firefly for ideation and exploration."
+        "Designed over 100 digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Worked with HR and management stakeholders to deliver assets with low revision cycles.",
+        "Managed print-ready file production including bleed, sizing, and colour accuracy."
       ]
     },
     {
       "company": "AT Creation",
       "title": "UI/UX Designer",
-      "location": "Nagpur, Maharashtra, India",
+      "location": "Nagpur, Maharashtra",
       "dates": "Sep 2022 \u2013 Mar 2023",
       "bullets": [
         "Conducted usability testing and fed findings back into user flows and interface usability.",
-        "Produced wireframes and prototypes for early-stage digital projects.",
-        "Collaborated with developers and stakeholders on design-to-development handoff.",
-        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
-        "Created social campaigns, branding assets, and brochures using Photoshop and Illustrator."
+        "Created wireframes and interactive prototypes to visualize concepts.",
+        "Worked closely with developers and stakeholders on design-to-development handoff, leveraging a Computer Science background for technical feasibility.",
+        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs using Photoshop and Illustrator."
       ]
     }
   ],
   "projects": [
     {
-      "name": "Bounceless",
+      "name": "Bounceless (2024) \u2014 B2B UX Case Study",
       "dates": "2024",
       "bullets": [
-        "Developed a B2B UX case study focused on a cleaner verification experience for teams depending on accurate email lists.",
-        "Demonstrated end-to-end UX process including wireframing and user flows."
+        "Designed a cleaner verification experience focused on teams depending on accurate email lists."
       ]
     },
     {
@@ -63,15 +61,14 @@
   "education": [
     {
       "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
-      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "detail": "B.Tech in Computer Science, CGPA 8.03",
       "dates": "June 2020 \u2013 June 2024"
     }
   ],
-  "emphasis": "Led with her UI/UX internship, Bounceless case study, and computer science background to match the product-focused requirements of the role.",
+  "emphasis": "Led with her UI/UX experience and Computer Science degree at the top to highlight technical feasibility, developer handoff, and systems thinking relevant to the target role.",
   "omitted": [
-    "CorelDRAW - omitted as Figma is the primary tool for this role",
-    "Framer and Webflow in main skills - kept to working/supporting list context where space permitted",
-    "Duplicate banners/standees bullet from AT Creation - omitted to prevent repetition across roles",
-    "Unlisted portfolio project titles - omitted due to lack of documented problem statements or outcomes"
+    "CorelDRAW \u2014 omitted to keep skill groups focused on primary product and visual design tooling.",
+    "Undocumented portfolio projects (Zest Club, Potted Paradise, etc.) \u2014 omitted because they lack problem statements and outcomes.",
+    "Duplicate banners/standees bullet under AT Creation \u2014 omitted to fix the known duplicate bullet defect and elevate UX content."
   ]
 }
