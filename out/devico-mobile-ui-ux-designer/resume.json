@@ -1,0 +1,65 @@
+{
+  "headline": "UI/UX Designer",
+  "tagline": "UI/UX designer with a computer science background, bringing a technical and user-centered approach to mobile applications.",
+  "skills": [
+    {
+      "label": "Design & Prototyping",
+      "items": "Figma, Wireframing, Prototyping, User Flows, Responsive Design, Design Systems, Usability Testing"
+    },
+    {
+      "label": "Visual & Brand",
+      "items": "Typography, Color Systems, Layout, Illustrator, Photoshop, CorelDRAW"
+    },
+    {
+      "label": "Tools & Workflow",
+      "items": "Framer, Webflow, Miro, Notion, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work",
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding",
+        "Worked with HR and management stakeholders across low revision cycles",
+        "Applied typography, color systems, layout, and visual hierarchy to corporate communications"
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability",
+        "Created wireframes and prototypes for early-stage products",
+        "Worked with developers and stakeholders on design-to-development handoff",
+        "Designed logos, visual identity systems, and brand guidelines for startups and SMBs"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Executed a B2B UX case study focused on creating a cleaner verification experience for teams depending on accurate email lists."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03. Leverages a technical foundation for developer handoff credibility and systems thinking.",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with AT Creation's UI/UX process and her Computer Science background to align with the mobile UI/UX requirements.",
+  "omitted": [
+    "Social campaign metrics (15% increase) omitted as it pertains to marketing rather than product design.",
+    "Specific print production details omitted as the target role focuses on mobile UI/UX."
+  ]
+}
