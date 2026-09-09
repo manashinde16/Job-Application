@@ -4,24 +4,24 @@
 
 - To: `careers@in.linkedin.com`  (guess confidence — common role inbox — may bounce, and rarely reaches a designer)
 - Role: Graphic Designer · Nagpur, Maharashtra, India
-- Posting: https://in.linkedin.com/jobs/view/graphic-designer-at-triad-marketing-4461866938
-- Body length: 117 words
+- Posting: https://in.linkedin.com/jobs/view/graphic-designer-at-triad-marketing-4462513047
+- Body length: 119 words
 
 ## Subject
 
-Graphic Designer role at Triad Marketing
+Graphic Designer application - Ananya Saini
 
 ## Body
 
 Hello,
 
-I saw your opening for a Graphic Designer at Triad Marketing and wanted to reach out directly, as I am based right here in Nagpur and have been following your digital campaigns for local businesses.
+I saw the Graphic Designer opening at Triad Marketing and was drawn to your focus on combining data-driven insights with creative execution for performance marketing and brand building.
 
-At Ascent Business Solutions, I have produced over 100 digital and print creatives while building reusable visual systems that cut turnaround times for corporate communications. I also designed a social campaign for a fashion brand that drove a 15 percent increase in follower engagement, focusing on clear typography, layout, and consistent brand identity.
+At Ascent Business Solutions, I have produced over 100 digital and print creatives, including banners and presentations, while building reusable visual systems that cut down turnaround time for internal teams and stakeholders.
 
-You can see that work and my broader portfolio at https://ananya-portfolio-nu.vercel.app/.
+My social campaign for a fashion brand, which demonstrated a 15 percent increase in follower engagement, is featured on my portfolio at https://ananya-portfolio-nu.vercel.app/ alongside my core branding projects and startup work.
 
-Would you be open to a quick look at my fashion campaign case study this week?
+I live in Nagpur and am fully available for this on-site role starting immediately. Would you be open to a brief look at my campaign layouts?
 
 Ananya
 
@@ -31,25 +31,13 @@ https://ananya-portfolio-nu.vercel.app/
 
 ## Follow-ups
 
-**Day 4** — Hi Huzefa,
+**Day 4** — Hi, I am following up on my note from last week regarding the Graphic Designer role. My work managing campaigns and print production at Ascent is ready for your review. Would you have five minutes to look at my portfolio?
 
-Just floating this to the top of your inbox in case it slipped past. I would love to share a few more details on how my experience with digital campaigns and print collateral at Ascent could support Triad Marketing.
-
-Let me know if you have five minutes this week.
-
-Ananya
-
-**Day 11** — Hi Huzefa,
-
-I know things get busy at the agency. I am wrapping up my current week and wanted to check in one last time on the Graphic Designer opening.
-
-If the timing is not right, totally understand. Wishing you and the team a great rest of the month.
-
-Ananya
+**Day 11** — Hello, I am sending a final note regarding the Graphic Designer opening in Nagpur. If the team has moved forward with other candidates, I completely understand and wish you the best with your upcoming campaigns.
 
 ## Why it opens that way
 
-I opened by referencing Triad Marketing's local focus in Nagpur and their work on digital campaigns for businesses.
+I opened by connecting Triad Marketing's focus on data-driven creative execution directly to my commercial design experience at Ascent.
 
 ## Other contact options
 

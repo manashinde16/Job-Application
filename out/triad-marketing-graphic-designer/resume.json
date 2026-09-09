@@ -1,14 +1,14 @@
 {
   "headline": "Graphic Designer",
-  "tagline": "Graphic designer with agency experience creating digital and print campaigns that drive engagement.",
+  "tagline": "Graphic designer with 1.5 years of experience delivering 100+ digital and print assets, brand identities, and design systems.",
   "skills": [
     {
-      "label": "Design Tools & Core",
-      "items": "Illustrator, Photoshop, Figma, CorelDRAW, typography, layout, visual hierarchy"
+      "label": "Design & Branding",
+      "items": "Illustrator, Photoshop, CorelDRAW, branding and visual identity, typography, layout, print production, social/marketing creative"
     },
     {
-      "label": "Digital & Print",
-      "items": "Social campaigns, marketing collateral, print-ready file management, branding, visual identity"
+      "label": "Tools & Workflow",
+      "items": "Figma, design systems, AI-assisted design workflows, print-ready file management"
     }
   ],
   "experience": [
@@ -18,12 +18,12 @@
       "location": "Nagpur, Maharashtra, India",
       "dates": "Jul 2025 \u2013 present",
       "bullets": [
-        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding",
-        "Built reusable design templates and visual systems that cut turnaround time and repetitive work",
-        "Designed banners, standees, certificates, ID cards, and marketing collateral",
-        "Worked with management and HR stakeholders across low revision cycles",
-        "Managed print-ready files covering bleed, sizing, and colour accuracy",
-        "Applied AI-assisted workflows using ChatGPT and Adobe Firefly for ideation"
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Worked with HR and management stakeholders to manage low revision cycles.",
+        "Managed print-ready file preparation including bleed, sizing, and colour accuracy.",
+        "Utilised AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
       ]
     },
     {
@@ -32,11 +32,10 @@
       "location": "Nagpur, Maharashtra, India",
       "dates": "Sep 2022 \u2013 Mar 2023",
       "bullets": [
-        "Designed social campaigns, branding assets, and brochures for startups and SMBs",
-        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses",
-        "Conducted usability testing and fed findings back into user flows and interface usability",
-        "Created wireframes and prototypes using Photoshop and Illustrator for product visuals and marketing assets",
-        "Collaborated with developers and stakeholders on design-to-development handoff"
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Collaborated with developers and stakeholders on design-to-development handoff.",
+        "Used Photoshop and Illustrator to create product visuals and marketing assets."
       ]
     }
   ],
@@ -45,14 +44,14 @@
       "name": "Social Campaign for a Fashion Brand",
       "dates": "Apr 2024",
       "bullets": [
-        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement"
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
       ]
     },
     {
       "name": "Branding Kit for AT Creation Startup",
       "dates": "Sep\u2013Oct 2023",
       "bullets": [
-        "Delivered a complete visual identity including logo, typography, and color palette"
+        "Developed logo, typography, and palette components for an early-stage venture."
       ]
     }
   ],
@@ -63,8 +62,9 @@
       "dates": "June 2020 \u2013 June 2024"
     }
   ],
-  "emphasis": "Led with her commercial graphic design experience at Ascent Business Solutions producing 100+ digital and print creatives and reusable visual systems, directly matching Triad Marketing's agency environment.",
+  "emphasis": "Led with her current graphic design role at Ascent Business Solutions, emphasizing commercial asset production, branding, and reusable design systems to match Triad Marketing's requirements.",
   "omitted": [
-    "Bounceless UX case study left out to focus strictly on graphic design and social campaigns as requested by the scoring pass for a pure Graphic Designer role."
+    "Usability testing, wireframing, and prototyping from AT Creation (omitted as stretch for a pure graphic design role focusing on marketing assets)",
+    "Bounceless UX case study (omitted as it is a product design study, not a graphic design piece)"
   ]
 }
