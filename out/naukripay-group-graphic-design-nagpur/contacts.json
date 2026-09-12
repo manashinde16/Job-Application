@@ -1,0 +1,29 @@
+{
+  "company": "Naukripay group",
+  "domain": "in.linkedin.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@in.linkedin.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@in.linkedin.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@in.linkedin.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}
