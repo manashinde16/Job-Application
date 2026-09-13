@@ -1,0 +1,70 @@
+{
+  "headline": "Brand and Visual Designer",
+  "tagline": "Brand designer experienced in building cohesive visual identities, scalable design systems, and multi-medium marketing assets for startups and enterprises.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Framer, Webflow, Miro, Notion"
+    },
+    {
+      "label": "Brand & Visual Design",
+      "items": "Brand Identity Creation, Visual Systems, Typography, Color Systems, Layout, Brand Guidelines, Print Production"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives supporting employee engagement, branding, recruitment, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work across internal and external materials.",
+        "Collaborated directly with HR and management stakeholders to deliver assets with low revision cycles.",
+        "Managed print-ready file requirements including bleed, sizing, and colour accuracy for marketing collateral.",
+        "Applied typography, colour systems, and layout hierarchies to ensure consistency across digital and print mediums."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX and Brand Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Designed social campaigns and marketing brochures for SMB clients, establishing foundational brand assets.",
+        "Conducted usability testing and translated findings into user flows and interface usability improvements.",
+        "Created wireframes and prototypes for digital products using Figma and Adobe Creative Suite.",
+        "Partnered with developers and stakeholders to ensure design-to-development handoff integrity."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Created a complete branding kit including logo design, typography selection, and color palettes for an early-stage startup."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook campaign series that contributed to a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her brand identity and visual systems experience at Ascent Business Solutions and AT Creation to directly match Mindrift's need for a Brand Designer building foundational visual assets and enforcing brand consistency.",
+  "omitted": [
+    "Bounceless UX case study - left out because this role specifically requires brand identity and visual design rather than B2B UX product design.",
+    "AI-assisted workflows (ChatGPT, Adobe Firefly) - omitted to keep the focus strictly on core brand design execution as requested by the posting's emphasis on foundational design skills."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "company": "Mindrift",
+  "domain": "himalayas.app",
+  "mx": true,
+  "pattern": "first",
+  "candidates": [
+    {
+      "email": "logohi@himalayas.app",
+      "name": "",
+      "role": "published address",
+      "confidence": "high",
+      "basis": "published on the company's own site"
+    },
+    {
+      "email": "sarah@himalayas.app",
+      "name": "Sarah Johnson",
+      "role": "Senior Software Engineer",
+      "confidence": "medium",
+      "basis": "name from site + 'first' pattern learned from a published address",
+      "linkedin_hint": "Better than guessing: find Sarah Johnson (Senior Software Engineer) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
