@@ -1,0 +1,71 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic Designer with hands-on experience executing 100+ digital and print marketing assets, brand collaterals, and social campaigns.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Adobe Firefly"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Branding and visual identity, typography, layout, print production, social/marketing creative, design systems"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated with HR and management stakeholders, maintaining low revision cycles.",
+        "Managed print-ready file production including bleed, sizing, and colour accuracy.",
+        "Applied AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing and applied findings to user flows and interface usability.",
+        "Developed wireframes and prototypes for digital products.",
+        "Partnered with developers and stakeholders on design-to-development handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "AT Creation Branding Kit",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed comprehensive branding kit including logo, typography, and palette."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her recent graphic design role at Ascent Business Solutions, emphasizing print production, asset creation volume, and brand collateral execution to match the Patni Toyota graphic design role.",
+  "omitted": [
+    "Bounceless UX case study - stretch, as this is a graphic design role focused on brand and marketing collaterals rather than B2B UX product design.",
+    "Framer and Webflow working skills - stretch, not requested by the primary graphic design focus of this posting."
+  ]
+}
