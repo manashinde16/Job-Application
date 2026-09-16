@@ -1,0 +1,29 @@
+{
+  "company": "Quadmark",
+  "domain": "quadmark.bamboohr.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@quadmark.bamboohr.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@quadmark.bamboohr.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@quadmark.bamboohr.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}
