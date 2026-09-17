@@ -1,0 +1,64 @@
+{
+  "company": "DigitalZap",
+  "domain": "shine.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "pooja.kheterpal@shine.com",
+      "name": "Pooja Kheterpal",
+      "role": "Author / Career Guidance",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Pooja Kheterpal (Author / Career Guidance) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "pooja@shine.com",
+      "name": "Pooja Kheterpal",
+      "role": "Author / Career Guidance",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Pooja Kheterpal (Author / Career Guidance) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "priyanka.bakhtani@shine.com",
+      "name": "Priyanka Bakhtani",
+      "role": "Author / Career Guidance",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Priyanka Bakhtani (Author / Career Guidance) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "priyanka@shine.com",
+      "name": "Priyanka Bakhtani",
+      "role": "Author / Career Guidance",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Priyanka Bakhtani (Author / Career Guidance) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "shubhangi@shine.com",
+      "name": "Shubhangi",
+      "role": "Author / Career Guidance",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Shubhangi (Author / Career Guidance) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "harshita.khullar@shine.com",
+      "name": "Harshita Khullar",
+      "role": "Author / Career Guidance",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Harshita Khullar (Author / Career Guidance) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "harshita@shine.com",
+      "name": "Harshita Khullar",
+      "role": "Author / Career Guidance",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Harshita Khullar (Author / Career Guidance) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}

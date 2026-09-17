@@ -1,0 +1,75 @@
+{
+  "headline": "UI/UX Designer",
+  "tagline": "UI/UX designer translating workflows into simple interfaces with experience in wireframing, prototyping, and usability testing.",
+  "skills": [
+    {
+      "label": "Design & UX",
+      "items": "Figma, Wireframing, Prototyping, User Flows, Usability Testing, Responsive Design, Design Systems"
+    },
+    {
+      "label": "Technical & Collaboration",
+      "items": "B.Tech Computer Science, Developer Handoff, Miro, Notion, Framer, Webflow"
+    },
+    {
+      "label": "Visual & Brand",
+      "items": "Illustrator, Photoshop, CorelDRAW, Typography, Visual Identity, Brand Guidelines"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, and corporate communications.",
+        "Worked with HR and management stakeholders to deliver assets within low revision cycles.",
+        "Managed print-ready files covering bleed, sizing, and colour accuracy.",
+        "Applied AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and interactive prototypes for digital products.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Delivered social campaigns, branding assets, and brochures for startups and SMBs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study delivering a cleaner verification experience for teams dependent on accurate email lists.",
+        "Demonstrated structured UX thinking, wireframing, and simplification of complex B2B flows."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03 (Developer handoff credibility, technical feasibility conversations, systems thinking)",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her UI/UX experience and Bounceless case study to match FarmDidi's need for mobile app product design, workflow translation, and usability testing, while framing her CS degree for developer handoff.",
+  "omitted": [
+    "AI tools detailed across multiple bullets (collapsed to one line to keep tooling proportional to outcomes)",
+    "Duplicate banners/standees bullet under AT Creation (removed to eliminate redundant padding)"
+  ]
+}

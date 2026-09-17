@@ -1,0 +1,74 @@
+{
+  "headline": "Visual Designer",
+  "tagline": "Junior designer with strong visual foundations, expertise in brand execution, and experience building scalable design systems.",
+  "skills": [
+    {
+      "label": "Visual Design & Brand",
+      "items": "Branding and visual identity, typography, layout, composition, visual hierarchy, print production"
+    },
+    {
+      "label": "Tools & Software",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Framer, Webflow, Miro, Notion"
+    },
+    {
+      "label": "Workflows & Collaboration",
+      "items": "Design systems, responsive design, AI-assisted workflows (ChatGPT, Adobe Firefly), cross-functional collaboration"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Delivered 100+ digital and print creatives spanning employee engagement, branding, recruitment, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated directly with HR and management stakeholders to maintain low revision cycles.",
+        "Managed print-ready files ensuring precise bleed, sizing, and colour accuracy.",
+        "Applied AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Created social campaigns, branding assets, and brochures for SMBs.",
+        "Conducted usability testing and fed findings back into user flows and interface usability.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Utilized Photoshop and Illustrator for product visuals and marketing assets."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study focusing on a cleaner verification experience for teams that depend on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series for a fashion brand that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her hands-on brand execution, template building, and visual identity work at Ascent and AT Creation to directly match Beforest's requirement for interpreting brand guidelines across digital and print touchpoints.",
+  "omitted": [
+    "Unspecified portfolio project titles (Zest Club, Potted Paradise, etc.) left out to focus on documented case studies and core experience."
+  ]
+}
