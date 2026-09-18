@@ -1,0 +1,76 @@
+{
+  "headline": "UI/UX & Graphic Designer",
+  "tagline": "Junior designer bridging visual design systems with web application UI/UX workflows.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Framer, Webflow, Miro, Notion"
+    },
+    {
+      "label": "UX & Product",
+      "items": "Wireframing, Prototyping, User Flows, Design Systems, Responsive Design, Usability Testing"
+    },
+    {
+      "label": "Visual & Print",
+      "items": "Branding & Visual Identity, Typography, Layout, Print Production, AI-Assisted Workflows"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Designed banners, standees, certificates, ID cards, and marketing collateral.",
+        "Worked with HR and management stakeholders to maintain low revision cycles.",
+        "Applied typography, colour systems, layout, visual hierarchy, and print-ready file management.",
+        "Leveraged AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and interactive prototypes for early-stage digital projects.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Produced social campaigns, branding assets, and brochures for startups and SMBs using Photoshop and Illustrator."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study delivering a cleaner verification experience for teams dependent on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her UI/UX internship experience and the Bounceless case study to match CloudIngest's focus on web application interfaces and developer handoff, while leveraging her B.Tech CS background for technical feasibility.",
+  "omitted": [
+    "AT Creation startup branding kit (Sept-Oct 2023) - omitted to keep the project section concise and focused on the strongest case study.",
+    "List of 7 undocumented portfolio projects - omitted because they lack problem statements or outcomes.",
+    "stretch: Claiming advanced HTML/CSS implementation skills - omitted because her profile only shows design tools, wireframing, and developer handoff, not coding."
+  ]
+}

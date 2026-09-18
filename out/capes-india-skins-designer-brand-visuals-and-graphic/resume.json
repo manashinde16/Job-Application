@@ -1,0 +1,74 @@
+{
+  "headline": "Visual Designer",
+  "tagline": "Visual designer with 1.5 years of experience in D2C-focused branding, high-conversion marketing creatives, and scalable design systems.",
+  "skills": [
+    {
+      "label": "Design Suite",
+      "items": "Adobe Photoshop, Illustrator, CorelDRAW, Figma, InDesign"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Visual Identity, Typography, Layout, Print Production, Vector Illustration"
+    },
+    {
+      "label": "Digital & Marketing",
+      "items": "Performance Marketing Creatives, Social Media Campaigns, Responsive Web Assets, AI-assisted workflows"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 Present",
+      "bullets": [
+        "Design high-conversion performance marketing creatives and carousels for digital advertising platforms.",
+        "Develop reusable design templates and visual systems to streamline production and maintain brand consistency.",
+        "Produce 100+ digital and print assets including corporate communications, branding, and recruitment materials.",
+        "Manage print-ready file production with strict adherence to bleed, sizing, and color accuracy requirements.",
+        "Collaborate with cross-functional teams to deliver marketing collateral and presentations under tight deadlines."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing and integrated findings into user flows and interface usability improvements.",
+        "Developed wireframes and prototypes for digital products to facilitate developer handoff.",
+        "Created visual identity systems, logos, and brand guidelines for early-stage startups.",
+        "Designed brochures and social media assets for SMBs, ensuring alignment with client brand aesthetics."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook campaign that resulted in a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Bounceless (UX Case Study)",
+      "dates": "2024",
+      "bullets": [
+        "Designed a cleaner verification experience for B2B teams focusing on accurate email list management."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech in Computer Science (CGPA 8.03)",
+      "dates": "2020 \u2013 2024"
+    }
+  ],
+  "emphasis": "I led with the Ascent Business Solutions role to highlight high-volume marketing creative experience and the ability to build scalable visual systems, which are critical for a D2C brand.",
+  "omitted": [
+    "AI-assisted workflows (ChatGPT, Adobe Firefly) - kept to one line as per constraints.",
+    "Zest Club, Potted Paradise, Design \u00d7 Engineering, Learnara, Common Ground, Foodbank, Domino's rethought - omitted due to lack of documented outcomes or problem statements.",
+    "Duplicate bullet regarding banners/certificates - removed to avoid redundancy and focus on role-specific impact."
+  ]
+}
