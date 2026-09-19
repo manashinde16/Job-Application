@@ -1,0 +1,24 @@
+{
+  "company": "Catch Creation, LLC",
+  "domain": "job-boards.greenhouse.io",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "peter.tam@job-boards.greenhouse.io",
+      "name": "Peter Tam",
+      "role": "Talent Acquisition Enablement Manager",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Peter Tam (Talent Acquisition Enablement Manager) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "peter@job-boards.greenhouse.io",
+      "name": "Peter Tam",
+      "role": "Talent Acquisition Enablement Manager",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Peter Tam (Talent Acquisition Enablement Manager) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}

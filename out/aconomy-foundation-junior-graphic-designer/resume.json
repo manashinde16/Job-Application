@@ -1,0 +1,71 @@
+{
+  "headline": "Visual Designer",
+  "tagline": "Visual designer with commercial experience delivering engaging social campaigns and marketing collateral.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Illustrator, Photoshop, Figma, CorelDRAW, Framer, Webflow"
+    },
+    {
+      "label": "Visual Design & Branding",
+      "items": "Social/marketing creative, visual identity, typography, layout, print production, wireframing"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, and marketing collateral for internal and external stakeholders.",
+        "Managed print-ready file preparation including bleed, sizing, and colour accuracy.",
+        "Used AI-assisted workflows with ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Developed wireframes and prototypes for digital interfaces using Photoshop and Illustrator.",
+        "Conducted usability testing and fed findings back into user flows and interface usability.",
+        "Worked with developers and stakeholders on design-to-development handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Created a complete branding kit including logo, typography, and color palette."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her commercial visual and marketing design experience at Ascent Business Solutions, highlighting social campaigns and collateral to match the graphic design requirements of the posting.",
+  "omitted": [
+    "After Effects and Premiere Pro \u2014 stretch, profile lists Photoshop, Illustrator, CorelDRAW, Figma, Framer, Webflow, Miro, Notion.",
+    "Blender or Maya \u2014 stretch, no 3D animation software listed in profile skills.",
+    "Blockchain or fintech industry experience \u2014 stretch, profile lists no crypto/fintech domain work."
+  ]
+}
