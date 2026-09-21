@@ -1,14 +1,18 @@
 {
   "headline": "Graphic Designer",
-  "tagline": "Versatile graphic designer with hands-on experience in visual communications, layout design, and reusable digital templates.",
+  "tagline": "Versatile graphic designer specializing in logo design, brand identity systems, and high-impact visual assets.",
   "skills": [
     {
-      "label": "Design Tools",
-      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Framer, Webflow"
+      "label": "Design & Branding",
+      "items": "Logo Design, Visual Identity Systems, Brand Guidelines, Typography, Color Systems, Layout, Visual Hierarchy"
     },
     {
-      "label": "Visual & Print",
-      "items": "Typography, layout, visual hierarchy, print production, branding and visual identity"
+      "label": "Tools & Execution",
+      "items": "Illustrator, Photoshop, Figma, CorelDRAW, Print Production, File Management (Bleed, Sizing)"
+    },
+    {
+      "label": "Marketing & Collateral",
+      "items": "Social Media Campaigns, Marketing Assets, Brochures, Presentations, Digital & Print Creatives"
     }
   ],
   "experience": [
@@ -18,12 +22,12 @@
       "location": "Nagpur, India",
       "dates": "Jul 2025 \u2013 present",
       "bullets": [
-        "Produced 100+ digital and print creatives including employee engagement, branding, and marketing collateral.",
+        "Produced 100+ digital and print creatives including employee engagement, branding, recruitment, and onboarding materials.",
         "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
-        "Designed banners, standees, certificates, ID cards, and presentations.",
-        "Worked with HR and management stakeholders to maintain low revision cycles.",
-        "Managed print-ready files focusing on bleed, sizing, and colour accuracy.",
-        "Used AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+        "Worked with HR and management stakeholders to deliver marketing collateral with low revision cycles.",
+        "Applied typography, color systems, layout, and visual hierarchy across diverse corporate communications.",
+        "Managed print-ready file preparation including bleed, sizing, and color accuracy.",
+        "Utilized AI-assisted workflows via ChatGPT and Adobe Firefly for ideation and exploration."
       ]
     },
     {
@@ -32,28 +36,27 @@
       "location": "Nagpur, India",
       "dates": "Sep 2022 \u2013 Mar 2023",
       "bullets": [
-        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
-        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
-        "Used Photoshop and Illustrator for product visuals and marketing assets.",
-        "Conducted usability testing and translated findings into user flows.",
-        "Built wireframes and prototypes.",
-        "Collaborated with developers and stakeholders on design handoff."
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Created social campaigns, branding assets, and brochures for startups and small-to-medium businesses.",
+        "Used Photoshop and Illustrator to craft product visuals and marketing assets.",
+        "Conducted usability testing and translated user flows into interface usability improvements.",
+        "Collaborated with developers and stakeholders on design-to-development handoffs."
       ]
     }
   ],
   "projects": [
     {
-      "name": "Social Campaign for a Fashion Brand",
-      "dates": "Apr 2024",
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep \u2013 Oct 2023",
       "bullets": [
-        "Executed Instagram and Facebook series resulting in a 15% increase in follower engagement."
+        "Developed comprehensive logo, typography, and color palette systems for early-stage startup branding."
       ]
     },
     {
-      "name": "AT Creation Branding Kit",
-      "dates": "Sep \u2013 Oct 2023",
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
       "bullets": [
-        "Developed logo, typography, and color palette for startup branding kit."
+        "Created an Instagram and Facebook series that contributed to a 15% increase in follower engagement."
       ]
     }
   ],
@@ -64,8 +67,10 @@
       "dates": "June 2020 \u2013 June 2024"
     }
   ],
-  "emphasis": "Led with Ascent Business Solutions to highlight current template building, layout, and visual asset creation experience directly matching the freelance graphic designer role.",
+  "emphasis": "Led with her commercial branding, logo design, and visual identity experience from Ascent Business Solutions and AT Creation to directly match the requirements of the Mindrift freelance graphic designer role.",
   "omitted": [
-    "Bounceless UX case study left out as this role focuses strictly on graphic design and layout assets rather than B2B UX product design."
+    "Framer, Webflow, Miro, Notion (stretch: listed as working skills, omitted to keep focus strictly on graphic and brand design tools requested in the posting)",
+    "Bounceless UX case study (stretch: product UX focus rather than graphic/brand design identity)",
+    "Zest Club, Potted Paradise, Design x Engineering, Learnara, Common Ground, Foodbank, Domino's rethought (stretch: title-only projects with no documented problem or outcome)"
   ]
 }

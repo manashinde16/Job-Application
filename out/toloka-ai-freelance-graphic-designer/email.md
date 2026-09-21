@@ -3,25 +3,25 @@
 **NOT SENT.** Read it, edit it, then send it yourself.
 
 - To: `careers@apply.workable.com`  (guess confidence — common role inbox — may bounce, and rarely reaches a designer)
-- Role: Freelance Graphic Designer · Remote, Hyderabad, Telangana, India
-- Posting: https://apply.workable.com/j/73C6649879?utm_source=freehire.me
-- Body length: 127 words
+- Role: Freelance Graphic Designer · Remote, Israel
+- Posting: https://apply.workable.com/j/F2065F2BFC?utm_source=freehire.me
+- Body length: 122 words
 
 ## Subject
 
-Freelance Graphic Designer / Tendem Project
+Freelance Graphic Designer - Tendem project
 
 ## Body
 
-Hi,
+Hello,
 
-I saw the freelance graphic designer role for the Tendem project on Toloka-ai, and I am keen to contribute to your work combining real-world expertise with advanced AI development.
+I saw the Freelance Graphic Designer opening for the Tendem project at Mindrift, and I was immediately drawn to the specific focus on original logo design and visual identity systems.
 
-At Ascent Business Solutions, I produced over 100 digital and print creatives, managing print-ready files with bleed, sizing, and color accuracy while building reusable design templates that cut repetitive work and turnaround times. I also designed social campaigns for a fashion brand that achieved a 15% increase in follower engagement.
+At Ascent Business Solutions, I have produced over 100 digital and print creatives, building reusable design templates and visual systems that reduce repetitive work and streamline corporate communications for various stakeholders. Previously at AT Creation, I designed complete brand guidelines, typography systems, and custom logos for early-stage startups and small businesses.
 
-You can see my layout and branding work in my branding kit for AT Creation, which demonstrates my approach to visual identity, alongside my complete portfolio at https://ananya-portfolio-nu.vercel.app/
+My branding kit for the AT Creation startup, which demonstrates how I translate abstract brand requirements into distinctive visual symbols, is documented in my portfolio at https://ananya-portfolio-nu.vercel.app/.
 
-Would you be open to taking a quick look at how I structure information cleanly for marketing collateral?
+Would you be open to taking a brief look at that project?
 
 Ananya
 
@@ -33,19 +33,19 @@ https://ananya-portfolio-nu.vercel.app/
 
 **Day 4** — Hi,
 
-I am following up on my note from last week regarding the freelance graphic designer role for the Tendem project. I would love to share how my experience building reusable templates and marketing assets could support your team. Let me know if you have time for a brief look.
+Just following up on my note from last week regarding the Tendem freelance graphic design role. My experience building visual identity systems and branding kits for startups is a strong match for your requirements. Would you have five minutes to review my portfolio?
 
 Ananya
 
-**Day 11** — Hi,
+**Day 11** — Hello,
 
-I know your team is busy scaling the Tendem project on Toloka-ai. This is my final note, just leaving my portfolio link here in case you need extra support with layouts and infographics down the line: https://ananya-portfolio-nu.vercel.app/
+I know your inbox is busy, so I will keep this final message brief. If you have filled the Tendem graphic designer role, no worries at all. If you are still reviewing portfolios, my branding and logo work remains ready for a quick look.
 
 Ananya
 
 ## Why it opens that way
 
-Mentioned Toloka-ai's specific mission combining real-world expertise with AI development to show direct alignment.
+I referenced the specific Tendem project and logo design focus mentioned in the Mindrift posting.
 
 ## Other contact options
 
