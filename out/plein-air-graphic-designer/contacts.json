@@ -1,0 +1,29 @@
+{
+  "company": "Plein Air",
+  "domain": "recruiting.paylocity.com",
+  "mx": false,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@recruiting.paylocity.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@recruiting.paylocity.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@recruiting.paylocity.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}
