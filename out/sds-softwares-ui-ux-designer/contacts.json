@@ -1,0 +1,24 @@
+{
+  "company": "SDS Softwares",
+  "domain": "instahyre.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "sahil.kumar@instahyre.com",
+      "name": "Sahil Kumar",
+      "role": "UX Designer",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Sahil Kumar (UX Designer) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "sahil@instahyre.com",
+      "name": "Sahil Kumar",
+      "role": "UX Designer",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Sahil Kumar (UX Designer) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
