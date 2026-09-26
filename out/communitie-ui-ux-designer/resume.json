@@ -1,0 +1,72 @@
+{
+  "headline": "UI/UX Designer",
+  "tagline": "UI/UX Designer with a B.Tech in Computer Science and hands-on experience in wireframing, prototyping, and usability testing.",
+  "skills": [
+    {
+      "label": "Design & Prototyping",
+      "items": "Figma, Wireframing, Prototyping, User Flows, Responsive Design, Usability Testing, Design Systems"
+    },
+    {
+      "label": "Visual & Brand",
+      "items": "Illustrator, Photoshop, CorelDRAW, Typography, Layout, Visual Identity"
+    },
+    {
+      "label": "Technical",
+      "items": "B.Tech Computer Science (Developer Handoff, Systems Thinking), AI-assisted workflows"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Worked with HR and management stakeholders across 5 cross-functional teams to deliver 100+ digital and print creatives.",
+        "Managed print-ready file requirements including bleed, sizing, and colour accuracy.",
+        "Applied typography, colour systems, and layout principles for corporate communications and recruitment assets."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and interactive prototypes for digital interfaces.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses and startups."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study delivering a cleaner verification experience for teams depending on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook campaign series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03 (Provides developer handoff credibility, technical feasibility conversations, and systems thinking)",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her UX internship and Bounceless case study to match Communitie's requirement for a UI/UX Designer, while framing her CS degree as an asset for developer handoff and technical feasibility.",
+  "omitted": [
+    "Duplicate bullets regarding banners, standees, and certificates removed to avoid repetition across roles.",
+    "Unspecified portfolio project titles (Zest Club, Potted Paradise, etc.) omitted as they lack documented problem statements or outcomes."
+  ]
+}
