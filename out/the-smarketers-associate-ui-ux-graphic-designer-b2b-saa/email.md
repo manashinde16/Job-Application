@@ -1,11 +1,11 @@
-# Outreach — The SMarketers, Associate UI / UX & Graphic Designer (B2B SaaS)
+# Outreach — The Smarketers, Associate UI/UX & Graphic Designer (B2B SaaS)
 
 **NOT SENT.** Read it, edit it, then send it yourself.
 
-- To: `sahil.kumar@instahyre.com`  (guess confidence — name from site; address pattern unknown, this is a common shape)
-- Role: Associate UI / UX & Graphic Designer (B2B SaaS) · Hyderabad
-- Posting: https://www.instahyre.com/job-444692-associate-ui-ux-graphic-designer-b2b-saas-at-the-smarketers-hyderabad/
-- Body length: 123 words
+- To: `careers@in.linkedin.com`  (guess confidence — common role inbox — may bounce, and rarely reaches a designer)
+- Role: Associate UI/UX & Graphic Designer (B2B SaaS) · Hyderabad, Telangana, India
+- Posting: https://in.linkedin.com/jobs/view/associate-ui-ux-graphic-designer-b2b-saas-at-the-smarketers-4469741653
+- Body length: 117 words
 
 ## Subject
 
@@ -13,15 +13,15 @@ Associate UI/UX & Graphic Designer role
 
 ## Body
 
-Hi Sahil,
+Hello,
 
-I saw the Associate UI / UX & Graphic Designer role at The SMarketers, and your focus on helping B2B businesses generate ROI through targeted strategy stood out to me.
+I saw your opening for the Associate UI/UX & Graphic Designer role and was drawn to your focus on accelerating growth for B2B and SaaS brands through strategic marketing and digital transformation.
 
-At AT Creation, I conducted usability testing and fed those findings directly into user flows and interface usability, while also building visual systems in my current role at Ascent Business Solutions that cut turnaround time across over one hundred creatives.
+At Ascent Business Solutions, I create digital and print marketing creatives and build reusable design systems that cut turnaround times. Earlier at AT Creation, I handled UI wireframing, prototyping, and developer handoffs for early-stage businesses.
 
-My B2B UX case study, Bounceless, demonstrates a cleaner verification experience for teams that depend on accurate email lists: https://ananya-portfolio-nu.vercel.app/
+My Bounceless case study demonstrates my B2B UX process and user flows, which you can see at https://ananya-portfolio-nu.vercel.app/.
 
-I am currently based in Nagpur, ready to relocate to Hyderabad, and would love to share a quick look at that case study if you have fifteen minutes this week.
+I am currently based in Nagpur and am ready to relocate to Hyderabad for this role. Would you be open to a quick look at one case study this week?
 
 Ananya
 
@@ -31,22 +31,23 @@ https://ananya-portfolio-nu.vercel.app/
 
 ## Follow-ups
 
-**Day 4** — Hi Sahil,
+**Day 4** — Hi,
 
-Just floating my note from earlier this week. I would love to share how my B2B work on Bounceless could support the team in Hyderabad. Let me know if you have time for a brief look.
+Checking in on my note from last week regarding the Associate UI/UX & Graphic Designer role. I would welcome the chance to share how my background in both graphic design and UI/UX can support your upcoming marketing and product initiatives.
 
 Ananya
 
-**Day 11** — Hi Sahil,
+**Day 11** — Hi,
 
-I know things get busy. I am checking in one last time regarding the Associate UI/UX role. If the timing isn't right, no worries at all.
+I know your team is moving quickly on the Associate UI/UX & Graphic Designer search. If you have already filled the position, no worries at all, and I wish the team the best.
 
 Ananya
 
 ## Why it opens that way
 
-I referenced their focus on B2B sales and marketing ROI to connect my background directly to their business goals.
+Mentioned the Associate UI/UX & Graphic Designer role and connected it to their B2B and SaaS focus.
 
 ## Other contact options
 
-- `sahil@instahyre.com` — Sahil Kumar (UX Designer) · guess
+- `hr@in.linkedin.com` — role inbox (guessed) · guess
+- `jobs@in.linkedin.com` — role inbox (guessed) · guess

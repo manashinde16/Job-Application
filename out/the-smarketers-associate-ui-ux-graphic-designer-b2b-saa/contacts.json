@@ -1,24 +1,29 @@
 {
-  "company": "The SMarketers",
-  "domain": "instahyre.com",
+  "company": "The Smarketers",
+  "domain": "in.linkedin.com",
   "mx": true,
   "pattern": null,
   "candidates": [
     {
-      "email": "sahil.kumar@instahyre.com",
-      "name": "Sahil Kumar",
-      "role": "UX Designer",
+      "email": "careers@in.linkedin.com",
+      "name": "",
+      "role": "role inbox (guessed)",
       "confidence": "guess",
-      "basis": "name from site; address pattern unknown, this is a common shape",
-      "linkedin_hint": "Better than guessing: find Sahil Kumar (UX Designer) on LinkedIn and send this as a connection note. Design leads reply there."
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
     },
     {
-      "email": "sahil@instahyre.com",
-      "name": "Sahil Kumar",
-      "role": "UX Designer",
+      "email": "hr@in.linkedin.com",
+      "name": "",
+      "role": "role inbox (guessed)",
       "confidence": "guess",
-      "basis": "name from site; address pattern unknown, this is a common shape",
-      "linkedin_hint": "Better than guessing: find Sahil Kumar (UX Designer) on LinkedIn and send this as a connection note. Design leads reply there."
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@in.linkedin.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
     }
   ]
 }

@@ -1,0 +1,74 @@
+{
+  "headline": "Visual Designer",
+  "tagline": "Visual designer with expertise in branding systems, typography, and marketing creatives.",
+  "skills": [
+    {
+      "label": "Design & Visuals",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, branding and visual identity, typography, layout, print production, social/marketing creative"
+    },
+    {
+      "label": "Process & Systems",
+      "items": "Design systems, wireframing, prototyping, user flows, responsive design, usability testing"
+    },
+    {
+      "label": "Tools & Methods",
+      "items": "Framer, Webflow, Miro, Notion, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced 100+ digital and print creatives spanning employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Managed print-ready file requirements including bleed, sizing, and colour accuracy.",
+        "Collaborated with HR and management stakeholders to maintain low revision cycles.",
+        "Utilized AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and interactive prototypes.",
+        "Developed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Worked with developers and stakeholders on design-to-development handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study delivering a cleaner verification experience for teams depending on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her visual systems and branding background from Ascent Business Solutions to align with Hugosave's requirement for a Visual Designer.",
+  "omitted": [
+    "Repeated banners and standees bullet under AT Creation (removed to avoid duplication)",
+    "Extra details about AI tooling beyond one line (kept brief per guidelines)"
+  ]
+}
