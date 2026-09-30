@@ -1,0 +1,76 @@
+{
+  "headline": "UI/UX Designer",
+  "tagline": "UI/UX Designer with hands-on usability testing and end-to-end flow design experience, backed by a Computer Science background.",
+  "skills": [
+    {
+      "label": "Design & Product",
+      "items": "Figma, Wireframing, Prototyping, User Flows, Usability Testing, Design Systems, Responsive Design, Miro, Notion"
+    },
+    {
+      "label": "Visual & Brand",
+      "items": "Illustrator, Photoshop, CorelDRAW, Branding and Visual Identity, Typography, Layout, Print Production"
+    },
+    {
+      "label": "Technical & AI",
+      "items": "HTML/CSS familiarity via B.Tech CS background, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced 100+ digital and print creatives including marketing collateral and corporate communications.",
+        "Worked with HR and management stakeholders through low revision cycles.",
+        "Applied typography, colour systems, layout, and visual hierarchy to brand assets.",
+        "Managed print-ready files focusing on bleed, sizing, and colour accuracy.",
+        "Utilized AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and interactive prototypes for digital products.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Designed a B2B UX case study focused on creating a cleaner verification experience for teams depending on accurate email lists.",
+        "Turned user research into a structured verification flow demonstrating end-to-end product thinking."
+      ]
+    },
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science (CGPA 8.03) \u2014 provides systems thinking, technical feasibility, and developer handoff credibility.",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her end-to-end UX process from the Bounceless case study, hands-on usability testing background at AT Creation, and her Computer Science degree to match Finlaxmi's focus on user research and execution.",
+  "omitted": [
+    "Framed Framer and Webflow under strong skills (kept to working per profile)",
+    "Framer / Webflow project details (listed as titles only with no problem statement or outcome documented)"
+  ]
+}
