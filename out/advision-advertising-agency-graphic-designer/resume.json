@@ -1,0 +1,70 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic Designer with expertise in branding, marketing collateral, and reusable visual systems.",
+  "skills": [
+    {
+      "label": "Design & Branding",
+      "items": "Illustrator, Photoshop, CorelDRAW, Figma, branding and visual identity, typography, layout"
+    },
+    {
+      "label": "Production & Workflow",
+      "items": "print production, print-ready file management, design systems, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives spanning employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Worked with HR and management stakeholders, maintaining low revision cycles.",
+        "Applied typography, colour systems, layout, visual hierarchy, and managed print-ready files including bleed, sizing, and colour accuracy.",
+        "Used AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Used Photoshop and Illustrator for product visuals and marketing assets.",
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and prototypes, and worked with developers and stakeholders on design-to-development handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed logo, typography, and palette for brand identity."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her current agency role at Ascent Business Solutions, emphasizing high-volume creative production, branding, and template systems that match Advision's focus on marketing and visual identity.",
+  "omitted": [
+    "Bounceless UX case study \u2014 stretch for a purely graphic design role, as it focuses on B2B product UX rather than marketing collateral."
+  ]
+}

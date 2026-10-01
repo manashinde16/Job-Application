@@ -1,0 +1,29 @@
+{
+  "company": "LA-Tech",
+  "domain": "pod4.app.loxo.co",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@pod4.app.loxo.co",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@pod4.app.loxo.co",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@pod4.app.loxo.co",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}
