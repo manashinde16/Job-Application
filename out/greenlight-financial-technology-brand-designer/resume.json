@@ -1,0 +1,70 @@
+{
+  "headline": "Brand Designer",
+  "tagline": "Brand and visual designer experienced in building reusable design systems, visual identities, and 100+ digital and print marketing assets.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Framer, Webflow"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Branding and visual identity, typography, layout, print production, design systems, social/marketing creative"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Managed print-ready files including bleed, sizing, and colour accuracy for marketing collateral.",
+        "Worked with HR and management stakeholders across low revision cycles.",
+        "Applied typography, colour systems, layout, and visual hierarchy across all brand touchpoints."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Produced wireframes and prototypes for digital products.",
+        "Worked with developers and stakeholders on design-to-development handoff using Photoshop and Illustrator."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding kit for AT Creation startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Delivered logo, typography, and palette for visual identity and brand systems work."
+      ]
+    },
+    {
+      "name": "Social campaign for a fashion brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed Instagram and Facebook series resulting in a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her 100+ brand and marketing creatives at Ascent Business Solutions and her experience building reusable visual systems to match the Brand Designer role requirements.",
+  "omitted": [
+    "AI-assisted workflows (ChatGPT, Adobe Firefly) omitted as the posting does not prioritize AI tooling.",
+    "Bounceless UX case study omitted to maintain focus on brand and visual identity systems for this specific posting."
+  ]
+}
