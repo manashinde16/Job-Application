@@ -1,0 +1,69 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic designer with hands-on experience in print production, brand collateral, and reusable visual systems.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Illustrator, Photoshop, Figma, CorelDRAW, Framer, Webflow"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Print production, visual identity, typography, layout, print-ready file management, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives spanning employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Managed print-ready file preparation including bleed, sizing, and colour accuracy.",
+        "Collaborated directly with HR and management stakeholders, maintaining low revision cycles across projects.",
+        "Leveraged AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures tailored for startups and SMBs.",
+        "Used Photoshop and Illustrator to build product visuals and marketing assets.",
+        "Worked with developers and stakeholders to support design implementation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that contributed to a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed a complete visual identity kit featuring logos, typography, and color palettes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her graphic design experience at Ascent Business Solutions, emphasizing print production, collateral creation, and template-building that align with the brand execution needs at Boombay.",
+  "omitted": [
+    "Bounceless case study and usability testing omitted as they are product UX artifacts less relevant to this pure graphic design role.",
+    "Wireframing, prototyping, and user flows omitted to keep the focus strictly on graphic and brand design."
+  ]
+}
