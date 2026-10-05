@@ -1,0 +1,74 @@
+{
+  "headline": "UI Designer",
+  "tagline": "UI Designer with strong visual execution, Figma proficiency, and a Computer Science background enabling technical feasibility.",
+  "skills": [
+    {
+      "label": "Design & UI",
+      "items": "Figma, Wireframing, Prototyping, User Flows, Responsive Design, Typography, Color Systems, Layout, Visual Hierarchy"
+    },
+    {
+      "label": "Branding & Print",
+      "items": "Visual Identity, Branding Assets, Print-Ready File Management, Illustrator, Photoshop, CorelDRAW"
+    },
+    {
+      "label": "Technical & Tools",
+      "items": "Developer Handoff, Systems Thinking, AI-Assisted Workflows (ChatGPT, Adobe Firefly), Framer, Webflow, Miro, Notion"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Worked with HR and management stakeholders, maintaining low revision cycles.",
+        "Managed print production including bleed, sizing, colour accuracy, typography, layout, and visual hierarchy.",
+        "Applied AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing and fed findings back into user flows and interface usability.",
+        "Created wireframes and prototypes for early-stage digital interfaces.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Delivered social campaigns, branding assets, and brochures for startups and SMBs using Photoshop and Illustrator."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study focused on a cleaner verification experience for teams depending on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03. Asset for product design roles providing developer handoff credibility, technical feasibility conversations, and systems thinking.",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with UI design, Figma proficiency, wireframing, and the Bounceless case study to match EDElephant Design's UI Designer posting, while highlighting her CS background for dev handoff.",
+  "omitted": [
+    "AT Creation branding kit startup project (omitted to keep the project section concise and focused on digital product and major campaign metrics)."
+  ]
+}

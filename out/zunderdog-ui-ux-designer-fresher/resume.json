@@ -1,0 +1,72 @@
+{
+  "headline": "UI/UX Designer",
+  "tagline": "UI/UX Designer with B.Tech Computer Science background and strong developer handoff experience.",
+  "skills": [
+    {
+      "label": "Design & UX",
+      "items": "Figma, Wireframing, Prototyping, User Flows, Usability Testing, Responsive Design, Design Systems"
+    },
+    {
+      "label": "Visual & Brand",
+      "items": "Typography, Colour Systems, Layout, Visual Identity, Illustrator, Photoshop"
+    },
+    {
+      "label": "Technical",
+      "items": "Developer Handoff, HTML/CSS familiarity via B.Tech CS background, AI-assisted workflows"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding.",
+        "Worked with management and HR stakeholders across low revision cycles.",
+        "Managed print-ready file production ensuring correct bleed, sizing, and colour accuracy."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing and fed findings back into user flows and interface usability.",
+        "Designed wireframes and clickable prototypes in Figma.",
+        "Partnered with developers and stakeholders on structured design-to-development handoffs.",
+        "Created brand guidelines, logos, and visual identity systems for early-stage businesses."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless (B2B UX Case Study)",
+      "dates": "2024",
+      "bullets": [
+        "Designed a cleaner verification experience focused on user flows and wireframes for teams depending on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Created Instagram and Facebook series that contributed to a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech in Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her UI/UX work at AT Creation, her Bounceless UX case study, and her B.Tech Computer Science background to match Zunderdog's need for strong developer handoff and Figma prototyping.",
+  "omitted": [
+    "CorelDRAW, Framer, Webflow, Miro, Notion \u2014 omitted to keep skill groups focused on Figma and core design tools requested by the posting.",
+    "Ascent duplicate bullets about presentations, standees, and ID cards \u2014 removed to prevent repetition and focus on template systems and stakeholder work."
+  ]
+}
