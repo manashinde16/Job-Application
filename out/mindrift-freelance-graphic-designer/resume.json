@@ -1,0 +1,73 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Versatile graphic designer specializing in brand identity, visual systems, and professional marketing collateral.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Framer, Webflow"
+    },
+    {
+      "label": "Branding & Visual Identity",
+      "items": "Logo design, brand guidelines, typography, colour systems, layout, visual hierarchy"
+    },
+    {
+      "label": "Creative Production",
+      "items": "Print production, social campaigns, marketing collateral, reusable design templates, AI-assisted workflows"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Created 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Managed print-ready file production ensuring proper bleed, sizing, and colour accuracy.",
+        "Collaborated with HR and management stakeholders to maintain low revision cycles."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Used Photoshop and Illustrator for product visuals and marketing assets.",
+        "Conducted usability testing and developed wireframes and prototypes."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep \u2013 Oct 2023",
+      "bullets": [
+        "Developed comprehensive logo, typography, and palette guidelines for early-stage business branding."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech in Computer Science, CGPA 8.03",
+      "dates": "Jun 2020 \u2013 Jun 2024"
+    }
+  ],
+  "emphasis": "Led with her recent branding and template systems work at Ascent Business Solutions to directly match Mindrift's need for identity design, versatility, and independent asset creation.",
+  "omitted": [
+    "Framer and Webflow working skills (stretch for a graphic design focused role emphasizing static and template collateral)",
+    "Bounceless UX case study (omitted as the target role is strictly graphic design and visual identity focused)"
+  ]
+}
