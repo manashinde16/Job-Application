@@ -1,0 +1,74 @@
+{
+  "headline": "UI/UX Designer",
+  "tagline": "UI/UX Designer with experience in wireframing, prototyping, usability testing, and developer handoff.",
+  "skills": [
+    {
+      "label": "Design & Prototyping",
+      "items": "Figma, Wireframing, Prototyping, User Flows, Responsive Design, Usability Testing, Design Systems"
+    },
+    {
+      "label": "Visual & Brand",
+      "items": "Adobe Illustrator, Adobe Photoshop, CorelDRAW, Typography, Layout, Color Systems, Branding"
+    },
+    {
+      "label": "Tools & Workflow",
+      "items": "Framer, Webflow, Miro, Notion, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced 100+ digital and print creatives spanning branding, recruitment, and onboarding.",
+        "Worked with HR and management stakeholders across low revision cycles.",
+        "Managed print-ready file requirements including bleed, sizing, and colour accuracy.",
+        "Applied typography, colour systems, and layout principles to maintain visual hierarchy."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing and fed findings back into user flows and interface usability.",
+        "Created wireframes and interactive prototypes for digital products.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Produced social campaigns, branding assets, and brochures for startups and SMBs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Designed a cleaner verification experience focused on user flows and usability for teams needing accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Delivered an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with UI/UX prototyping, wireframing, and usability testing from AT Creation and the Bounceless case study, backed by her computer science background for developer handoff.",
+  "omitted": [
+    "Repeated bullet about banners, standees, and certificates to avoid duplication across roles.",
+    "Unspecified portfolio titles (Zest Club, Potted Paradise, etc.) omitted due to lack of documented problem statements or outcomes."
+  ]
+}
