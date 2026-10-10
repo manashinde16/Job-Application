@@ -1,0 +1,75 @@
+{
+  "headline": "UI/UX Designer",
+  "tagline": "UI/UX and Graphic Designer leveraging a Computer Science background to bridge interface design and technical feasibility.",
+  "skills": [
+    {
+      "label": "UI/UX & Research",
+      "items": "Figma, wireframing, prototyping, user flows, usability testing, responsive design, design systems"
+    },
+    {
+      "label": "Design Tools",
+      "items": "Illustrator, Photoshop, CorelDRAW, Framer, Webflow, Miro, Notion"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Visual identity, typography, layout, print production, stakeholder collaboration"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding.",
+        "Worked closely with HR and management stakeholders across low revision cycles.",
+        "Managed print-ready file production including bleed, sizing, and colour accuracy.",
+        "Applied AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and interactive prototypes for digital products.",
+        "Collaborated with developers and stakeholders on design-to-development handoff, applying a Computer Science perspective to technical feasibility.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Delivered social campaigns, branding assets, and brochures for startups and SMBs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study delivering a cleaner verification experience for teams depending on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her AT Creation UI/UX internship, usability testing, and the Bounceless case study, while framing her Computer Science degree for developer handoff and technical feasibility as required by the Llineo posting.",
+  "omitted": [
+    "CorelDRAW under Ascent (redundant with skills)",
+    "Duplicate branding bullets across jobs to eliminate repetition",
+    "Sketch, InVision, Visio, HTML, CSS (SCSS) from Llineo posting - stretch, not verified in profile"
+  ]
+}
