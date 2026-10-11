@@ -1,0 +1,75 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic designer with 1.5 years of experience delivering social campaigns, branding assets, and high-converting marketing creatives.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Photoshop, Illustrator, CorelDRAW, Canva, Framer, Webflow"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Social/marketing creative, branding and visual identity, typography, layout, print production, responsive design"
+    },
+    {
+      "label": "Collaboration & Process",
+      "items": "Design systems, wireframing, prototyping, user flows, usability testing, Miro, Notion"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated with HR and management stakeholders to maintain low revision cycles.",
+        "Managed print-ready files focusing on bleed, sizing, and colour accuracy.",
+        "Applied AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX & Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Developed wireframes and prototypes using Photoshop and Illustrator for product visuals and marketing assets.",
+        "Worked with developers and stakeholders on design-to-development handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Delivered an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Designed a B2B UX case study focused on cleaner verification experiences for teams depending on accurate email lists."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her recent graphic design and marketing creative experience at Ascent Business Solutions, emphasizing fast turnaround capabilities, template systems, and social campaigns that directly match the MavnixIT role requirements.",
+  "omitted": [
+    "AT Creation startup branding kit (Sep-Oct 2023) - omitted to keep bullet count concise and focused on primary campaign work.",
+    "Unconfirmed freelance metrics (stretch) - omitted because no specific conversion or revenue numbers exist beyond the 15% follower engagement stat."
+  ]
+}
