@@ -1,0 +1,72 @@
+{
+  "headline": "Graphic Designer and Illustrator",
+  "tagline": "Junior designer with strong fundamentals in visual storytelling, digital illustration, and 100+ executed brand creatives.",
+  "skills": [
+    {
+      "label": "Design & Illustration",
+      "items": "Illustrator, Photoshop, CorelDRAW, branding and visual identity, typography, layout, print production"
+    },
+    {
+      "label": "Workflow & Tools",
+      "items": "Figma, AI-assisted design workflows (ChatGPT, Adobe Firefly), social and marketing creative"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives spanning employee engagement, branding, recruitment, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, and marketing collateral with strong visual hierarchy and typography.",
+        "Managed print-ready file preparation including bleed, sizing, and colour accuracy.",
+        "Collaborated with HR and management stakeholders through low revision cycles.",
+        "Used AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Developed product visuals and marketing assets using Photoshop and Illustrator.",
+        "Conducted usability testing and applied findings to user flows and interface usability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social campaign for a fashion brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed Instagram and Facebook series that achieved a 15% increase in follower engagement.",
+        "Demonstrated strong visual thinking through social creative execution."
+      ]
+    },
+    {
+      "name": "Branding kit for AT Creation startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Delivered logo, typography, and palette systems for early-stage business branding."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her 100+ digital and print creatives at Ascent and her foundational graphic and illustration work in Illustrator and Photoshop to match the Junior Graphic Designer & Illustrator role.",
+  "omitted": [
+    "Wireframing, prototyping, and developer handoff from AT Creation \u2014 stretch for a pure graphic design and illustration role.",
+    "Bounceless UX case study \u2014 stretch for an illustration-focused graphic design position.",
+    "Framer, Webflow, Miro, Notion \u2014 omitted to keep focus strictly on core visual design and illustration skills."
+  ]
+}
