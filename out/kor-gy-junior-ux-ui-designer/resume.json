@@ -1,0 +1,72 @@
+{
+  "headline": "Junior UX/UI Designer",
+  "tagline": "Junior UX/UI Designer with a Computer Science background, hands-on Figma prototyping, and experience delivering B2B case studies.",
+  "skills": [
+    {
+      "label": "Design & UX",
+      "items": "Figma, wireframing, prototyping, user flows, usability testing, responsive design, design systems"
+    },
+    {
+      "label": "Visual & Brand",
+      "items": "Illustrator, Photoshop, typography, color theory, layout, visual hierarchy"
+    },
+    {
+      "label": "Technical & Tools",
+      "items": "HTML, CSS, Framer, Webflow, Miro, Notion, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work",
+        "Designed 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding",
+        "Collaborated with HR and management stakeholders across low revision cycles",
+        "Managed print-ready file preparation including bleed, sizing, and color accuracy"
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability",
+        "Created wireframes and interactive prototypes in Figma",
+        "Worked with developers and stakeholders on design-to-development handoff",
+        "Designed logos, visual identity systems, and brand guidelines for startups and SMBs"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Delivered a B2B UX case study focusing on a cleaner verification experience for teams depending on accurate email lists"
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech in Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with Figma prototyping, user flows, and the Bounceless B2B UX case study to match the Junior UX/UI Designer requirements, while highlighting the CS background for developer handoff.",
+  "omitted": [
+    "CorelDRAW stretch: Omitted to keep focus on Figma and standard UI tools requested by the posting.",
+    "Specific course completion stretch: The profile does not name a specific UX/UI design course title, so it was omitted to avoid guessing."
+  ]
+}
