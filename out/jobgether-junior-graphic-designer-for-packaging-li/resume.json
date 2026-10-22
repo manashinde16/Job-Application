@@ -1,0 +1,70 @@
+{
+  "headline": "Junior Graphic Designer",
+  "tagline": "Detail-oriented junior designer specializing in print production, visual systems, and clean layout execution.",
+  "skills": [
+    {
+      "label": "Design Tools & Execution",
+      "items": "Illustrator, Photoshop, Figma, CorelDRAW, Print Production"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Typography, Color Systems, Layout, Visual Hierarchy, Design Systems, Branding"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Managed print-ready file preparation including bleed, sizing, color accuracy, and layout consistency.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated with HR and management stakeholders to deliver assets within low revision cycles."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Utilized Photoshop and Illustrator for product visuals, marketing assets, and brand collateral.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Conducted usability testing and applied findings to improve user flows and interface usability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study focusing on verification experiences for teams depending on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with print production expertise, packaging-adjacent print file management, and template-building experience from Ascent Business Solutions to align directly with the junior e-commerce and packaging design requirements.",
+  "omitted": [
+    "Framer, Webflow, Miro, Notion (stretch: working knowledge rather than core tooling for this print/packaging role)",
+    "AI-assisted workflows (omitted to keep focus strictly on core design execution and layout precision as requested by the posting)"
+  ]
+}

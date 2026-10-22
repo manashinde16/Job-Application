@@ -1,0 +1,71 @@
+{
+  "headline": "Visual & Brand Designer",
+  "tagline": "Visual designer with 1.5+ years of experience building brand identities, reusable templates, and marketing campaigns.",
+  "skills": [
+    {
+      "label": "Design & Visuals",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, branding and visual identity, typography, layout, print production"
+    },
+    {
+      "label": "Digital & Workflow",
+      "items": "Social and marketing creative, design systems, AI-assisted design workflows (ChatGPT, Adobe Firefly), Notion, Miro"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Created 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced marketing collateral including banners, standees, certificates, ID cards, and presentations.",
+        "Collaborated with HR and management stakeholders, maintaining low revision cycles.",
+        "Managed print-ready files focusing on bleed, sizing, colour accuracy, typography, and visual hierarchy.",
+        "Utilized AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Produced social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and interactive prototypes for digital products.",
+        "Worked with developers and stakeholders on design-to-development handoff using Photoshop and Illustrator."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed comprehensive logo, typography, and color palette systems for early-stage startup branding."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her strong visual branding, template-building, and layout experience from Ascent Business Solutions to align directly with Flick's need for marketing and campaign asset creation.",
+  "omitted": [
+    "Motion design (After Effects, animated typography, video effects) - omitted as a stretch because her profile lists design tools and static visual design, but no verified experience or portfolio proof in motion design or video animation.",
+    "Framer and Webflow - omitted to keep the focus tight on the core visual and graphic design toolkit requested by the role."
+  ]
+}

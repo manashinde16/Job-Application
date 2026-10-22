@@ -1,0 +1,24 @@
+{
+  "company": "Flick",
+  "domain": "ycombinator.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "raphael.schaad@ycombinator.com",
+      "name": "Raphael Schaad",
+      "role": "Founder CEO of Cron Calendar",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Raphael Schaad (Founder CEO of Cron Calendar) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "raphael@ycombinator.com",
+      "name": "Raphael Schaad",
+      "role": "Founder CEO of Cron Calendar",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Raphael Schaad (Founder CEO of Cron Calendar) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
