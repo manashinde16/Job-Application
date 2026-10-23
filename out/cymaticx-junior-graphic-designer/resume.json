@@ -1,0 +1,71 @@
+{
+  "headline": "Visual Designer",
+  "tagline": "Junior designer delivering brand identity systems, marketing collateral, and print-ready assets.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Illustrator, Photoshop, Figma, CorelDRAW, Framer, Webflow"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Branding and Visual Identity, Typography, Layout, Print Production, Social/Marketing Creative, Wireframing"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Worked with HR and management stakeholders, maintaining low revision cycles.",
+        "Managed print-ready files focusing on bleed, sizing, and colour accuracy."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing and applied findings to user flows and interface usability.",
+        "Produced wireframes and prototypes using Photoshop and Illustrator for product visuals and marketing assets.",
+        "Collaborated with developers and stakeholders on design-to-development handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Designed logo, typography, and color palette for early-stage business branding.",
+        "Established visual consistency across initial brand assets."
+      ]
+    },
+    {
+      "name": "Social Campaign for Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Created Instagram and Facebook series that generated a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with commercial branding and print collateral experience from Ascent and AT Creation to match the retail identity and graphic design focus of the Cymaticx role.",
+  "omitted": [
+    "AI-assisted design workflows omitted as tool familiarity rather than outcome",
+    "Bounceless UX case study omitted as the role specifically targets graphic design and branding rather than B2B UX product design"
+  ]
+}
