@@ -1,0 +1,70 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic designer with experience building reusable templates and visual assets for scalable digital campaigns.",
+  "skills": [
+    {
+      "label": "Design & Branding",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, branding and visual identity, typography, layout, print production"
+    },
+    {
+      "label": "Digital & Workflow",
+      "items": "Social and marketing creative, design systems, wireframing, prototyping, AI-assisted workflows"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives including employee engagement, branding, recruitment, and onboarding materials.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Worked with HR and management stakeholders to maintain low revision cycles.",
+        "Managed print-ready files focusing on bleed, sizing, and colour accuracy while utilizing AI-assisted workflows for ideation."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Created social campaigns, branding assets, and brochures for SMBs.",
+        "Conducted usability testing and applied findings to user flows and interface usability.",
+        "Produced wireframes and prototypes using Photoshop and Illustrator for product visuals and marketing assets.",
+        "Collaborated with developers and stakeholders on design-to-development handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding kit for AT Creation startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed logo, typography, and palette to establish a complete visual identity system."
+      ]
+    },
+    {
+      "name": "Social campaign for a fashion brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her recent graphic design and template-building experience at Ascent Business Solutions to match HyGaar's focus on scalable creative pipelines.",
+  "omitted": [
+    "Bounceless UX case study \u2014 stretch, role focuses purely on graphic design rather than B2B UX.",
+    "Framer, Webflow, Miro, Notion \u2014 working skills left out to keep the focus tight on core graphic design tools."
+  ]
+}

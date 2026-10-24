@@ -1,0 +1,75 @@
+{
+  "headline": "UI/UX & Graphic Designer",
+  "tagline": "Combining digital interface design and brand visual systems to create engaging user experiences.",
+  "skills": [
+    {
+      "label": "Design & UI/UX",
+      "items": "Figma, Wireframing, Prototyping, User Flows, Usability Testing, Responsive Design, Design Systems"
+    },
+    {
+      "label": "Visual & Brand Design",
+      "items": "Adobe Illustrator, Adobe Photoshop, CorelDraw, Canva, Branding & Visual Identity, Typography, Print Production"
+    },
+    {
+      "label": "Tools & Methods",
+      "items": "Microsoft PowerPoint, Miro, Notion, AI-assisted design workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated with HR and management stakeholders, maintaining low revision cycles.",
+        "Managed print-ready files focusing on bleed, sizing, colour accuracy, typography, and visual hierarchy.",
+        "Leveraged AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and prototypes for digital products.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Delivered social campaigns, branding assets, and brochures for startups and SMBs using Photoshop and Illustrator."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Built a B2B UX case study focused on creating a cleaner verification experience for teams depending on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that generated a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech in Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with both UI/UX and graphic design capabilities to match Virtual Element Studios' requirement for a dual-skilled designer who handles both digital interfaces and brand collateral.",
+  "omitted": [
+    "Framer and Webflow under working skills, as they were not essential to highlight for this specific print and UI mix role.",
+    "Unspecified portfolio project titles (Zest Club, Potted Paradise, etc.) due to lack of documented problem statements or outcomes."
+  ]
+}

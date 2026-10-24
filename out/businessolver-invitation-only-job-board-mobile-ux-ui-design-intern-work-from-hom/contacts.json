@@ -1,0 +1,64 @@
+{
+  "company": "Businessolver - Invitation Only Job Board",
+  "domain": "job-boards.greenhouse.io",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "tracy@job-boards.greenhouse.io",
+      "name": "Tracy St.Dic",
+      "role": "Global Head of Talent",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Tracy St.Dic (Global Head of Talent) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "kristine.rickerl@job-boards.greenhouse.io",
+      "name": "Kristine Rickerl",
+      "role": "Talent Operations Analyst",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Kristine Rickerl (Talent Operations Analyst) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "kristine@job-boards.greenhouse.io",
+      "name": "Kristine Rickerl",
+      "role": "Talent Operations Analyst",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Kristine Rickerl (Talent Operations Analyst) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "geto.getov@job-boards.greenhouse.io",
+      "name": "Geto Getov",
+      "role": "Head of Recruitment and Employer Brand",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Geto Getov (Head of Recruitment and Employer Brand) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "geto@job-boards.greenhouse.io",
+      "name": "Geto Getov",
+      "role": "Head of Recruitment and Employer Brand",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Geto Getov (Head of Recruitment and Employer Brand) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "peter.tam@job-boards.greenhouse.io",
+      "name": "Peter Tam",
+      "role": "Talent Acquisition Enablement Manager",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Peter Tam (Talent Acquisition Enablement Manager) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "peter@job-boards.greenhouse.io",
+      "name": "Peter Tam",
+      "role": "Talent Acquisition Enablement Manager",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Peter Tam (Talent Acquisition Enablement Manager) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
