@@ -1,0 +1,73 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic designer delivering high-impact branding, print collateral, and visual identity systems.",
+  "skills": [
+    {
+      "label": "Design & Branding",
+      "items": "Branding and visual identity, Typography, Layout, Print production, Social and marketing creative"
+    },
+    {
+      "label": "Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Adobe Firefly"
+    },
+    {
+      "label": "Technical & Process",
+      "items": "B.Tech Computer Science, Wireframing, Prototyping, Usability testing, Design systems"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives including marketing collateral, employee engagement, branding, recruitment, and onboarding materials.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Managed print-ready files ensuring precision in bleed, sizing, and colour accuracy.",
+        "Collaborated closely with HR and management stakeholders, achieving low revision cycles.",
+        "Utilized AI-assisted workflows via ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Collaborated with developers and stakeholders on design-to-development handoff, applying B.Tech Computer Science systems thinking.",
+        "Used Photoshop and Illustrator to build product visuals and marketing assets."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep \u2013 Oct 2023",
+      "bullets": [
+        "Designed complete logo, typography, and palette guidelines for early-stage business branding."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that generated a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03 (provides strong technical feasibility and developer handoff capabilities)",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her commercial graphic design and branding experience at Ascent and AT Creation, emphasizing print production, visual systems, and typography to align with MediaGirii's focus on visual design solutions.",
+  "omitted": [
+    "Video editing experience (stretch: job posting asks for video editing, but candidate profile contains no video editing experience)"
+  ]
+}
