@@ -4,24 +4,24 @@
 
 - To: `careers@in.linkedin.com`  (guess confidence — common role inbox — may bounce, and rarely reaches a designer)
 - Role: UI/UX Designer · India
-- Posting: https://in.linkedin.com/jobs/view/ui-ux-designer-at-data-eminence-4457969098
-- Body length: 119 words
+- Posting: https://in.linkedin.com/jobs/view/ui-ux-designer-at-data-eminence-4485127450
+- Body length: 112 words
 
 ## Subject
 
-UI/UX Designer application
+UI/UX Designer role / Bounceless case study
 
 ## Body
 
 Hello,
 
-I applied for the UI/UX Designer role at Data Eminence, specifically drawn to the opportunity to build design systems and collaborate closely with engineering teams.
+I saw your opening for a remote UI/UX Designer at Data Eminence and wanted to connect because your focus on design systems and developer collaboration matches my background.
 
-During my UI/UX internship at AT Creation, I conducted usability testing, wireframing, and prototyping while translating findings directly into user flows. My current work as a graphic designer at Ascent Business Solutions has also sharpened my typography, layout, and visual hierarchy skills. My B.Tech in Computer Science from RGCERT Chandrapur helps me bridge the gap during developer handoffs.
+During my time at AT Creation, I conducted usability testing and translated findings directly into improved user flows and wireframes. I also bring a Computer Science degree from DBATU, which helps me bridge the gap during developer handoffs and technical feasibility discussions.
 
-My B2B case study Bounceless demonstrates my structured approach to user flows and wireframing at https://ananya-portfolio-nu.vercel.app/.
+My Bounceless case study demonstrates my hands-on research and wireframing for email verification workflows: https://ananya-portfolio-nu.vercel.app/
 
-Would you be open to a brief fifteen-minute call to discuss how my background fits your product team?
+Could we spend fifteen minutes this week discussing how my background in both computer science and interface design aligns with your product team's current needs?
 
 Ananya
 
@@ -33,23 +33,19 @@ https://ananya-portfolio-nu.vercel.app/
 
 **Day 4** — Hi,
 
-I wanted to follow up on my note from earlier this week regarding the UI/UX Designer role. I would love to share how my background combining UI/UX work and a Computer Science degree could support Data Eminence.
-
-Would you have ten minutes next week for a brief chat?
+I am following up on my note from last week regarding the UI/UX Designer position at Data Eminence. I would still love to share how my experience with user flows and design handoffs could support your team. Have you had a chance to look at my portfolio?
 
 Ananya
 
 **Day 11** — Hello,
 
-I know you are busy, so this will be my final note regarding the UI/UX Designer position. If the team is still exploring candidates, my portfolio remains available at https://ananya-portfolio-nu.vercel.app/.
-
-Thank you for your time, and I wish you success with the hire.
+I know your team is busy reviewing applications for the UI/UX Designer role. I wanted to send one final brief note in case my background in user flows and wireframing is still a fit. If you have filled the position, no worries at all.
 
 Ananya
 
 ## Why it opens that way
 
-I referenced the specific UI/UX Designer role and Data Eminence's focus on design systems and engineering collaboration.
+I opened by referencing their need for design systems and developer collaboration because those directly align with my computer science background and interface design experience.
 
 ## Other contact options
 
