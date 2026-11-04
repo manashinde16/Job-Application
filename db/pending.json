@@ -1,1 +1,13 @@
-{}
+{
+  "1": {
+    "body": "Hello,\n\nI saw the UI/UX Designer opening at ProWiz Analytics and wanted to share my background designing data-informed products.\n\nAt AT Creation, I conducted usability testing and translated user feedback directly into improved interface flows, handling design-to-development handoffs with developers.\n\nMy Bounceless case study demonstrates how I built a cleaner verification experience for teams depending on accurate email lists: https://ananya-portfolio-nu.vercel.app/\n\nCould we spend fifteen minutes this week discussing how my Figma workflow and computer science background can support your product team?\n\nAnanya\n\nAnanya Saini\n+91-8605846929\nhttps://ananya-portfolio-nu.vercel.app/",
+    "company": "ProWiz Analytics",
+    "key": "careers:wellfound:prowiz-analytics:ui-ux-designer",
+    "message_id": 631,
+    "resume": "/home/runner/work/Job-Application/Job-Application/out/prowiz-analytics-ui-ux-designer/resume.pdf",
+    "subject": "UI/UX Designer role / Ananya Saini",
+    "title": "UI/UX Designer",
+    "to": "careers@wellfound.com",
+    "url": "https://wellfound.com/role/ui-ux-designer"
+  }
+}
