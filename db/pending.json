@@ -1,1 +1,24 @@
-{}
+{
+  "1": {
+    "body": "Hello,\n\nI saw your opening for a User Experience Designer on LinkedIn and want to help shape the membership onboarding and trial booking journeys for Style Supply.\n\nPreviously at AT Creation, I conducted usability testing and fed those findings directly back into user flows to improve interface usability. With a background in computer science from my B.Tech, I bring strong dev handoff credibility and technical feasibility thinking to cross-functional product teams.\n\nMy Bounceless case study demonstrates how I structured a cleaner verification experience for teams that depend on accurate email lists, viewable at https://ananya-portfolio-nu.vercel.app/.\n\nI am currently based in Nagpur and ready to relocate to Mumbai. Would you be open to a quick fifteen-minute call this week to discuss how I map complex user flows?\n\nAnanya\n\nAnanya Saini\n+91-8605846929\nhttps://ananya-portfolio-nu.vercel.app/",
+    "company": "Style Supply",
+    "key": "linkedin:4486220669",
+    "message_id": 636,
+    "resume": "/home/runner/work/Job-Application/Job-Application/out/style-supply-user-experience-designer/resume.pdf",
+    "subject": "User Experience Designer Application",
+    "title": "User Experience Designer",
+    "to": "careers@in.linkedin.com",
+    "url": "https://in.linkedin.com/jobs/view/user-experience-designer-at-style-supply-4486220669"
+  },
+  "2": {
+    "body": "Hello,\n\nI saw your opening for a Graphic Designer at Bright Brain, and I was drawn to your focus on high-impact digital campaigns and strong visual storytelling.\n\nAt Ascent Business Solutions, I have designed over 100 digital and print creatives, ranging from marketing collateral to corporate communications, while using AI tools to streamline design workflows.\n\nMy social campaign for a fashion brand is available at https://ananya-portfolio-nu.vercel.app/, demonstrating social media creative skills and a 15% increase in follower engagement.\n\nI am currently based in Nagpur and ready to relocate to Mumbai for an onsite or hybrid role. Would you be open to a brief look at my portfolio next week?\n\nAnanya\n\nAnanya Saini\n+91-8605846929\nhttps://ananya-portfolio-nu.vercel.app/",
+    "company": "Bright Brain",
+    "key": "linkedin:4486223617",
+    "message_id": 638,
+    "resume": "/home/runner/work/Job-Application/Job-Application/out/bright-brain-graphic-designer/resume.pdf",
+    "subject": "Graphic Designer role at Bright Brain",
+    "title": "Graphic Designer",
+    "to": "careers@in.linkedin.com",
+    "url": "https://in.linkedin.com/jobs/view/graphic-designer-at-bright-brain-4486223617"
+  }
+}
