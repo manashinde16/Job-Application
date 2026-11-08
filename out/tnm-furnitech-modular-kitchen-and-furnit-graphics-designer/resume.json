@@ -1,14 +1,18 @@
 {
-  "headline": "Visual Designer",
-  "tagline": "Graphic and visual designer with experience creating brand identities, marketing collateral, and digital creatives.",
+  "headline": "Graphic Designer",
+  "tagline": "Graphic designer with commercial experience in digital and print creatives, brand guidelines, and visual identity systems.",
   "skills": [
     {
       "label": "Design Tools",
-      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Framer, Webflow"
+      "items": "Photoshop, Illustrator, CorelDRAW, Figma, Framer, Webflow"
     },
     {
       "label": "Core Competencies",
-      "items": "Branding and Visual Identity, Typography, Layout, Print Production, Social and Marketing Creative"
+      "items": "Branding, visual identity, print production, typography, layout, social and marketing creative"
+    },
+    {
+      "label": "Process",
+      "items": "Design systems, wireframing, prototyping, AI-assisted workflows (ChatGPT, Adobe Firefly)"
     }
   ],
   "experience": [
@@ -18,11 +22,12 @@
       "location": "Nagpur, Maharashtra, India",
       "dates": "Jul 2025 \u2013 present",
       "bullets": [
-        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications",
-        "Built reusable design templates and visual systems that cut turnaround time and repetitive work",
-        "Managed print-ready files including bleed, sizing, and colour accuracy for marketing collateral",
-        "Worked with HR and management stakeholders to deliver assets with low revision cycles",
-        "Applied typography, colour systems, layout principles, and visual hierarchy across collateral"
+        "Produced 100+ digital and print creatives for branding, recruitment, onboarding, employee engagement, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated with HR and management stakeholders, maintaining low revision cycles.",
+        "Managed print-ready files including bleed, sizing, and colour accuracy.",
+        "Utilised AI-assisted workflows via ChatGPT and Adobe Firefly for ideation and exploration."
       ]
     },
     {
@@ -31,26 +36,27 @@
       "location": "Nagpur, Maharashtra, India",
       "dates": "Sep 2022 \u2013 Mar 2023",
       "bullets": [
-        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses and startups",
-        "Created social campaigns, branding assets, and brochures for SMBs and startups",
-        "Used Photoshop and Illustrator to produce product visuals and marketing assets",
-        "Worked with developers and stakeholders on design-to-development handoff"
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing and applied findings to improve user flows and interface usability.",
+        "Created wireframes and prototypes for product visuals and marketing assets.",
+        "Worked with developers and stakeholders on design-to-development handoff."
       ]
     }
   ],
   "projects": [
     {
-      "name": "AT Creation Startup Branding Kit",
+      "name": "Branding Kit for AT Creation Startup",
       "dates": "Sep\u2013Oct 2023",
       "bullets": [
-        "Developed logo, typography, and color palette for a startup branding kit"
+        "Delivered a complete logo, typography system, and colour palette adhering to brand guidelines."
       ]
     },
     {
       "name": "Fashion Brand Social Campaign",
       "dates": "Apr 2024",
       "bullets": [
-        "Designed Instagram and Facebook campaign series achieving a 15% increase in follower engagement"
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
       ]
     }
   ],
@@ -61,9 +67,9 @@
       "dates": "June 2020 \u2013 June 2024"
     }
   ],
-  "emphasis": "Led with her recent visual design and branding experience at Ascent Business Solutions to match the Graphics Designer role requirements.",
+  "emphasis": "Led with her commercial graphic design experience at Ascent Business Solutions, highlighting brand guidelines, print production, and collateral creation matching the TNM Furnitech requirements.",
   "omitted": [
-    "AI-assisted workflows (omitted per rule to keep AI tooling brief)",
-    "Usability testing and wireframing from AT Creation (omitted to focus the resume on graphic design and branding for this specific visual design posting)"
+    "Bounceless UX case study omitted as this role requires graphic and brand design rather than B2B UX product design.",
+    "Miro, Notion, and responsive design skills omitted to keep focus strictly on graphic and visual design toolsets."
   ]
 }

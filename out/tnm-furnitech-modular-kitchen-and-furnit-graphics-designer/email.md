@@ -4,24 +4,24 @@
 
 - To: `careers@in.linkedin.com`  (guess confidence — common role inbox — may bounce, and rarely reaches a designer)
 - Role: Graphics Designer · Nagpur, Maharashtra, India
-- Posting: https://in.linkedin.com/jobs/view/graphics-designer-at-tnm-furnitech-modular-kitchen-and-furniture-manufacturer-and-retailer-nagpur-4471186995
-- Body length: 118 words
+- Posting: https://in.linkedin.com/jobs/view/graphics-designer-at-tnm-furnitech-modular-kitchen-and-furniture-manufacturer-and-retailer-nagpur-4486667998
+- Body length: 126 words
 
 ## Subject
 
-Graphics Designer role
+Graphics Designer role - Ananya Saini
 
 ## Body
 
 Hello,
 
-I saw your opening for a Graphics Designer at TNM Furnitech and would love to bring my background in digital and print branding to your team in Nagpur.
+I saw your opening for a Graphics Designer at TNM Furnitech, and I was drawn to your focus on shaping a strong visual identity for modular furniture and retail spaces.
 
-At Ascent Business Solutions, I have designed over 100 digital and print creatives while building reusable templates that reduced turnaround time. I also bring strong proficiency in Photoshop, Illustrator, Figma, and CorelDraw.
+At Ascent Business Solutions, I have designed over 100 digital and print creatives, including marketing collateral, presentations, and branding assets. I also built reusable design templates and visual systems that cut turnaround time for repetitive corporate communications.
 
-My branding kit project for an early-stage startup demonstrates my ability to build visual identity systems from the ground up, which you can see in my portfolio at https://ananya-portfolio-nu.vercel.app/.
+For instance, my branding kit for AT Creation demonstrates my ability to deliver on-brand logos and guidelines, which you can view directly in my portfolio at https://ananya-portfolio-nu.vercel.app/.
 
-I live in Nagpur and am available to start immediately. Could we schedule a brief call this week to discuss how I can support your visual identity?
+I am based right here in Nagpur and ready to join immediately, so I would appreciate a brief chat to share how my print and branding experience fits your team.
 
 Ananya
 
@@ -33,23 +33,19 @@ https://ananya-portfolio-nu.vercel.app/
 
 **Day 4** — Hi,
 
-I am following up on my note from last week regarding the Graphics Designer role at TNM Furnitech. I remain very interested in contributing to your brand identity and print materials.
-
-Please let me know if you would like me to share any additional details from my work at Ascent Business Solutions.
+I am following up on my note from last week regarding the Graphics Designer opening. With my immediate availability in Nagpur and experience producing over 100 print and digital creatives at Ascent Business Solutions, I wanted to ensure my application did not get missed.
 
 Ananya
 
 **Day 11** — Hello,
 
-I know you are busy reviewing candidates for the Graphics Designer position. I wanted to send a final quick note in case the timing is not right, or if you have already filled the role.
-
-Thank you for your time, and I wish you the best with your upcoming retail projects.
+I know how busy things get, so this will be my final follow-up for the Graphics Designer role. If you have filled the position, I completely understand and wish the team the best with your retail spaces.
 
 Ananya
 
 ## Why it opens that way
 
-I referenced the specific Graphics Designer opening at TNM Furnitech and connected it directly to my visual identity experience in Nagpur.
+Opened by directly tying my commercial graphic design background at Ascent to your focus on visual identity in modular furniture.
 
 ## Other contact options
 

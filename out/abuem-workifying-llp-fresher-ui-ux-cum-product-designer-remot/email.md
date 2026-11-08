@@ -4,26 +4,24 @@
 
 - To: `careers@linkedin.com`  (guess confidence — common role inbox — may bounce, and rarely reaches a designer)
 - Role: Fresher UI/UX cum Product Designer (Remote) · Karnataka, India
-- Posting: https://www.linkedin.com/jobs/view/4480667434
-- Body length: 119 words
+- Posting: https://www.linkedin.com/jobs/view/4487614295
+- Body length: 112 words
 
 ## Subject
 
-Fresher UI/UX Designer application - Ananya Saini
+UI/UX & Product Design role — Ananya Saini
 
 ## Body
 
 Hello,
 
-I saw your opening for the Fresher UI/UX cum Product Designer role on LinkedIn, and I am excited to help Abuem Workifying build intuitive workflows for your customer support SaaS platform.
+I saw your opening for a UI/UX cum Product Designer at Abuem Workifying and wanted to apply, especially since your focus on customer support automation relies on clear, functional workflows.
 
-Holding a B.Tech in Computer Science alongside hands-on experience conducting usability testing and wireframing at AT Creation, I easily bridge the gap between design requirements and developer handoff.
+During my UI/UX internship at AT Creation, I conducted usability testing and translated findings directly into improved user flows and wireframes. My computer science background also helps me communicate smoothly with developers during handoff.
 
-At Ascent Business Solutions, I built reusable visual component templates that significantly reduced turnaround time across more than 100 digital and print deliverables.
+In my Bounceless case study, I designed a cleaner verification experience for teams handling email lists, demonstrating my approach to research and interface design. You can view it here: https://ananya-portfolio-nu.vercel.app/
 
-My Bounceless case study demonstrates designing a cleaner email verification experience for B2B teams, which is available in my portfolio at https://ananya-portfolio-nu.vercel.app/.
-
-Would you be open to a brief fifteen-minute call to discuss my background?
+Could we take a brief look at that case study in a 15-minute call this week?
 
 Ananya
 
@@ -35,19 +33,23 @@ https://ananya-portfolio-nu.vercel.app/
 
 **Day 4** — Hi,
 
-I am following up on my note from last week regarding the Fresher UI/UX cum Product Designer role. I wanted to quickly surface my Bounceless case study and CS background in case you are reviewing portfolios today. Let me know if you have five minutes to chat.
+Checking in on my note from last week regarding the UI/UX Product Designer role. I would love to share how my background combining computer science and usability testing at AT Creation aligns with your work in customer support automation.
+
+Let me know if you have time for a brief look at my portfolio this week.
 
 Ananya
 
 **Day 11** — Hello,
 
-I know you are busy reviewing applications for the Fresher UI/UX role. If you have already filled the position, no need to reply. Otherwise, I would still love to share how my technical background fits your team.
+I know team priorities shift quickly at a growing SaaS startup. I am circling back one last time about the UI/UX opening in case you are still reviewing portfolios.
+
+If the timing isn't right, no worries at all. Wishing you the best with your product releases.
 
 Ananya
 
 ## Why it opens that way
 
-I connected their SaaS customer support automation mission directly with my B.Tech CS degree and UI/UX background.
+Mentioned Abuem Workifying's customer support automation focus to tie the opening directly to their product mission.
 
 ## Other contact options
 
