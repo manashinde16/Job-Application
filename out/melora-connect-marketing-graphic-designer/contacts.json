@@ -1,0 +1,24 @@
+{
+  "company": "Melora Connect",
+  "domain": "torre.ai",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "marcela.gonzalez@torre.ai",
+      "name": "Marcela Gonzalez",
+      "role": "L\u00edder de Talento Humano",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Marcela Gonzalez (L\u00edder de Talento Humano) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "marcela@torre.ai",
+      "name": "Marcela Gonzalez",
+      "role": "L\u00edder de Talento Humano",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Marcela Gonzalez (L\u00edder de Talento Humano) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}

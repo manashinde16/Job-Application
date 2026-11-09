@@ -1,0 +1,74 @@
+{
+  "headline": "Visual Designer",
+  "tagline": "Visual and marketing designer experienced in high-volume digital creatives, brand systems, and engaging social campaigns.",
+  "skills": [
+    {
+      "label": "Design Tools & Software",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Framer, Webflow, Miro, Notion"
+    },
+    {
+      "label": "Core Specialties",
+      "items": "Graphic design, marketing communication design, typography, layout, print production, branding and visual identity, social/marketing creative, design systems"
+    },
+    {
+      "label": "Technical & Systems",
+      "items": "AI-assisted design workflows (ChatGPT, Adobe Firefly), developer handoff, systems thinking"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives spanning employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated with HR and management stakeholders to maintain low revision cycles.",
+        "Applied typography, colour systems, layout, and visual hierarchy to print-ready file management including bleed, sizing, and colour accuracy.",
+        "Utilised AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Conducted usability testing and fed findings back into user flows and interface usability.",
+        "Worked with developers and stakeholders on design-to-development handoff using Photoshop and Illustrator.",
+        "Created wireframes and prototypes."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study focused on a cleaner verification experience for teams that depend on accurate email lists."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03. Leverages a technical foundation for developer handoff credibility, technical feasibility conversations, and systems thinking.",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with high-volume marketing creative work, reusable template building, and social campaign metrics from Ascent Business Solutions to match Melora Connect's requirement for marketing and sales collateral production.",
+  "omitted": [
+    "Canva [stretch / not in profile]: Job description requested Canva, but it is not verified in her toolset so it was omitted."
+  ]
+}
