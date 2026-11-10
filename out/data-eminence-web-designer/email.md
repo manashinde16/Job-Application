@@ -4,24 +4,24 @@
 
 - To: `careers@in.linkedin.com`  (guess confidence — common role inbox — may bounce, and rarely reaches a designer)
 - Role: Web Designer · India
-- Posting: https://in.linkedin.com/jobs/view/web-designer-at-data-eminence-4477251383
-- Body length: 118 words
+- Posting: https://in.linkedin.com/jobs/view/web-designer-at-data-eminence-4487377470
+- Body length: 105 words
 
 ## Subject
 
-Web Designer application / Ananya Saini
+Web Designer role / Ananya Saini
 
 ## Body
 
 Hello,
 
-I saw the Web Designer opening at Data Eminence, and noticed you are looking for someone to build structured design systems alongside responsive website layouts.
+I saw your opening for a Web Designer at Data Eminence and was drawn to your focus on bridging strong visual communication with functional, responsive digital experiences.
 
-With a degree in Computer Science and hands-on experience producing over 100 digital and print creatives at Ascent Business Solutions, I regularly build reusable design templates that streamline workflow and developer handoffs. During my time at AT Creation, I also conducted usability testing and fed those findings directly into user flows and interactive prototypes.
+At AT Creation, I worked directly with developers and stakeholders on design-to-development handoffs, translating wireframes and prototypes into clean interface designs while managing branding assets.
 
-You can review this structured process in Bounceless, my case study demonstrating end-to-end B2B interface design at https://ananya-portfolio-nu.vercel.app/.
+My Bounceless case study demonstrates this same approach to B2B UX problem solving and interface design, which you can see on my portfolio at https://ananya-portfolio-nu.vercel.app/.
 
-Would you be open to a quick fifteen-minute chat this week about how my technical background fits your team?
+I am currently based in Nagpur and ready to relocate for this role. Could we take a brief look at one case study together next week?
 
 Ananya
 
@@ -33,23 +33,19 @@ https://ananya-portfolio-nu.vercel.app/
 
 **Day 4** — Hi,
 
-Checking in on my note from last week regarding the Web Designer role. My background combining Computer Science with UI prototyping and reusable component design would let me contribute quickly to your interface projects.
-
-Do you have ten minutes this week to connect?
+Checking in on my note from last week regarding the Web Designer role at Data Eminence. My experience with design-to-development handoffs and responsive layouts feels like a strong fit for your team. Would love to share my Bounceless case study if you have a few minutes.
 
 Ananya
 
-**Day 11** — Hello,
+**Day 11** — Hi,
 
-I know your team is busy reviewing applications for the Web Designer position. I wanted to share my portfolio one last time in case it aligns with your current projects: https://ananya-portfolio-nu.vercel.app/
-
-If the role has been filled, no need to reply.
+I know your team is busy reviewing applications for the Web Designer position. I wanted to send one final brief note in case you are still looking for someone with hands-on Figma and handoff experience. If the timing isn't right, no worries at all.
 
 Ananya
 
 ## Why it opens that way
 
-I opened by referencing the specific Web Designer role and their focus on design systems and responsive layouts.
+I referenced Data Eminence's focus on bridging visual communication with functional web experiences.
 
 ## Other contact options
 
