@@ -1,0 +1,74 @@
+{
+  "headline": "UI/UX Designer",
+  "tagline": "UI/UX Designer combining usability testing, wireframing, and a Computer Science foundation to deliver user-centered digital experiences.",
+  "skills": [
+    {
+      "label": "Design Tools & Prototyping",
+      "items": "Figma, Adobe Photoshop, Adobe Illustrator, CorelDRAW, Framer, Webflow, Miro, Notion"
+    },
+    {
+      "label": "UX & Product Methods",
+      "items": "Wireframing, prototyping, user flows, usability testing, design systems, responsive design"
+    },
+    {
+      "label": "Visual & Brand Design",
+      "items": "Branding and visual identity, typography, layout, print production, social/marketing creative"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Worked with HR and management stakeholders to maintain low revision cycles.",
+        "Managed print-ready file requirements including bleed, sizing, and colour accuracy.",
+        "Utilised AI-assisted workflows via ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Designed wireframes and interactive prototypes.",
+        "Worked with developers and stakeholders on design-to-development handoff.",
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study delivering a cleaner verification experience for teams depending on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03 (Provides developer handoff credibility, technical feasibility conversations, and systems thinking)",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with UI/UX internship experience highlighting wireframing and usability testing, framed the B.Tech CS degree as an asset for developer handoff and technical feasibility, and featured the Bounceless case study.",
+  "omitted": [
+    "Duplicate bullet about banners and standees under AT Creation to avoid repetition.",
+    "Unverified metrics or external tool proficiencies not listed in the profile."
+  ]
+}
