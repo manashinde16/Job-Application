@@ -1,0 +1,63 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Junior designer experienced in social media creatives, high-volume digital assets, and brand consistency.",
+  "skills": [
+    {
+      "label": "Design Tools & Software",
+      "items": "Photoshop, Illustrator, CorelDRAW, Figma, Canva"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Social/marketing creative, typography, colour systems, layout, visual identity, print production"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives including employee engagement, branding, recruitment, and onboarding materials.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Managed print-ready file preparation covering bleed, sizing, and colour accuracy for marketing collateral.",
+        "Collaborated with HR and management stakeholders to maintain consistent visual identity across corporate communications."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Conducted usability testing and applied findings to user flows and interface usability.",
+        "Created wireframes and prototypes for product visuals using Photoshop and Illustrator."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that generated a 15% increase in follower engagement.",
+        "Translated campaign briefs into engaging visual content aligned with social trends."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science (CGPA 8.03)",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her high-volume digital and social creative production from Ascent and her social campaign results to match the Marketing Growmatics focus on social media creatives and brand consistency.",
+  "omitted": [
+    "AI-assisted workflows (omitted per instructions to limit AI tooling references since outcomes are thin)",
+    "Bounceless UX case study (omitted because this is a graphic design and social media role, not a UX role)",
+    "Banners, standees, certificates, ID cards bullets from AT Creation (omitted to avoid duplicate bullets across roles)"
+  ]
+}

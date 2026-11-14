@@ -1,0 +1,74 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Creative designer with 1.5 years of experience delivering high-impact social media campaigns and visual systems for diverse brands.",
+  "skills": [
+    {
+      "label": "Design & Branding",
+      "items": "Adobe Illustrator, Photoshop, CorelDRAW, Branding, Typography, Layout, Visual Hierarchy"
+    },
+    {
+      "label": "Digital & Print",
+      "items": "Social Media Assets, Marketing Collateral, Print Production, Responsive Design"
+    },
+    {
+      "label": "Workflow",
+      "items": "Design Systems, Stakeholder Collaboration, AI-assisted Ideation"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 Present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, and corporate communications.",
+        "Developed reusable design templates and visual systems to streamline workflows and reduce repetitive production tasks.",
+        "Collaborated with HR and management stakeholders to translate marketing concepts into visual assets with low revision cycles.",
+        "Managed end-to-end print production, ensuring accuracy in bleed, sizing, and color profiles.",
+        "Utilized AI-assisted workflows (ChatGPT, Adobe Firefly) to accelerate ideation and creative exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed visual identity systems, logos, and brand guidelines for early-stage startups.",
+        "Executed social media campaigns and marketing brochures for SMBs, maintaining brand consistency across platforms.",
+        "Conducted usability testing and applied findings to improve user flows and interface usability.",
+        "Collaborated with developers on design-to-development handoff, utilizing wireframing and prototyping skills."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that resulted in a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Bounceless (UX Case Study)",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study focused on creating a cleaner verification experience for email list management."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur",
+      "detail": "B.Tech in Computer Science (CGPA 8.03)",
+      "dates": "2020 \u2013 2024"
+    }
+  ],
+  "emphasis": "I led with the Ascent Business Solutions role to highlight high-volume commercial output and the ability to build visual systems, which directly aligns with the agency's need for fast-paced, high-quality social media content.",
+  "omitted": [
+    "Framer, Webflow, Miro, Notion (omitted to focus on core graphic design tools requested by the JD)",
+    "Zest Club, Potted Paradise, Design \u00d7 Engineering, Learnara, Common Ground, Foodbank, Domino's rethought (omitted as they lack documented outcomes)",
+    "AI-assisted workflows (reduced to one line to prioritize core design proficiency)"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "company": "DB Investing",
+  "domain": "arc.dev",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "kristen@arc.dev",
+      "name": "Kristen (KJ) O'Sullivan",
+      "role": "Lead Recruiter @ Stem",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Kristen (KJ) O'Sullivan (Lead Recruiter @ Stem) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}

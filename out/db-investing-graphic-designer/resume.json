@@ -1,0 +1,75 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Junior designer with 1.5 years of experience delivering 100+ digital and print creatives, visual systems, and brand assets.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Photoshop, Illustrator, Figma, CorelDRAW, Framer, Webflow, Miro, Notion"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Typography, color systems, layout, visual hierarchy, print production, branding and visual identity, social/marketing creative"
+    },
+    {
+      "label": "Workflows",
+      "items": "AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives across employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated with HR and management stakeholders to maintain low revision cycles.",
+        "Managed print-ready file preparation including bleed, sizing, and colour accuracy."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX & Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Designed social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing and applied findings to user flows and interface usability.",
+        "Produced wireframes and prototypes for digital products.",
+        "Worked with developers and stakeholders on design-to-development handoff using Photoshop and Illustrator."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed comprehensive logo, typography, and color palette systems for brand execution."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03 (Developer handoff credibility, systems thinking)",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with graphic design experience, brand identity execution, and Adobe tooling proficiency to match the visual designer requirements.",
+  "omitted": [
+    "Arabic calligraphy (stretch - not in profile)",
+    "After Effects / InDesign (stretch - only Photoshop, Illustrator, CorelDRAW, Figma verified)",
+    "HTML/CSS (stretch - not listed in verified skills)"
+  ]
+}
