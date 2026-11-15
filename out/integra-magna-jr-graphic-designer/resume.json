@@ -1,0 +1,71 @@
+{
+  "headline": "Junior Graphic Designer",
+  "tagline": "Junior designer with 1+ years of experience delivering 100+ digital and print creatives, brand identities, and visual systems.",
+  "skills": [
+    {
+      "label": "Design & Visuals",
+      "items": "Adobe Illustrator, Adobe Photoshop, CorelDRAW, Figma, Typography, Layout, Color Theory, Brand Identity"
+    },
+    {
+      "label": "Production & Workflows",
+      "items": "Print Production, Reusable Design Systems, Social Media Creatives, Marketing Collateral, AI-Assisted Workflows"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives encompassing branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Collaborated directly with HR and management stakeholders to maintain low revision cycles.",
+        "Managed print-ready file preparation including bleed, precise sizing, and color accuracy."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Developed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures tailored for startups and SMBs.",
+        "Utilized Photoshop and Illustrator to craft polished product visuals and marketing assets.",
+        "Conducted usability testing and translated feedback into improved user flows and interface usability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement.",
+        "Designed cohesive social media creatives supporting brand storytelling and campaign reach."
+      ]
+    },
+    {
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep \u2013 Oct 2023",
+      "bullets": [
+        "Delivered a complete branding kit featuring custom logos, typography selections, and color palettes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech in Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her current visual and brand design experience at Ascent Business Solutions, emphasizing her work on 100+ creatives, reusable visual systems, and marketing campaigns that match the requirements of the Jr. Graphic Designer role.",
+  "omitted": [
+    "Framer, Webflow, Miro, Notion (omitted to focus strictly on the requested Adobe and design tools)",
+    "Bounceless B2B UX case study (omitted as this role focuses purely on graphic design and branding rather than product UX)",
+    "UX wireframing and prototyping details from AT Creation (omitted to tailor the role strictly toward graphic design and visual systems as requested by the job description)"
+  ]
+}

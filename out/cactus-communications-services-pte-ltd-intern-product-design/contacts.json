@@ -1,0 +1,40 @@
+{
+  "company": "Cactus Communications Services Pte. Ltd.",
+  "domain": "shine.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "pooja.kheterpal@shine.com",
+      "name": "Pooja Kheterpal",
+      "role": "Job Search Guidance",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Pooja Kheterpal (Job Search Guidance) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "pooja@shine.com",
+      "name": "Pooja Kheterpal",
+      "role": "Job Search Guidance",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Pooja Kheterpal (Job Search Guidance) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "priyanka.bakhtani@shine.com",
+      "name": "Priyanka Bakhtani",
+      "role": "Salary",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Priyanka Bakhtani (Salary) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "priyanka@shine.com",
+      "name": "Priyanka Bakhtani",
+      "role": "Salary",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Priyanka Bakhtani (Salary) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}

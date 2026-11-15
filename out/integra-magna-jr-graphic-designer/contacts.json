@@ -1,0 +1,40 @@
+{
+  "company": "Integra Magna",
+  "domain": "cutshort.io",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "savita.hortikar@cutshort.io",
+      "name": "Savita Hortikar",
+      "role": "Head of Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Savita Hortikar (Head of Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "savita@cutshort.io",
+      "name": "Savita Hortikar",
+      "role": "Head of Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Savita Hortikar (Head of Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "ashwini.ganapathy@cutshort.io",
+      "name": "Ashwini Ganapathy",
+      "role": "Senior Manager, Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Ashwini Ganapathy (Senior Manager, Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "ashwini@cutshort.io",
+      "name": "Ashwini Ganapathy",
+      "role": "Senior Manager, Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Ashwini Ganapathy (Senior Manager, Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
