@@ -1,0 +1,71 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Junior designer with 100+ digital creatives and proven social engagement metrics for fast-paced media brands.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Photoshop, Illustrator, Figma, CorelDRAW, Canva"
+    },
+    {
+      "label": "Core Skills",
+      "items": "Typography, colour systems, layout, visual hierarchy, social/marketing creative, print production"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives including employee engagement, branding, recruitment, and onboarding assets",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work",
+        "Designed marketing collateral, presentations, banners, standees, certificates, and ID cards",
+        "Collaborated with HR and management stakeholders within low revision cycles",
+        "Managed print-ready files focusing on bleed, sizing, and colour accuracy",
+        "Applied AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration"
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, Maharashtra, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created social campaigns, branding assets, and brochures for startups and SMBs",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses",
+        "Conducted usability testing, feeding findings back into user flows and interface usability",
+        "Produced wireframes and prototypes for digital products",
+        "Worked with developers and stakeholders on design-to-development handoff",
+        "Utilized Photoshop and Illustrator for product visuals and marketing assets"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Delivered an Instagram and Facebook series resulting in a 15% increase in follower engagement"
+      ]
+    },
+    {
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed logo, typography, and palette for brand guidelines"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her high-volume digital creative output at Ascent and her fashion brand social campaign demonstrating a 15% engagement boost, directly aligning with the graphic design internship requirements.",
+  "omitted": [
+    "Bounceless UX case study left out because this is a graphic design and social media creative role rather than a product design role."
+  ]
+}
