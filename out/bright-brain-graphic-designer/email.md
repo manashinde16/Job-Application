@@ -4,8 +4,8 @@
 
 - To: `careers@in.linkedin.com`  (guess confidence — common role inbox — may bounce, and rarely reaches a designer)
 - Role: Graphic Designer · Mumbai, Maharashtra, India
-- Posting: https://in.linkedin.com/jobs/view/graphic-designer-at-bright-brain-4486223617
-- Body length: 110 words
+- Posting: https://in.linkedin.com/jobs/view/graphic-designer-at-bright-brain-4490423285
+- Body length: 115 words
 
 ## Subject
 
@@ -15,13 +15,13 @@ Graphic Designer role at Bright Brain
 
 Hello,
 
-I saw your opening for a Graphic Designer at Bright Brain, and I was drawn to your focus on high-impact digital campaigns and strong visual storytelling.
+I saw your opening for a Graphic Designer at Bright Brain and wanted to connect, especially given your focus on high-impact digital campaigns and brand storytelling.
 
-At Ascent Business Solutions, I have designed over 100 digital and print creatives, ranging from marketing collateral to corporate communications, while using AI tools to streamline design workflows.
+At Ascent Business Solutions, I have produced over 100 digital and print creatives while building reusable design systems that cut turnaround times for corporate communications and marketing collateral.
 
-My social campaign for a fashion brand is available at https://ananya-portfolio-nu.vercel.app/, demonstrating social media creative skills and a 15% increase in follower engagement.
+My recent social campaign for a fashion brand, which drove a 15% increase in follower engagement, is detailed alongside my other work at https://ananya-portfolio-nu.vercel.app/.
 
-I am currently based in Nagpur and ready to relocate to Mumbai for an onsite or hybrid role. Would you be open to a brief look at my portfolio next week?
+I am currently based in Nagpur and am ready to relocate to Mumbai for this hybrid role. Would you be open to a brief chat this week about how I can support your creative team?
 
 Ananya
 
@@ -33,19 +33,23 @@ https://ananya-portfolio-nu.vercel.app/
 
 **Day 4** — Hi,
 
-I wanted to circle back on my note from last week regarding the Graphic Designer role. I would love to share how my experience building digital collateral and working with marketing teams at Ascent aligns with Bright Brain.
+Checking in on my note from last week regarding the Graphic Designer role at Bright Brain. I remain very interested in contributing to your campaign design and brand work.
+
+My portfolio is at https://ananya-portfolio-nu.vercel.app/ if you would like to take a quick look. I am ready to relocate to Mumbai whenever needed.
 
 Ananya
 
-**Day 11** — Hello,
+**Day 11** — Hi,
 
-I know things get busy, so this will be my final follow-up regarding the Graphic Designer position. If the team has moved in another direction, I completely understand and wish you the best with the hire.
+I know your team is busy, so this will be my final follow-up regarding the Graphic Designer position at Bright Brain.
+
+If the timing isn't right, I completely understand. You can always reach me here if your design needs change in the future.
 
 Ananya
 
 ## Why it opens that way
 
-I focused on their need for strong digital campaign visuals and AI tooling.
+I referenced the specific focus on digital campaigns and brand storytelling mentioned in the Bright Brain job description.
 
 ## Other contact options
 

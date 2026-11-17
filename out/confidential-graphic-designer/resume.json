@@ -1,0 +1,77 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic designer with commercial agency experience creating 100+ digital and print assets and AI-assisted workflows.",
+  "skills": [
+    {
+      "label": "Design & Visuals",
+      "items": "Photoshop, Illustrator, CorelDRAW, typography, colour systems, layout, visual hierarchy"
+    },
+    {
+      "label": "Digital & Print",
+      "items": "Social media creatives, marketing collateral, print production, branding, visual identity, presentations"
+    },
+    {
+      "label": "Tools & Workflow",
+      "items": "Figma, AI-assisted workflows (ChatGPT, Adobe Firefly), print-ready file management"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Worked with HR and management stakeholders to deliver assets with low revision cycles.",
+        "Managed print-ready files including bleed, sizing, and colour accuracy.",
+        "Applied AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and creative exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Used Photoshop and Illustrator to build product visuals and marketing assets.",
+        "Conducted usability testing and applied findings to improve user flows and interface usability.",
+        "Collaborated with developers and stakeholders on design-to-development handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement.",
+        "Developed visual assets aligned with campaign strategies and brand identity."
+      ]
+    },
+    {
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Delivered a comprehensive branding kit featuring logos, typography, and color palettes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her commercial graphic design experience at Ascent Business Solutions, highlighting her 100+ digital and print creatives and use of AI-assisted workflows.",
+  "omitted": [
+    "Framer, Webflow, Miro, Notion - stretch, secondary to core graphic design tools requested by the posting",
+    "Bounceless UX case study - stretch, not aligned with the graphic design target role",
+    "Duplicate banners/standees bullet from AT Creation - removed to eliminate repetition across roles"
+  ]
+}
