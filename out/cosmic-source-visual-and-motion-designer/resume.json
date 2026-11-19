@@ -1,0 +1,75 @@
+{
+  "headline": "Visual and Motion Designer",
+  "tagline": "Junior designer skilled in print production, layout fundamentals, and high-volume brand asset creation.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Illustrator, Photoshop, Figma, After Effects, CorelDRAW, Procreate"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Layout, Typography, Colour Systems, Visual Hierarchy, Print Production, Packaging, Social Content"
+    },
+    {
+      "label": "Additional Tools",
+      "items": "Framer, Webflow, Miro, Notion, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives spanning employee engagement, branding, recruitment, and onboarding.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed marketing collateral including banners, standees, certificates, ID cards, and presentations.",
+        "Managed print-ready files focusing on bleed, sizing, and colour accuracy.",
+        "Collaborated with HR and management stakeholders to maintain low revision cycles.",
+        "Leveraged AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Conducted usability testing and applied findings to user flows and interface usability.",
+        "Developed wireframes and prototypes for digital interfaces.",
+        "Worked with developers and stakeholders on design-to-development handoff using Photoshop and Illustrator."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Created a complete visual identity including logo, typography, and color palette."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her high-volume production of brand and marketing assets at Ascent, emphasizing layout fundamentals, print production, and visual identity systems relevant to the Visual and Motion Designer role.",
+  "omitted": [
+    "Bounceless UX case study omitted as it focuses on product UX rather than visual/motion design work.",
+    "Framer/Webflow working skills trimmed to prioritize core visual design and layout tools requested in the posting."
+  ]
+}
