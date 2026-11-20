@@ -1,0 +1,88 @@
+{
+  "company": "Pangolin Marketing",
+  "domain": "cutshort.io",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "savita.hortikar@cutshort.io",
+      "name": "Savita Hortikar",
+      "role": "Head of Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Savita Hortikar (Head of Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "savita@cutshort.io",
+      "name": "Savita Hortikar",
+      "role": "Head of Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Savita Hortikar (Head of Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "ashwini.ganapathy@cutshort.io",
+      "name": "Ashwini Ganapathy",
+      "role": "Senior Manager, Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Ashwini Ganapathy (Senior Manager, Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "ashwini@cutshort.io",
+      "name": "Ashwini Ganapathy",
+      "role": "Senior Manager, Talent Acquisition",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Ashwini Ganapathy (Senior Manager, Talent Acquisition) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "shlok.bhartiya@cutshort.io",
+      "name": "Shlok Bhartiya",
+      "role": "CEO",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Shlok Bhartiya (CEO) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "shlok@cutshort.io",
+      "name": "Shlok Bhartiya",
+      "role": "CEO",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Shlok Bhartiya (CEO) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "nikunj.verma@cutshort.io",
+      "name": "Nikunj Verma",
+      "role": "Cofounder, CEO",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Nikunj Verma (Cofounder, CEO) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "nikunj@cutshort.io",
+      "name": "Nikunj Verma",
+      "role": "Cofounder, CEO",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Nikunj Verma (Cofounder, CEO) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "anubhav.gupta@cutshort.io",
+      "name": "Anubhav Gupta",
+      "role": "Cofounder, CTO",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Anubhav Gupta (Cofounder, CTO) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "anubhav@cutshort.io",
+      "name": "Anubhav Gupta",
+      "role": "Cofounder, CTO",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Anubhav Gupta (Cofounder, CTO) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}

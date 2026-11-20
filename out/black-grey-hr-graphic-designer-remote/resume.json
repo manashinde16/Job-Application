@@ -1,0 +1,70 @@
+{
+  "headline": "Visual Designer",
+  "tagline": "Graphic Designer experienced in producing digital and print creatives, brand guidelines, and marketing collaterals.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Canva"
+    },
+    {
+      "label": "Visual Design",
+      "items": "Branding and Visual Identity, Typography, Layout, Print Production, Social and Marketing Creatives"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Managed print-ready files including bleed, sizing, and colour accuracy for marketing collateral.",
+        "Worked with HR and management stakeholders to maintain low revision cycles.",
+        "Applied typography, colour systems, layout, and visual hierarchy across diverse communication requirements."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Collaborated with developers and stakeholders on design-to-development handoff.",
+        "Conducted usability testing and applied findings to user flows and interface usability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding kit for AT Creation startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed logo, typography, and color palette demonstrating core visual identity and branding execution."
+      ]
+    },
+    {
+      "name": "Social campaign for a fashion brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Created Instagram and Facebook series resulting in a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her recent graphic design experience at Ascent Business Solutions producing over 100 digital and print employer branding and marketing creatives, aligned with the Black & Grey HR graphic design requirements.",
+  "omitted": [
+    "AI-assisted workflows: omitted to keep focus strictly on core design output as requested by constraints.",
+    "Bounceless UX case study: omitted as this role specifically targets graphic design and branding rather than B2B UX product design.",
+    "Framer, Webflow, Miro, Notion: omitted as they are not core to this graphic design posting."
+  ]
+}

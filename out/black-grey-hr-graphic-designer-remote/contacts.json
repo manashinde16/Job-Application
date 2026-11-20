@@ -1,0 +1,29 @@
+{
+  "company": "Black & Grey HR",
+  "domain": "black-grey.zohorecruit.com",
+  "mx": false,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "careers@black-grey.zohorecruit.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "hr@black-grey.zohorecruit.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    },
+    {
+      "email": "jobs@black-grey.zohorecruit.com",
+      "name": "",
+      "role": "role inbox (guessed)",
+      "confidence": "guess",
+      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+    }
+  ]
+}

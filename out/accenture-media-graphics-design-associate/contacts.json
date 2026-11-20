@@ -5,25 +5,20 @@
   "pattern": null,
   "candidates": [
     {
-      "email": "careers@instahyre.com",
-      "name": "",
-      "role": "role inbox (guessed)",
+      "email": "sahil.kumar@instahyre.com",
+      "name": "Sahil Kumar",
+      "role": "UX Designer",
       "confidence": "guess",
-      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Sahil Kumar (UX Designer) on LinkedIn and send this as a connection note. Design leads reply there."
     },
     {
-      "email": "hr@instahyre.com",
-      "name": "",
-      "role": "role inbox (guessed)",
+      "email": "sahil@instahyre.com",
+      "name": "Sahil Kumar",
+      "role": "UX Designer",
       "confidence": "guess",
-      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
-    },
-    {
-      "email": "jobs@instahyre.com",
-      "name": "",
-      "role": "role inbox (guessed)",
-      "confidence": "guess",
-      "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Sahil Kumar (UX Designer) on LinkedIn and send this as a connection note. Design leads reply there."
     }
   ]
 }

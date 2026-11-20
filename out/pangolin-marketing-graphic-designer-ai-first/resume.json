@@ -1,0 +1,75 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic designer with 1.5 years of experience delivering high-volume marketing collateral, branding systems, and AI-assisted workflows.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Adobe Firefly, ChatGPT"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Branding and visual identity, layout, typography, print production, marketing creative, AI-assisted design workflows"
+    },
+    {
+      "label": "UX & Digital",
+      "items": "Wireframing, prototyping, user flows, responsive design"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives spanning employee engagement, branding, recruitment, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, and marketing collateral for internal and external stakeholders.",
+        "Managed print-ready file preparation including bleed, sizing, and colour accuracy.",
+        "Leveraged AI-assisted workflows using ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Designed social campaigns, branding assets, and brochures for SMB clients.",
+        "Collaborated with developers and stakeholders to ensure smooth design-to-development handoff.",
+        "Conducted usability testing and applied findings to improve user flows and interface usability.",
+        "Utilized Photoshop and Illustrator to build product visuals and marketing assets."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep \u2013 Oct 2023",
+      "bullets": [
+        "Developed foundational visual identity including logo, typography, and color palette for an early-stage startup."
+      ]
+    },
+    {
+      "name": "Social Campaign for Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech in Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with high-volume marketing collateral creation, branding systems, and AI-assisted workflows from Ascent Business Solutions to align directly with Pangolin Marketing's graphic design role.",
+  "omitted": [
+    "Midjourney (stretch: profile mentions Adobe Firefly and ChatGPT for AI workflows, but not Midjourney specifically)",
+    "RunwayML (stretch: profile mentions ChatGPT and Adobe Firefly, not RunwayML)",
+    "Bounceless UX case study (left out to maintain strict focus on the requested graphic design and branding angle for an agency role)"
+  ]
+}
