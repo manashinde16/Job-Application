@@ -1,0 +1,69 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic Designer with 1.5+ years of experience crafting digital and print creatives, brand identities, and marketing campaigns.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Framer, Webflow"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Branding and visual identity, typography, layout, print production, social and marketing creative, packaging"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Designed banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Worked closely with HR and management stakeholders to maintain low revision cycles.",
+        "Managed print-ready files including bleed, sizing, and colour accuracy."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Used Photoshop and Illustrator for product visuals and marketing assets.",
+        "Conducted usability testing, feeding findings back into user flows and interface usability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed comprehensive logo, typography, and palette assets for startup branding."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her commercial graphic design experience at Ascent and branding background from AT Creation to match the Haus and Kinder graphic design role.",
+  "omitted": [
+    "AI-assisted workflows: omitted to keep the focus strictly on core graphic design deliverables.",
+    "Bounceless UX case study: omitted as this is a graphic design application where visual production takes precedence over UX."
+  ]
+}
