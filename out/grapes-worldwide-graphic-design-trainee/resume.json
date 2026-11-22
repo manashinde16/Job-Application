@@ -1,0 +1,74 @@
+{
+  "headline": "Graphic Design Trainee",
+  "tagline": "Graphic designer with agency experience creating social campaigns, digital assets, and AI-assisted workflows.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Photoshop, Illustrator, Figma, CorelDRAW, Canva, Framer, Webflow"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Social and marketing creative, branding and visual identity, typography, layout, print production, design systems"
+    },
+    {
+      "label": "Workflows",
+      "items": "AI-assisted workflows (ChatGPT, Adobe Firefly), wireframing, prototyping, usability testing"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives across employee engagement, branding, recruitment, and onboarding.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Managed print-ready file preparation including bleed, sizing, and colour accuracy.",
+        "Utilized AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration.",
+        "Partnered with HR and management stakeholders to deliver marketing collateral with low revision cycles."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing and fed findings back into user flows and interface usability.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Collaborated with developers and stakeholders on design-to-development handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that resulted in a 15% increase in follower engagement.",
+        "Maintained consistency in brand visuals and content formats across digital platforms."
+      ]
+    },
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Developed a B2B UX case study focused on a cleaner verification experience for teams dependent on accurate email lists."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her commercial graphic design experience, social campaign work, and AI-assisted workflow familiarity tailored for agency environments.",
+  "omitted": [
+    "After Effects and Premiere Pro: not in profile, stretch for motion graphics requirement",
+    "Video editing and reel/video shoot execution: not in profile, stretch"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "company": "BOLD Magazine",
+  "domain": "jobs.polymer.co",
+  "mx": false,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "matthew.bellows@jobs.polymer.co",
+      "name": "Matthew Bellows",
+      "role": "CEO, BodesWell.io",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Matthew Bellows (CEO, BodesWell.io) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "matthew@jobs.polymer.co",
+      "name": "Matthew Bellows",
+      "role": "CEO, BodesWell.io",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Matthew Bellows (CEO, BodesWell.io) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "mike.preuss@jobs.polymer.co",
+      "name": "Mike Preuss",
+      "role": "Co-founder and CEO, Visible.vc",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Mike Preuss (Co-founder and CEO, Visible.vc) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "mike@jobs.polymer.co",
+      "name": "Mike Preuss",
+      "role": "Co-founder and CEO, Visible.vc",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Mike Preuss (Co-founder and CEO, Visible.vc) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
