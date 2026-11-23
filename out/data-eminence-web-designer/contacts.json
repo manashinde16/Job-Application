@@ -1,25 +1,32 @@
 {
-  "company": "Data Eminence",
-  "domain": "in.linkedin.com",
+  "company": "data eminence",
+  "domain": "foundit.in",
   "mx": true,
   "pattern": null,
   "candidates": [
     {
-      "email": "careers@in.linkedin.com",
+      "email": "info@foundit.in",
+      "name": "",
+      "role": "role inbox",
+      "confidence": "low",
+      "basis": "published on the company's own site"
+    },
+    {
+      "email": "careers@foundit.in",
       "name": "",
       "role": "role inbox (guessed)",
       "confidence": "guess",
       "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
     },
     {
-      "email": "hr@in.linkedin.com",
+      "email": "hr@foundit.in",
       "name": "",
       "role": "role inbox (guessed)",
       "confidence": "guess",
       "basis": "common role inbox \u2014 may bounce, and rarely reaches a designer"
     },
     {
-      "email": "jobs@in.linkedin.com",
+      "email": "jobs@foundit.in",
       "name": "",
       "role": "role inbox (guessed)",
       "confidence": "guess",

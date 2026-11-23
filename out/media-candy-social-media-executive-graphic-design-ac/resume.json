@@ -1,0 +1,73 @@
+{
+  "headline": "Visual Designer & Social Media Creative",
+  "tagline": "Graphic designer with proven experience driving social engagement and managing digital campaigns.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Photoshop, Illustrator, Figma, CorelDRAW, Canva"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Social Media Creatives, Branding, Typography, Layout, Print Production, Visual Hierarchy"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions, Nagpur",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Designed 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Managed print-ready file preparation including bleed, sizing, and colour accuracy.",
+        "Worked with HR and management stakeholders to maintain low revision cycles.",
+        "Utilized AI-assisted workflows with ChatGPT and Adobe Firefly for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation, Nagpur",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Used Photoshop and Illustrator for product visuals and marketing assets.",
+        "Conducted usability testing and applied findings to user flows and interface usability.",
+        "Handled wireframing and prototyping."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Executed an Instagram and Facebook series that achieved a 15% increase in follower engagement.",
+        "Delivered cohesive visual assets aligned with brand identity."
+      ]
+    },
+    {
+      "name": "AT Creation Startup Branding Kit",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Developed comprehensive logo, typography, and color palette systems for brand launch."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her commercial graphic design experience at Ascent Business Solutions and her fashion brand social campaign that drove a 15% increase in engagement, aligning directly with Media Candy's focus on social media execution and visual storytelling.",
+  "omitted": [
+    "Bounceless UX case study \u2014 left out because this role focuses on social media management and graphic design rather than product UX.",
+    "Framer, Webflow, Miro, Notion \u2014 left out as they are secondary to the visual design and social media requirements of this posting.",
+    "Duplicate banner/standee bullets \u2014 removed from AT Creation to eliminate repetition across roles.",
+    "CapCut and Premiere Pro \u2014 omitted as video editing tool proficiency is not explicitly verified in the profile."
+  ]
+}
