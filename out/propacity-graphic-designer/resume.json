@@ -1,0 +1,68 @@
+{
+  "headline": "Graphic Designer",
+  "tagline": "Graphic designer with agency and corporate experience building visual systems, social campaigns, and brand collateral.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Figma, Illustrator, Photoshop, CorelDRAW, Canva"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Visual identity, typography, layout, print production, social/marketing creative, design systems"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Designed 100+ digital and print creatives for employee engagement, branding, recruitment, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Produced banners, standees, certificates, ID cards, presentations, and marketing collateral.",
+        "Managed print-ready files including bleed, sizing, and colour accuracy.",
+        "Used AI-assisted workflows (ChatGPT, Adobe Firefly) for ideation and exploration."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses.",
+        "Created social campaigns, branding assets, and brochures for startups and SMBs.",
+        "Used Photoshop and Illustrator for product visuals and marketing assets."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for a Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Created logo, typography, and palette guidelines for an early-stage venture."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her recent corporate graphic design experience at Ascent and her social campaign results to match Propacity's need for social media creatives and brand consistency.",
+  "omitted": [
+    "Bounceless UX case study \u2014 omitted as the target role is strictly graphic design and social creative focused.",
+    "Wireframing and usability testing from AT Creation \u2014 omitted as they pertain to UI/UX rather than graphic design."
+  ]
+}
