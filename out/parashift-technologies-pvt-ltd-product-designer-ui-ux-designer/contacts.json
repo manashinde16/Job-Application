@@ -1,0 +1,64 @@
+{
+  "company": "Parashift Technologies Pvt Ltd.",
+  "domain": "shine.com",
+  "mx": true,
+  "pattern": null,
+  "candidates": [
+    {
+      "email": "pooja.kheterpal@shine.com",
+      "name": "Pooja Kheterpal",
+      "role": "Author / Content Creator",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Pooja Kheterpal (Author / Content Creator) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "pooja@shine.com",
+      "name": "Pooja Kheterpal",
+      "role": "Author / Content Creator",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Pooja Kheterpal (Author / Content Creator) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "priyanka.bakhtani@shine.com",
+      "name": "Priyanka Bakhtani",
+      "role": "Author / Content Creator",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Priyanka Bakhtani (Author / Content Creator) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "priyanka@shine.com",
+      "name": "Priyanka Bakhtani",
+      "role": "Author / Content Creator",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Priyanka Bakhtani (Author / Content Creator) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "shubhangi@shine.com",
+      "name": "Shubhangi",
+      "role": "Author / Content Creator",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Shubhangi (Author / Content Creator) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "harshita.khullar@shine.com",
+      "name": "Harshita Khullar",
+      "role": "Author / Content Creator",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Harshita Khullar (Author / Content Creator) on LinkedIn and send this as a connection note. Design leads reply there."
+    },
+    {
+      "email": "harshita@shine.com",
+      "name": "Harshita Khullar",
+      "role": "Author / Content Creator",
+      "confidence": "guess",
+      "basis": "name from site; address pattern unknown, this is a common shape",
+      "linkedin_hint": "Better than guessing: find Harshita Khullar (Author / Content Creator) on LinkedIn and send this as a connection note. Design leads reply there."
+    }
+  ]
+}
