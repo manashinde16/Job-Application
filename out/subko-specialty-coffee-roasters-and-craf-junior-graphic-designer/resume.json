@@ -1,0 +1,69 @@
+{
+  "headline": "Junior Graphic Designer",
+  "tagline": "Graphic designer with experience delivering 100+ digital and print creatives, brand identities, and visual systems.",
+  "skills": [
+    {
+      "label": "Design Tools",
+      "items": "Illustrator, Photoshop, Figma, CorelDRAW, InDesign"
+    },
+    {
+      "label": "Core Competencies",
+      "items": "Branding and visual identity, typography, layout, print production, social/marketing creative"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Produced 100+ digital and print creatives for employee engagement, branding, recruitment, onboarding, and corporate communications.",
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Managed print-ready file preparation including bleed, sizing, and colour accuracy.",
+        "Worked with HR and management stakeholders to execute design briefs within low revision cycles."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX & Visual Designer",
+      "location": "Nagpur",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Designed logos, visual identity systems, and brand guidelines for early-stage businesses and startups.",
+        "Developed social campaigns, branding assets, and brochures for SMBs.",
+        "Utilized Photoshop and Illustrator for product visuals and marketing assets.",
+        "Collaborated with developers and stakeholders on design execution."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Campaign for Fashion Brand",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Created an Instagram and Facebook series that achieved a 15% increase in follower engagement."
+      ]
+    },
+    {
+      "name": "Branding Kit for AT Creation Startup",
+      "dates": "Sep\u2013Oct 2023",
+      "bullets": [
+        "Designed comprehensive logo, typography, and color palette guidelines."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech Computer Science, CGPA 8.03",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with her strong execution in Adobe Illustrator and Photoshop from Ascent Business Solutions, emphasizing her high-volume collateral and brand identity work to match Subko's visual design requirements.",
+  "omitted": [
+    "AI-assisted workflows (omitted to focus entirely on core graphic design software and output as requested by the posting)",
+    "Bounceless B2B UX case study (omitted because this role is strictly for a graphic designer, not a UX/product designer)",
+    "UX process work like wireframing and usability testing (omitted as irrelevant to a purely graphic design role)"
+  ]
+}
