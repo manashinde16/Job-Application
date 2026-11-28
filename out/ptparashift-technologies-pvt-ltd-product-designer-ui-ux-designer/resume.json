@@ -1,0 +1,76 @@
+{
+  "headline": "Product Designer",
+  "tagline": "Product designer with a CS background, focused on clean interfaces, user flows, and developer handoff.",
+  "skills": [
+    {
+      "label": "Product & UI/UX",
+      "items": "Figma, wireframing, prototyping, user flows, usability testing, responsive design, design systems"
+    },
+    {
+      "label": "Visual & Brand",
+      "items": "Typography, color theory, layout, visual hierarchy, Photoshop, Illustrator"
+    },
+    {
+      "label": "Technical & Workflow",
+      "items": "Developer handoff, technical feasibility, AI-assisted workflows (ChatGPT, Adobe Firefly)"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ascent Business Solutions",
+      "title": "Graphic Designer",
+      "location": "Nagpur, India",
+      "dates": "Jul 2025 \u2013 present",
+      "bullets": [
+        "Built reusable design templates and visual systems that cut turnaround time and repetitive work.",
+        "Delivered 100+ digital and print creatives for employee engagement, branding, recruitment, and onboarding.",
+        "Worked with HR and management stakeholders to maintain low revision cycles.",
+        "Managed print-ready file requirements including bleed, sizing, and colour accuracy.",
+        "Used AI-assisted workflows like ChatGPT and Adobe Firefly for ideation."
+      ]
+    },
+    {
+      "company": "AT Creation",
+      "title": "UI/UX Designer",
+      "location": "Nagpur, India",
+      "dates": "Sep 2022 \u2013 Mar 2023",
+      "bullets": [
+        "Conducted usability testing, feeding findings back into user flows and interface usability.",
+        "Created wireframes and prototypes for early-stage digital products.",
+        "Worked closely with developers and stakeholders on design-to-development handoff.",
+        "Designed logos, visual identity systems, and brand guidelines for startups and SMBs.",
+        "Used Photoshop and Illustrator for product visuals and marketing assets."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bounceless",
+      "dates": "2024",
+      "bullets": [
+        "Designed a B2B UX case study focused on a cleaner verification experience for teams depending on accurate email lists."
+      ]
+    },
+    {
+      "name": "Fashion Brand Social Campaign",
+      "dates": "Apr 2024",
+      "bullets": [
+        "Designed Instagram and fashion brand series that contributed to a 15% increase in follower engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "RGCERT Chandrapur (Dr. Babasaheb Ambedkar Technological University)",
+      "detail": "B.Tech in Computer Science (CGPA 8.03). Provides strong foundations for developer handoff, technical feasibility, and systems thinking.",
+      "dates": "June 2020 \u2013 June 2024"
+    }
+  ],
+  "emphasis": "Led with AT Creation's UX process and the Bounceless case study to match the product design requirement, while highlighting her B.Tech Computer Science degree as a differentiator for developer handoff.",
+  "omitted": [
+    "CorelDRAW - omitted as Figma, Illustrator, and Photoshop cover the target toolset.",
+    "Framer and Webflow - working skill, omitted to keep focus strictly on core Figma UI/UX requirements.",
+    "Miro and Notion - omitted as non-essential for this specific layout.",
+    "Duplicated banner/standee bullet under AT Creation - omitted to eliminate redundancy and keep focus on UX."
+  ]
+}
